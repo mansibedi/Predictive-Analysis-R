@@ -1,0 +1,69 @@
+getwd()
+train <- read.csv("MarchAprilTest.csv")
+dim(train)
+# install.packages("Hmisc")
+library(Hmisc)
+
+library(caTools)   #split dataset into two sets in ratio of vector specified
+split <- sample.split(train$type, SplitRatio = 0.75)
+split
+
+#get training and test data
+datatrain <- subset(train, split == TRUE)
+datatest <- subset(train, split == FALSE)
+
+
+
+#CONVERTING FACTOR TO NUMERIC VARIABLES
+library(plyr)
+datatrain$platform<- revalue(datatrain$platform, c("Android"="0", "App"="1", "Desktop"="2", "IoS"="3", "Mobile Web"="4"))   
+datatrain$platform <- as.numeric(as.character(datatrain$platform))
+typeof(datatrain$platform)
+
+
+datatrain$order_type<- revalue(datatrain$order_type, c("Fixed Price"="0", "Both"="1", "none"="2"))   
+datatrain$order_type <- as.numeric(as.character(datatrain$order_type))
+typeof(datatrain$order_type)
+
+datatrain$vehicle_condition_type<- revalue(datatrain$vehicle_condition_type, c("new"="0", "used"="1", "none"="2"))   
+datatrain$vehicle_condition_type <- as.numeric(as.character(datatrain$vehicle_condition_type))
+typeof(datatrain$vehicle_condition_type)
+
+datatrain$dayOfWeekName<- revalue(datatrain$dayOfWeekName, c("Monday"="0", "Tuesday"="1", "Wednesday"="2", "Thursday"="2", "Friday"="2", "Saturday"="2", "Sunday"="2"))   
+datatrain$dayOfWeekName <- as.numeric(as.character(datatrain$dayOfWeekName))
+typeof(datatrain$dayOfWeekName)
+
+# datatrain$platform <- as.numeric(scale(datatrain$platform))  
+
+#data visualisation
+plot(train$order_status, train$platform, xlab="status", ylab="platform")
+
+#install.packages("car")
+library(car)
+#modeltrain <-lm(order_status~platform+net_gmv, data = datatrain)
+modeltrain <-lm(type~vehicle_condition_type+dayOfWeekName+order_type+platform+hour+transactionsPerSession+daysSinceLastSession+daysToTransaction, data = datatrain)
+vif(modeltrain)
+summary(modeltrain)
+AIC(modeltrain) #lower the better
+BIC(modeltrain) #lower the better
+
+#prediction
+
+predictModel <- predict(modeltrain, datatest)
+predictModel <- ifelse(predictModel<0.5,0,1)
+predictModel
+
+actuals_preds <- data.frame(cbind(actuals=datatest$type, predictModel))  # make actual_predict dataframe.
+actuals_preds
+correlation_accuracy <- cor(actuals_preds)
+correlation_accuracy
+#install.packages("corrplot")
+library(corrplot)
+corrplot(correlation_accuracy, type="lower")
+
+#PLOTTING AND COMPARING ACTUAL AND PREDICTED DATA
+plot(datatest$type, type = "l", lty= 1.8, col="green")  #plotting actual data
+lines(predictModel, type= "l", col= "blue")  #plotting predicted data
+
+Residual <- resid(modeltrain)
+Residual

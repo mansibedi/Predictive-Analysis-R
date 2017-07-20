@@ -1,0 +1,42 @@
+
+Call:
+glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + 
+    factor(browser), family = "binomial", data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.8101   0.0000   0.2190   0.4099   6.1965  
+
+Coefficients:
+                                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                              1.685e+01  2.400e+03   0.007    0.994    
+GA_REVENUE                              -2.361e-02  2.031e-03 -11.624  < 2e-16 ***
+daysSinceLastSession                    -1.994e-02  4.711e-03  -4.233 2.31e-05 ***
+factor(newOrReturning)Returning Visitor -7.578e-02  1.249e-01  -0.607    0.544    
+factor(browser)Android Browser          -1.419e+01  2.400e+03  -0.006    0.995    
+factor(browser)Android Webview          -1.491e+01  2.400e+03  -0.006    0.995    
+factor(browser)Chrome                   -1.413e+01  2.400e+03  -0.006    0.995    
+factor(browser)Edge                     -1.271e+01  2.400e+03  -0.005    0.996    
+factor(browser)Firefox                  -1.285e+01  2.400e+03  -0.005    0.996    
+factor(browser)Internet Explorer        -1.451e+01  2.400e+03  -0.006    0.995    
+factor(browser)Iron                     -7.578e-02  3.393e+03   0.000    1.000    
+factor(browser)Maxthon                   3.631e-08  2.939e+03   0.000    1.000    
+factor(browser)Nokia Browser             3.609e-08  3.393e+03   0.000    1.000    
+factor(browser)Opera                    -1.327e+01  2.400e+03  -0.006    0.996    
+factor(browser)Opera Mini               -6.786e+00  3.393e+03  -0.002    0.998    
+factor(browser)Puffin                    3.609e-08  3.393e+03   0.000    1.000    
+factor(browser)Safari                   -1.429e+01  2.400e+03  -0.006    0.995    
+factor(browser)Safari (in-app)          -1.456e+01  2.400e+03  -0.006    0.995    
+factor(browser)UC Browser                6.848e-01  2.493e+03   0.000    1.000    
+factor(browser)YaBrowser                 7.997e+01  3.393e+03   0.024    0.981    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8761.9  on 6779  degrees of freedom
+Residual deviance: 2465.7  on 6760  degrees of freedom
+AIC: 2505.7
+
+Number of Fisher Scoring iterations: 15
+

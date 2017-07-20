@@ -1,0 +1,208 @@
+
+Call:
+glm(formula = type ~ ., family = "binomial", data = train)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+ -8.49    0.00    0.00    0.00    8.49  
+
+Coefficients: (7 not defined because of singularities)
+                                   Estimate Std. Error    z value Pr(>|z|)    
+(Intercept)                       2.697e+15  8.843e+07  3.050e+07   <2e-16 ***
+GA_REVENUE                       -7.512e+10  8.949e+01 -8.395e+08   <2e-16 ***
+daysSinceLastSession              4.092e+12  1.080e+05  3.790e+07   <2e-16 ***
+browserAndroid Browser            4.647e+15  7.106e+07  6.539e+07   <2e-16 ***
+browserAndroid Webview            5.020e+15  6.758e+07  7.428e+07   <2e-16 ***
+browserChrome                     3.507e+15  6.748e+07  5.197e+07   <2e-16 ***
+browserEdge                       2.986e+15  6.789e+07  4.398e+07   <2e-16 ***
+browserFirefox                    3.330e+15  6.748e+07  4.935e+07   <2e-16 ***
+browserInternet Explorer          3.767e+15  6.776e+07  5.560e+07   <2e-16 ***
+browserIron                       2.707e+15  9.519e+07  2.844e+07   <2e-16 ***
+browserMaxthon                    2.852e+15  8.249e+07  3.457e+07   <2e-16 ***
+browserNokia Browser              6.992e+14  9.823e+07  7.117e+06   <2e-16 ***
+browserOpera                      3.534e+15  6.813e+07  5.188e+07   <2e-16 ***
+browserOpera Mini                -2.890e+15  9.501e+07 -3.042e+07   <2e-16 ***
+browserPuffin                     2.020e+15  1.009e+08  2.002e+07   <2e-16 ***
+browserSafari                     3.988e+15  6.793e+07  5.870e+07   <2e-16 ***
+browserSafari (in-app)            7.512e+15  7.009e+07  1.072e+08   <2e-16 ***
+browserUC Browser                 5.245e+15  6.873e+07  7.631e+07   <2e-16 ***
+browserYaBrowser                 -7.788e+14  9.520e+07 -8.181e+06   <2e-16 ***
+mobileDeviceBrandingAcer         -1.246e+15  3.938e+07 -3.163e+07   <2e-16 ***
+mobileDeviceBrandingAmazon               NA         NA         NA       NA    
+mobileDeviceBrandingApple        -3.543e+15  1.123e+07 -3.156e+08   <2e-16 ***
+mobileDeviceBrandingAsus         -2.488e+15  1.239e+07 -2.008e+08   <2e-16 ***
+mobileDeviceBrandingCoolpad      -1.000e+15  1.516e+07 -6.598e+07   <2e-16 ***
+mobileDeviceBrandingDell         -4.912e+15  6.758e+07 -7.269e+07   <2e-16 ***
+mobileDeviceBrandingGionee       -2.831e+15  1.830e+07 -1.547e+08   <2e-16 ***
+mobileDeviceBrandingGoogle       -1.322e+15  2.347e+07 -5.634e+07   <2e-16 ***
+mobileDeviceBrandingHTC          -2.085e+15  1.482e+07 -1.407e+08   <2e-16 ***
+mobileDeviceBrandingHuawei       -5.561e+14  1.869e+07 -2.975e+07   <2e-16 ***
+mobileDeviceBrandingiBall        -2.192e+15  4.799e+07 -4.568e+07   <2e-16 ***
+mobileDeviceBrandingiNew         -3.652e+15  4.799e+07 -7.609e+07   <2e-16 ***
+mobileDeviceBrandingInFocus      -2.031e+15  3.435e+07 -5.913e+07   <2e-16 ***
+mobileDeviceBrandingIntex        -2.618e+15  2.155e+07 -1.215e+08   <2e-16 ***
+mobileDeviceBrandingiZoom        -3.495e+15  6.748e+07 -5.180e+07   <2e-16 ***
+mobileDeviceBrandingKarbonn      -2.719e+15  3.094e+07 -8.788e+07   <2e-16 ***
+mobileDeviceBrandingLava         -1.447e+15  2.829e+07 -5.117e+07   <2e-16 ***
+mobileDeviceBrandingLeEco        -2.763e+15  1.990e+07 -1.389e+08   <2e-16 ***
+mobileDeviceBrandingLenovo       -2.861e+15  9.161e+06 -3.123e+08   <2e-16 ***
+mobileDeviceBrandingLeTV         -1.840e+15  1.346e+07 -1.367e+08   <2e-16 ***
+mobileDeviceBrandingLG           -2.622e+15  4.811e+07 -5.450e+07   <2e-16 ***
+mobileDeviceBrandingLYF          -2.949e+15  1.339e+07 -2.202e+08   <2e-16 ***
+mobileDeviceBrandingMagicon      -4.684e+15  7.107e+07 -6.591e+07   <2e-16 ***
+mobileDeviceBrandingMediaTek     -5.595e+15  6.760e+07 -8.277e+07   <2e-16 ***
+mobileDeviceBrandingMeizu         4.924e+13  3.428e+07  1.436e+06   <2e-16 ***
+mobileDeviceBrandingMicromax     -2.730e+14  1.140e+07 -2.394e+07   <2e-16 ***
+mobileDeviceBrandingMicrosoft    -2.743e+15  2.385e+07 -1.150e+08   <2e-16 ***
+mobileDeviceBrandingMotorola     -6.215e+14  8.789e+06 -7.071e+07   <2e-16 ***
+mobileDeviceBrandingNokia        -5.915e+14  2.533e+07 -2.335e+07   <2e-16 ***
+mobileDeviceBrandingnone         -2.744e+15  7.023e+06 -3.908e+08   <2e-16 ***
+mobileDeviceBrandingObi          -3.731e+15  6.777e+07 -5.506e+07   <2e-16 ***
+mobileDeviceBrandingOnePlus      -3.028e+15  1.239e+07 -2.444e+08   <2e-16 ***
+mobileDeviceBrandingOPPO         -3.075e+15  1.571e+07 -1.957e+08   <2e-16 ***
+mobileDeviceBrandingPanasonic    -1.610e+15  2.640e+07 -6.100e+07   <2e-16 ***
+mobileDeviceBrandingSamsung      -3.227e+15  8.160e+06 -3.954e+08   <2e-16 ***
+mobileDeviceBrandingSony         -1.991e+15  1.753e+07 -1.136e+08   <2e-16 ***
+mobileDeviceBrandingSonyEricsson -1.380e+15  4.839e+07 -2.852e+07   <2e-16 ***
+mobileDeviceBrandingSpice        -2.416e+15  3.438e+07 -7.026e+07   <2e-16 ***
+mobileDeviceBrandingSwipe        -3.339e+15  6.754e+07 -4.944e+07   <2e-16 ***
+mobileDeviceBrandingTecno        -3.867e+15  6.749e+07 -5.729e+07   <2e-16 ***
+mobileDeviceBrandingVivo         -1.590e+15  1.876e+07 -8.473e+07   <2e-16 ***
+mobileDeviceBrandingXiaomi       -2.929e+15  7.591e+06 -3.858e+08   <2e-16 ***
+mobileDeviceBrandingXolo         -1.852e+15  2.412e+07 -7.679e+07   <2e-16 ***
+mobileDeviceBrandingYU           -2.717e+15  1.260e+07 -2.156e+08   <2e-16 ***
+newOrReturningReturning Visitor  -1.344e+14  2.023e+06 -6.645e+07   <2e-16 ***
+hour                             -1.077e+14  3.402e+05 -3.166e+08   <2e-16 ***
+dayOfWeekNameMonday              -1.347e+15  5.938e+06 -2.269e+08   <2e-16 ***
+dayOfWeekNameSaturday            -1.325e+15  4.440e+06 -2.984e+08   <2e-16 ***
+dayOfWeekNameSunday              -3.176e+15  5.993e+06 -5.300e+08   <2e-16 ***
+dayOfWeekNameThursday            -1.121e+15  3.864e+06 -2.901e+08   <2e-16 ***
+dayOfWeekNameTuesday             -4.924e+15  2.931e+06 -1.680e+09   <2e-16 ***
+dayOfWeekNameWednesday           -1.351e+15  3.819e+06 -3.537e+08   <2e-16 ***
+transactions                      3.227e+14  3.073e+07  1.050e+07   <2e-16 ***
+buyToDetailRate0                 -1.463e+15  4.879e+07 -2.999e+07   <2e-16 ***
+transactionsPerSession            3.747e+12  6.039e+04  6.205e+07   <2e-16 ***
+transactionShipping                      NA         NA         NA       NA    
+transactionTax                           NA         NA         NA       NA    
+uniquePurchases                   1.065e+14  6.584e+06  1.618e+07   <2e-16 ***
+cartToDetailRate                         NA         NA         NA       NA    
+quantityAddedToCart                      NA         NA         NA       NA    
+quantityCheckedOut                       NA         NA         NA       NA    
+quantityRemovedFromCart                  NA         NA         NA       NA    
+sessions_to_transaction          -1.036e+13  2.918e+04 -3.549e+08   <2e-16 ***
+days_to_transaction              -1.110e+12  3.995e+04 -2.778e+07   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance:  8761.9  on 6779  degrees of freedom
+Residual deviance: 10813.1  on 6704  degrees of freedom
+AIC: 10965
+
+Number of Fisher Scoring iterations: 25
+
+
+Call:
+glm(formula = type ~ ., family = "binomial", data = train)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+ -8.49    0.00    0.00    0.00    8.49  
+
+Coefficients: (7 not defined because of singularities)
+                                   Estimate Std. Error    z value Pr(>|z|)    
+(Intercept)                       2.697e+15  8.843e+07  3.050e+07   <2e-16 ***
+GA_REVENUE                       -7.512e+10  8.949e+01 -8.395e+08   <2e-16 ***
+daysSinceLastSession              4.092e+12  1.080e+05  3.790e+07   <2e-16 ***
+browserAndroid Browser            4.647e+15  7.106e+07  6.539e+07   <2e-16 ***
+browserAndroid Webview            5.020e+15  6.758e+07  7.428e+07   <2e-16 ***
+browserChrome                     3.507e+15  6.748e+07  5.197e+07   <2e-16 ***
+browserEdge                       2.986e+15  6.789e+07  4.398e+07   <2e-16 ***
+browserFirefox                    3.330e+15  6.748e+07  4.935e+07   <2e-16 ***
+browserInternet Explorer          3.767e+15  6.776e+07  5.560e+07   <2e-16 ***
+browserIron                       2.707e+15  9.519e+07  2.844e+07   <2e-16 ***
+browserMaxthon                    2.852e+15  8.249e+07  3.457e+07   <2e-16 ***
+browserNokia Browser              6.992e+14  9.823e+07  7.117e+06   <2e-16 ***
+browserOpera                      3.534e+15  6.813e+07  5.188e+07   <2e-16 ***
+browserOpera Mini                -2.890e+15  9.501e+07 -3.042e+07   <2e-16 ***
+browserPuffin                     2.020e+15  1.009e+08  2.002e+07   <2e-16 ***
+browserSafari                     3.988e+15  6.793e+07  5.870e+07   <2e-16 ***
+browserSafari (in-app)            7.512e+15  7.009e+07  1.072e+08   <2e-16 ***
+browserUC Browser                 5.245e+15  6.873e+07  7.631e+07   <2e-16 ***
+browserYaBrowser                 -7.788e+14  9.520e+07 -8.181e+06   <2e-16 ***
+mobileDeviceBrandingAcer         -1.246e+15  3.938e+07 -3.163e+07   <2e-16 ***
+mobileDeviceBrandingAmazon               NA         NA         NA       NA    
+mobileDeviceBrandingApple        -3.543e+15  1.123e+07 -3.156e+08   <2e-16 ***
+mobileDeviceBrandingAsus         -2.488e+15  1.239e+07 -2.008e+08   <2e-16 ***
+mobileDeviceBrandingCoolpad      -1.000e+15  1.516e+07 -6.598e+07   <2e-16 ***
+mobileDeviceBrandingDell         -4.912e+15  6.758e+07 -7.269e+07   <2e-16 ***
+mobileDeviceBrandingGionee       -2.831e+15  1.830e+07 -1.547e+08   <2e-16 ***
+mobileDeviceBrandingGoogle       -1.322e+15  2.347e+07 -5.634e+07   <2e-16 ***
+mobileDeviceBrandingHTC          -2.085e+15  1.482e+07 -1.407e+08   <2e-16 ***
+mobileDeviceBrandingHuawei       -5.561e+14  1.869e+07 -2.975e+07   <2e-16 ***
+mobileDeviceBrandingiBall        -2.192e+15  4.799e+07 -4.568e+07   <2e-16 ***
+mobileDeviceBrandingiNew         -3.652e+15  4.799e+07 -7.609e+07   <2e-16 ***
+mobileDeviceBrandingInFocus      -2.031e+15  3.435e+07 -5.913e+07   <2e-16 ***
+mobileDeviceBrandingIntex        -2.618e+15  2.155e+07 -1.215e+08   <2e-16 ***
+mobileDeviceBrandingiZoom        -3.495e+15  6.748e+07 -5.180e+07   <2e-16 ***
+mobileDeviceBrandingKarbonn      -2.719e+15  3.094e+07 -8.788e+07   <2e-16 ***
+mobileDeviceBrandingLava         -1.447e+15  2.829e+07 -5.117e+07   <2e-16 ***
+mobileDeviceBrandingLeEco        -2.763e+15  1.990e+07 -1.389e+08   <2e-16 ***
+mobileDeviceBrandingLenovo       -2.861e+15  9.161e+06 -3.123e+08   <2e-16 ***
+mobileDeviceBrandingLeTV         -1.840e+15  1.346e+07 -1.367e+08   <2e-16 ***
+mobileDeviceBrandingLG           -2.622e+15  4.811e+07 -5.450e+07   <2e-16 ***
+mobileDeviceBrandingLYF          -2.949e+15  1.339e+07 -2.202e+08   <2e-16 ***
+mobileDeviceBrandingMagicon      -4.684e+15  7.107e+07 -6.591e+07   <2e-16 ***
+mobileDeviceBrandingMediaTek     -5.595e+15  6.760e+07 -8.277e+07   <2e-16 ***
+mobileDeviceBrandingMeizu         4.924e+13  3.428e+07  1.436e+06   <2e-16 ***
+mobileDeviceBrandingMicromax     -2.730e+14  1.140e+07 -2.394e+07   <2e-16 ***
+mobileDeviceBrandingMicrosoft    -2.743e+15  2.385e+07 -1.150e+08   <2e-16 ***
+mobileDeviceBrandingMotorola     -6.215e+14  8.789e+06 -7.071e+07   <2e-16 ***
+mobileDeviceBrandingNokia        -5.915e+14  2.533e+07 -2.335e+07   <2e-16 ***
+mobileDeviceBrandingnone         -2.744e+15  7.023e+06 -3.908e+08   <2e-16 ***
+mobileDeviceBrandingObi          -3.731e+15  6.777e+07 -5.506e+07   <2e-16 ***
+mobileDeviceBrandingOnePlus      -3.028e+15  1.239e+07 -2.444e+08   <2e-16 ***
+mobileDeviceBrandingOPPO         -3.075e+15  1.571e+07 -1.957e+08   <2e-16 ***
+mobileDeviceBrandingPanasonic    -1.610e+15  2.640e+07 -6.100e+07   <2e-16 ***
+mobileDeviceBrandingSamsung      -3.227e+15  8.160e+06 -3.954e+08   <2e-16 ***
+mobileDeviceBrandingSony         -1.991e+15  1.753e+07 -1.136e+08   <2e-16 ***
+mobileDeviceBrandingSonyEricsson -1.380e+15  4.839e+07 -2.852e+07   <2e-16 ***
+mobileDeviceBrandingSpice        -2.416e+15  3.438e+07 -7.026e+07   <2e-16 ***
+mobileDeviceBrandingSwipe        -3.339e+15  6.754e+07 -4.944e+07   <2e-16 ***
+mobileDeviceBrandingTecno        -3.867e+15  6.749e+07 -5.729e+07   <2e-16 ***
+mobileDeviceBrandingVivo         -1.590e+15  1.876e+07 -8.473e+07   <2e-16 ***
+mobileDeviceBrandingXiaomi       -2.929e+15  7.591e+06 -3.858e+08   <2e-16 ***
+mobileDeviceBrandingXolo         -1.852e+15  2.412e+07 -7.679e+07   <2e-16 ***
+mobileDeviceBrandingYU           -2.717e+15  1.260e+07 -2.156e+08   <2e-16 ***
+newOrReturningReturning Visitor  -1.344e+14  2.023e+06 -6.645e+07   <2e-16 ***
+hour                             -1.077e+14  3.402e+05 -3.166e+08   <2e-16 ***
+dayOfWeekNameMonday              -1.347e+15  5.938e+06 -2.269e+08   <2e-16 ***
+dayOfWeekNameSaturday            -1.325e+15  4.440e+06 -2.984e+08   <2e-16 ***
+dayOfWeekNameSunday              -3.176e+15  5.993e+06 -5.300e+08   <2e-16 ***
+dayOfWeekNameThursday            -1.121e+15  3.864e+06 -2.901e+08   <2e-16 ***
+dayOfWeekNameTuesday             -4.924e+15  2.931e+06 -1.680e+09   <2e-16 ***
+dayOfWeekNameWednesday           -1.351e+15  3.819e+06 -3.537e+08   <2e-16 ***
+transactions                      3.227e+14  3.073e+07  1.050e+07   <2e-16 ***
+buyToDetailRate0                 -1.463e+15  4.879e+07 -2.999e+07   <2e-16 ***
+transactionsPerSession            3.747e+12  6.039e+04  6.205e+07   <2e-16 ***
+transactionShipping                      NA         NA         NA       NA    
+transactionTax                           NA         NA         NA       NA    
+uniquePurchases                   1.065e+14  6.584e+06  1.618e+07   <2e-16 ***
+cartToDetailRate                         NA         NA         NA       NA    
+quantityAddedToCart                      NA         NA         NA       NA    
+quantityCheckedOut                       NA         NA         NA       NA    
+quantityRemovedFromCart                  NA         NA         NA       NA    
+sessions_to_transaction          -1.036e+13  2.918e+04 -3.549e+08   <2e-16 ***
+days_to_transaction              -1.110e+12  3.995e+04 -2.778e+07   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance:  8761.9  on 6779  degrees of freedom
+Residual deviance: 10813.1  on 6704  degrees of freedom
+AIC: 10965
+
+Number of Fisher Scoring iterations: 25
+

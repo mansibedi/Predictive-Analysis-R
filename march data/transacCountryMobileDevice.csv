@@ -1,0 +1,30 @@
+"","date","transactionId","country","continent","MobileDeviceInfo","operatingSystem","sessionDuration"
+"1",2017-03-01,"1717781","India","Asia","Xiaomi HM 1S","Android",10
+"2",2017-03-04,"1717781","India","Asia","Xiaomi HM 1S","Android",265
+"3",2017-03-17,"1796181","India","Asia","(not set)","Android",636
+"4",2017-03-17,"1811511","India","Asia","(not set)","Android",119
+"5",2017-03-17,"1820091","India","Asia","Sony E6553 Xperia Z3+","Android",64
+"6",2017-03-17,"1834821","India","Asia","Samsung SM-J500F Galaxy J5","Android",99
+"7",2017-03-17,"1841521","India","Asia","Xiaomi Redmi Note 4","Android",1157
+"8",2017-03-17,"1850431","India","Asia","Lenovo K50a40 K3 Note","Android",165
+"9",2017-03-17,"1866351","India","Asia","Xiaomi Redmi Note 3","Android",132
+"10",2017-03-17,"1869851","India","Asia","Asus Z00LD Zenfone 2 Laser","Android",35
+"11",2017-03-17,"1872241","India","Asia","Samsung SM-G600FY Galaxy On7","Android",69
+"12",2017-03-17,"1893411","India","Asia","Motorola XT1562 Moto X Play","Android",624
+"13",2017-03-17,"1904311","India","Asia","LYF LS-5015","Android",29
+"14",2017-03-17,"1907161","India","Asia","Lenovo P1ma40 Vibe P1m","Android",20
+"15",2017-03-18,"1819251","India","Asia","Lenovo A6000","Android",60
+"16",2017-03-18,"1844541","India","Asia","LeTV Le X526 Le 2","Android",596
+"17",2017-03-18,"1890501","India","Asia","LYF LS-5017 Water 11","Android",304
+"18",2017-03-18,"1899761","India","Asia","Xiaomi Redmi Note 4","Android",205
+"19",2017-03-18,"1903761","India","Asia","Motorola Moto G Play Moto G4 Play","Android",58
+"20",2017-03-19,"1798881","India","Asia","Xiaomi Redmi 3S","Android",145
+"21",2017-03-21,"1862891","India","Asia","Panasonic Eluga Turbo","Android",1261
+"22",2017-03-22,"1728469","India","Asia","Motorola XT1068 Moto G (2nd Gen)","Android",1693
+"23",2017-03-22,"1842921","India","Asia","Xiaomi 2014818 Hongmi 2 4G / Redmi 2 Dual SIM","Android",610
+"24",2017-03-22,"1862891","India","Asia","Panasonic Eluga Turbo","Android",241
+"25",2017-03-24,"1862891","India","Asia","Panasonic Eluga Turbo","Android",306
+"26",2017-03-25,"1943641","India","Asia","Apple iPhone","iOS",2925
+"27",2017-03-27,"1862891","India","Asia","Panasonic Eluga Turbo","Android",1569
+"28",2017-03-27,"1943641","India","Asia","Apple iPhone","iOS",241
+"29",2017-03-28,"1956971","India","Asia","Motorola XT1706 Moto E3 Power","Android",52

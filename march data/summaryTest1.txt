@@ -1,0 +1,1420 @@
+
+Call:
+glm(formula = type ~ ., family = "binomial", data = train)
+
+Deviance Residuals: 
+       Min          1Q      Median          3Q         Max  
+-2.409e-06  -2.409e-06   2.409e-06   2.409e-06   2.409e-06  
+
+Coefficients: (3 not defined because of singularities)
+                                                                      Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                                         -2.657e+01  4.031e+05       0        1
+oid                                                                 -1.011e-13  1.048e-01       0        1
+Product_titleAtlas SCUD SHOX 18G 26" 2016                            5.011e-09  4.112e+05       0        1
+Product_titleAudi A3 35 TDI TECHNOLOGY 2014                          6.469e-10  7.080e+05       0        1
+Product_titleAudi A4 1.8 T MULTITRONIC 2008                          1.642e-08  5.463e+05       0        1
+Product_titleAudi A4 1.8 TFSI 2009                                   1.207e-08  5.805e+05       0        1
+Product_titleAudi A4 1.8 TFSI 2011                                   1.214e-08  5.830e+05       0        1
+Product_titleAudi A4 1.8 TFSI 2014                                   6.270e-09  6.419e+05       0        1
+Product_titleAudi A4 2.0 TDI 174BHP PREMIUM 2014                    -1.205e-08  6.341e+05       0        1
+Product_titleAudi A4 2.0 TDI 2010                                   -8.514e-09  5.617e+05       0        1
+Product_titleAudi A4 2.0 TDI 2012                                   -8.345e-09  5.885e+05       0        1
+Product_titleAudi A4 2.0 TDI MULTITRONIC 2012                        7.926e-09  6.152e+05       0        1
+Product_titleAudi A4 3.0 TDI 2015                                    5.264e-09  6.451e+05       0        1
+Product_titleAudi A6 2.0 TDI 2011                                    6.686e-09  6.152e+05       0        1
+Product_titleAudi A6 2.0 TDI 2012                                    6.354e-09  6.234e+05       0        1
+Product_titleAudi A6 2.0 TDI 2013                                    3.364e-09  6.811e+05       0        1
+Product_titleAudi A6 2.0 TDI PREMIUM 2013                            9.676e-09  6.067e+05       0        1
+Product_titleAudi A6 2.7 TDi 2011                                    4.444e-10  5.444e+05       0        1
+Product_titleAudi A6 2.8 FSI 2011                                    5.433e-09  6.545e+05       0        1
+Product_titleAudi A6 3.0 TDI QUATTRO 2006                            7.635e-09  6.123e+05       0        1
+Product_titleAudi A6 35 TDI 2015                                    -2.297e-08  8.762e+05       0        1
+Product_titleAudi Q3 2.0 TDI HIGH 2013                              -1.606e-08  7.294e+05       0        1
+Product_titleAudi Q3 2.0 TDI PREMIUM PLUS 2014                      -1.516e-08  6.675e+05       0        1
+Product_titleAudi Q3 2.0 TDI PREMIUM PLUS 2015                       4.276e-10  7.401e+05       0        1
+Product_titleAudi Q3 2.0 TDI QUATTRO 2014                            3.270e-09  6.941e+05       0        1
+Product_titleAudi Q5 2.0 TDI QUATTRO 2011                           -1.342e-08  6.610e+05       0        1
+Product_titleAudi Q5 2.0 TDI QUATTRO 2012                            3.022e-09  7.080e+05       0        1
+Product_titleAudi Q5 3.0 TDI TECHNOLOGY PK S LINE 2014              -1.484e-08  8.863e+05       0        1
+Product_titleAudi Q7 3.0 TDI 2013                                   -4.349e-09  1.015e+06       0        1
+Product_titleAudi Q7 3.0 TDI QUATTRO 2009                            5.845e-09  6.806e+05       0        1
+Product_titleAudi Q7 3.0 TDI QUATTRO 2010                           -1.636e-08  6.808e+05       0        1
+Product_titleAuto Inspection - Basic Car Inspection                 -2.277e-09  5.037e+05       0        1
+Product_titleAuto Inspection - Bike Inspection                       1.758e-08  3.724e+05       0        1
+Product_titleAuto Inspection - Extensive Car Inspection              9.425e-09  3.983e+05       0        1
+Product_titleBajaj  Pulsar 180 DTS-i  180cc 2008                     1.329e-09  5.062e+05       0        1
+Product_titleBajaj  Pulsar 180 DTS-i  180cc 2010                     5.107e-10  5.037e+05       0        1
+Product_titleBajaj  Pulsar 180cc 2013                                1.705e-08  5.041e+05       0        1
+Product_titleBajaj Avenger 180cc 2006                               -1.334e-09  5.037e+05       0        1
+Product_titleBajaj Avenger 200cc 2008                               -5.468e-10  5.037e+05       0        1
+Product_titleBajaj Avenger 200cc 2010                                5.146e-11  5.037e+05       0        1
+Product_titleBajaj Avenger 200cc 2014                                1.789e-08  5.041e+05       0        1
+Product_titleBajaj Avenger 220cc 2012                                7.878e-09  4.364e+05       0        1
+Product_titleBajaj Avenger 220cc 2015                                1.563e-08  5.042e+05       0        1
+Product_titleBajaj Chetak 150 2004                                   1.615e-09  5.062e+05       0        1
+Product_titleBajaj CT 100 100cc 2004                                 1.148e-08  4.114e+05       0        1
+Product_titleBajaj CT 100 100cc 2005                                -3.214e-10  4.362e+05       0        1
+Product_titleBajaj CT 100 100cc 2015                                 1.882e-08  5.041e+05       0        1
+Product_titleBajaj Discover 100cc 2006                               2.105e-08  5.041e+05       0        1
+Product_titleBajaj Discover 100cc 2009                               1.662e-08  5.040e+05       0        1
+Product_titleBajaj Discover 100cc 2010                               1.778e-08  5.040e+05       0        1
+Product_titleBajaj Discover 100cc 2011                               1.823e-08  4.117e+05       0        1
+Product_titleBajaj Discover 100cc 2012                              -1.246e-09  4.362e+05       0        1
+Product_titleBajaj Discover 100cc 2013                               7.546e-09  4.363e+05       0        1
+Product_titleBajaj Discover 100M 100cc 2015                          2.135e-08  5.042e+05       0        1
+Product_titleBajaj Discover 125 ST 125cc 2013                        5.347e-10  5.037e+05       0        1
+Product_titleBajaj Discover 125cc 2013                               2.032e-08  5.041e+05       0        1
+Product_titleBajaj Discover 150F 150cc 2015                         -1.981e-09  5.037e+05       0        1
+Product_titleBajaj Discover T 100cc 2013                             1.962e-08  5.067e+05       0        1
+Product_titleBajaj Discover150F 150cc 2015                          -1.176e-10  5.064e+05       0        1
+Product_titleBajaj Platina 100 100cc 2015                           -2.368e-09  5.037e+05       0        1
+Product_titleBajaj Platina 100cc 2006                                1.886e-08  5.040e+05       0        1
+Product_titleBajaj Platina 100cc 2008                                1.839e-08  4.366e+05       0        1
+Product_titleBajaj Platina 100cc 2010                                1.971e-08  5.041e+05       0        1
+Product_titleBajaj Platina 100cc 2011                                1.958e-08  4.374e+05       0        1
+Product_titleBajaj Platina 100cc 2012                                1.791e-08  5.040e+05       0        1
+Product_titleBajaj Platina 125cc 2012                               -3.210e-10  5.037e+05       0        1
+Product_titleBajaj Pulsar 150 DTSi 150cc 2011                        6.306e-09  4.113e+05       0        1
+Product_titleBajaj Pulsar 150 DTSi 150cc 2015                       -1.976e-09  5.038e+05       0        1
+Product_titleBajaj Pulsar 150cc 2003                                 1.893e-08  5.040e+05       0        1
+Product_titleBajaj Pulsar 150cc 2004                                 2.060e-08  5.041e+05       0        1
+Product_titleBajaj Pulsar 150cc 2007                                -1.128e-09  5.037e+05       0        1
+Product_titleBajaj Pulsar 150cc 2008                                 7.723e-10  5.037e+05       0        1
+Product_titleBajaj Pulsar 150cc 2009                                 1.038e-08  4.363e+05       0        1
+Product_titleBajaj Pulsar 150cc 2010                                 1.672e-09  4.392e+05       0        1
+Product_titleBajaj Pulsar 150cc 2012                                 8.134e-09  4.363e+05       0        1
+Product_titleBajaj Pulsar 150cc 2013                                 1.582e-08  5.040e+05       0        1
+Product_titleBajaj Pulsar 150cc 2014                                 4.389e-10  4.370e+05       0        1
+Product_titleBajaj Pulsar 180cc 2011                                -1.242e-10  5.037e+05       0        1
+Product_titleBajaj Pulsar 180cc 2014                                -9.288e-10  5.038e+05       0        1
+Product_titleBajaj Pulsar 200 NS 200cc 2012                          1.887e-08  5.042e+05       0        1
+Product_titleBajaj Pulsar 220cc 2013                                -2.584e-09  5.038e+05       0        1
+Product_titleBajaj Wave 110cc 2005                                   1.979e-08  5.066e+05       0        1
+Product_titleBentley Continental GT 2015                            -1.260e-07  4.511e+06       0        1
+Product_titleBMW 1 Series 118d 2013                                  6.158e-09  6.180e+05       0        1
+Product_titleBMW 3 Series 320 D 2010                                -5.062e-10  5.045e+05       0        1
+Product_titleBMW 3 Series 320 D 2011                                 6.362e-10  5.229e+05       0        1
+Product_titleBMW 3 Series 320 D 2012                                -1.050e-08  6.223e+05       0        1
+Product_titleBMW 3 Series 320 D 2014                                -1.489e-08  6.675e+05       0        1
+Product_titleBMW 3 Series 320d 2009                                 -6.994e-09  5.426e+05       0        1
+Product_titleBMW 3 Series 320d 2010                                  1.318e-08  5.663e+05       0        1
+Product_titleBMW 3 Series 320d 2013                                  1.147e-09  6.107e+05       0        1
+Product_titleBMW 3 Series 320D GT LUXURY LINE 2014                  -2.139e-08  8.523e+05       0        1
+Product_titleBMW 3 Series 320I 2008                                  1.019e-08  5.484e+05       0        1
+Product_titleBMW 3 Series 320i 2009                                 -4.949e-09  5.325e+05       0        1
+Product_titleBMW 3 Series GT 320d Luxury Line 2010                   1.004e-08  5.741e+05       0        1
+Product_titleBMW 5 Series 520 D 2.0 2012                            -1.444e-08  6.807e+05       0        1
+Product_titleBMW 5 Series 525 D 2008                                -7.766e-09  5.574e+05       0        1
+Product_titleBMW 5 Series 525d 2008                                  9.299e-09  6.181e+05       0        1
+Product_titleBMW 5 Series 525I 2009                                 -6.234e-09  5.452e+05       0        1
+Product_titleBMW 5 Series 530d 2008                                  1.111e-08  5.203e+05       0        1
+Product_titleBMW 5 Series 530d 2009                                 -7.727e-09  5.491e+05       0        1
+Product_titleBMW 5 Series 530d 2010                                  1.069e-08  5.708e+05       0        1
+Product_titleBMW 5 Series 530d 2011                                  9.924e-09  6.124e+05       0        1
+Product_titleBMW 5 Series 530i 2009                                  9.844e-09  5.553e+05       0        1
+Product_titleBMW 7 Series 730L D 2010                                2.093e-09  7.812e+05       0        1
+Product_titleBMW 7 Series 730L D 2011                               -2.668e-08  9.426e+05       0        1
+Product_titleBMW X1 Active Hybrid 2011                               1.258e-08  5.553e+05       0        1
+Product_titleBMW X1 Highline 2011                                   -9.228e-09  5.855e+05       0        1
+Product_titleBMW X1 SDRIVE 18I 2011                                  1.017e-08  5.708e+05       0        1
+Product_titleBMW X1 sDrive 20d 2012                                  9.787e-09  5.258e+05       0        1
+Product_titleBMW X1 sDrive20d 2014                                  -4.698e-09  8.120e+05       0        1
+Product_titleBMW X3 sDrive20d xLine 2013                             1.512e-09  7.812e+05       0        1
+Product_titleBMW X3 xDrive 20d Expedition 2014                       2.752e-09  7.812e+05       0        1
+Product_titleBMW X5 xDrive 30d 2011                                  2.679e-09  6.772e+05       0        1
+Product_titleChevrolet Aveo 1.4 2006                                 1.532e-08  5.058e+05       0        1
+Product_titleChevrolet Aveo 1.4 2008                                 1.978e-08  5.049e+05       0        1
+Product_titleChevrolet Aveo LS 1.4 2007                             -2.169e-09  5.052e+05       0        1
+Product_titleChevrolet AVEO U VA 1.2 2010                            9.418e-09  4.374e+05       0        1
+Product_titleChevrolet Beat LS 2010                                  1.860e-08  4.390e+05       0        1
+Product_titleChevrolet Beat LS Diesel 2012                           1.707e-08  4.421e+05       0        1
+Product_titleChevrolet Beat LS Diesel 2013                          -1.138e-09  5.057e+05       0        1
+Product_titleChevrolet Beat LS Petrol 2010                          -2.659e-09  5.058e+05       0        1
+Product_titleChevrolet Beat LS Petrol 2014                           2.007e-08  5.065e+05       0        1
+Product_titleChevrolet Beat LT 2011                                  7.720e-09  4.396e+05       0        1
+Product_titleChevrolet Beat LT 2012                                 -1.582e-09  5.098e+05       0        1
+Product_titleChevrolet Beat LT 2014                                  1.515e-08  5.074e+05       0        1
+Product_titleChevrolet Beat LT Diesel 2012                          -1.334e-11  5.101e+05       0        1
+Product_titleChevrolet Beat LT OPT DIESEL 2013                       1.504e-08  5.128e+05       0        1
+Product_titleChevrolet Beat LT Petrol 2010                           6.810e-09  4.384e+05       0        1
+Product_titleChevrolet Captiva LT 2010                               1.699e-08  5.241e+05       0        1
+Product_titleChevrolet Cruze LT 2009                                 1.555e-08  5.156e+05       0        1
+Product_titleChevrolet Cruze LT 2010                                 1.771e-08  5.202e+05       0        1
+Product_titleChevrolet Cruze LTZ 2010                                4.131e-09  4.501e+05       0        1
+Product_titleChevrolet Cruze LTZ 2011                                2.891e-09  4.395e+05       0        1
+Product_titleChevrolet Cruze LTZ AT 2011                             1.571e-08  5.202e+05       0        1
+Product_titleChevrolet Cruze LTZ AT 2013                             1.423e-08  5.381e+05       0        1
+Product_titleChevrolet Cruze LTZ AT 2014                            -7.121e-09  5.491e+05       0        1
+Product_titleChevrolet Enjoy 1.3 LS 8 STR 2015                      -4.282e-09  5.158e+05       0        1
+Product_titleChevrolet Enjoy 1.3 LT 8 STR 2014                       1.710e-08  5.169e+05       0        1
+Product_titleChevrolet Optra 1.6 2005                                1.790e-08  5.052e+05       0        1
+Product_titleChevrolet Optra 1.8 2007                                2.089e-08  5.047e+05       0        1
+Product_titleChevrolet Optra LT 2008                                 1.861e-08  5.064e+05       0        1
+Product_titleChevrolet Optra Magnum LT 2.0 TCDi 2010                -4.326e-09  5.115e+05       0        1
+Product_titleChevrolet Optra Magnum LT 2.0 TCDi 2011                 1.573e-08  5.093e+05       0        1
+Product_titleChevrolet Spark LS 1.0 2010                             1.682e-08  5.049e+05       0        1
+Product_titleChevrolet Spark LS 1.0 2011                             1.523e-08  5.056e+05       0        1
+Product_titleChevrolet Spark LS 2008                                 1.707e-08  5.045e+05       0        1
+Product_titleChevrolet Spark LS 2009                                 1.701e-08  5.046e+05       0        1
+Product_titleChevrolet Spark LT 1.0 2011                            -1.696e-09  5.054e+05       0        1
+Product_titleChevrolet Spark LT 2011                                -5.803e-10  5.049e+05       0        1
+Product_titleChevrolet Tavera LT OBDII 2007                         -3.982e-09  5.102e+05       0        1
+Product_titleComprehensive Warranty                                  1.928e-08  3.588e+05       0        1
+Product_titleEngine Warranty                                         1.907e-08  3.813e+05       0        1
+Product_titleFiat Avventura EMOTION MULTIJET 1.3 2015                1.636e-08  5.217e+05       0        1
+Product_titleFiat Grand Punto EMOTION PACK 1.3 90 HP 2013            1.790e-08  5.115e+05       0        1
+Product_titleFiat Linea 1.3 L MULTIJET CLASSIC 2016                 -4.114e-09  5.225e+05       0        1
+Product_titleFiat Linea ACTIVE 1.3 2011                              1.672e-08  5.087e+05       0        1
+Product_titleFiat Linea DYNAMIC 1.3 2010                             2.050e-08  5.058e+05       0        1
+Product_titleFiat Linea EMOTION 1.3 2010                             5.458e-10  5.123e+05       0        1
+Product_titleFiat Linea EMOTION 1.4 2009                            -3.184e-09  5.060e+05       0        1
+Product_titleFiat Punto Active 1.3 2014                              1.762e-08  5.117e+05       0        1
+Product_titleFiat Punto Emotion Pack 1.4 2010                       -3.361e-09  5.052e+05       0        1
+Product_titleFORCE Force one LX 4X4 2012                             1.673e-08  5.156e+05       0        1
+Product_titleFord Ecosport 1.5 DV5 MT Ambiente 2014                  1.630e-08  5.241e+05       0        1
+Product_titleFord Ecosport 1.5 DV5 MT Titanium 2015                  7.119e-09  4.440e+05       0        1
+Product_titleFord Ecosport 1.5 DV5 MT Titanium Optional  2013        1.667e-08  5.236e+05       0        1
+Product_titleFord EcoSport AMBIENTE 1.5 TDCI 2014                    1.359e-08  5.201e+05       0        1
+Product_titleFord EcoSport TITANIUM 1.5 TDCI 2013                    1.505e-08  4.323e+05       0        1
+Product_titleFord EcoSport TITANIUM 1.5 TDCI 2014                    1.258e-08  5.416e+05       0        1
+Product_titleFord EcoSport TITANIUM 1.5 TI VCT 2015                 -5.839e-09  5.345e+05       0        1
+Product_titleFord EcoSport TITANIUM 1.5 TI VCT AT 2016               9.559e-09  5.415e+05       0        1
+Product_titleFord EcoSport TREND 1.5 TDCI 2015                      -5.417e-09  5.252e+05       0        1
+Product_titleFord EcoSport Trend 2013                                1.797e-08  5.172e+05       0        1
+Product_titleFord Endeavour 2.5L 4x4 MT 2011                         1.305e-08  5.346e+05       0        1
+Product_titleFord Endeavour 2.5L 4x4 MT 2012                        -8.218e-09  5.452e+05       0        1
+Product_titleFord Endeavour 2.5L 4x4 MT 2015                        -8.351e-09  5.662e+05       0        1
+Product_titleFord Endeavour 3.0L 4X4 AT 2009                        -4.223e-09  5.246e+05       0        1
+Product_titleFord Endeavour 3.0L 4X4 AT 2012                         1.518e-08  5.347e+05       0        1
+Product_titleFord Endeavour 4x2 2012                                 8.672e-09  5.662e+05       0        1
+Product_titleFord Endeavour 4x4 AT 2011                              7.798e-09  5.662e+05       0        1
+Product_titleFord Endeavour Titanium 2.2 4x2 AT 2016                -1.273e-08  6.124e+05       0        1
+Product_titleFord Endeavour Trend 2.2 4x2 AT 2016                    3.334e-09  7.329e+05       0        1
+Product_titleFord Fiesta 1.4 Duratorq TDCI 2011                     -2.277e-09  5.060e+05       0        1
+Product_titleFord Fiesta Classic 1.4 SXI Duratorq 2009              -2.413e-09  5.063e+05       0        1
+Product_titleFord Fiesta Classic 1.4 TDCI TITANIUM 2013             -2.236e-09  5.077e+05       0        1
+Product_titleFord Fiesta Classic 1.6 Exi 2007                       -2.962e-10  5.055e+05       0        1
+Product_titleFord Fiesta Classic Duratec CLXi 2009                   1.835e-08  5.093e+05       0        1
+Product_titleFord Fiesta EXI 1.4 2007                               -6.911e-10  5.051e+05       0        1
+Product_titleFord Fiesta ZXI 1.4 TDCI 2006                           1.791e-08  5.042e+05       0        1
+Product_titleFord Fiesta ZXI 1.6 2011                                1.960e-08  5.064e+05       0        1
+Product_titleFord Figo 1.2P TITANIUM MT 2016                         1.406e-08  5.079e+05       0        1
+Product_titleFord Figo 1.4 tdci zxi                                  8.919e-09  4.415e+05       0        1
+Product_titleFord Figo 1.4 tdci zxi  2011                            9.680e-09  4.172e+05       0        1
+Product_titleFord Figo 1.4 tdci zxi  2013                            1.652e-08  4.412e+05       0        1
+Product_titleFord Figo 1.5 TCDi Ambiente 2011                       -4.359e-09  5.077e+05       0        1
+Product_titleFord Figo 1.5 TCDi Titanium 2012                        1.705e-08  5.073e+05       0        1
+Product_titleFord Figo 1.5 TDCI Titanium 2011                        1.940e-08  5.068e+05       0        1
+Product_titleFord Figo DURATEC TITANIUM 1.2 2010                     1.513e-08  5.065e+05       0        1
+Product_titleFord Figo Duratorq EXI 2012                            -1.727e-09  5.065e+05       0        1
+Product_titleFord Figo EXI DURATEC 1.2 2011                         -3.758e-09  5.057e+05       0        1
+Product_titleFord Figo EXI DURATEC 1.2 2014                          2.118e-08  5.112e+05       0        1
+Product_titleFord Figo EXI DURATORQ 1.4 2014                         1.547e-08  5.081e+05       0        1
+Product_titleFord Figo LXI DURATORQ 1.4 2011                         1.170e-09  5.036e+05       0        1
+Product_titleFord Figo Trend 1.5 TDCi 2016                           1.383e-08  5.182e+05       0        1
+Product_titleFord Figo Zxi 2011                                     -2.009e-09  5.067e+05       0        1
+Product_titleFord Figo ZXI DURATEC 1.2 2012                         -3.573e-09  5.056e+05       0        1
+Product_titleFord Ikon 1.4 DuraTorq TDCi 2009                        1.693e-08  5.056e+05       0        1
+Product_titleFord Ikon 1.4 DuraTorq TDCi 2010                        1.709e-08  5.064e+05       0        1
+Product_titleFord Ikon 1.6 ZXI NXT 2005                              1.929e-08  5.047e+05       0        1
+Product_titleGift Certificate                                        1.206e-09  5.062e+05       0        1
+Product_titleHarley Davidson XG750 750cc 2014                       -2.492e-09  5.128e+05       0        1
+Product_titleHero CBZ 150cc 2012                                     1.645e-08  5.040e+05       0        1
+Product_titleHero CBZ Xtreme 150 cc 2010                             4.755e-10  5.037e+05       0        1
+Product_titleHero CBZ Xtreme 150 cc 2011                             7.875e-09  4.363e+05       0        1
+Product_titleHero CBZ Xtreme 150 cc 2014                             3.869e-10  5.038e+05       0        1
+Product_titleHero CD 100SS 100cc 1997                                1.836e-08  5.066e+05       0        1
+Product_titleHero CD 100SS 2005                                      7.729e-10  5.037e+05       0        1
+Product_titleHero CD Dawn 100cc 2004                                 1.832e-08  5.040e+05       0        1
+Product_titleHero CD Deluxe 100cc 2006                               1.700e-08  5.039e+05       0        1
+Product_titleHero CD Deluxe 100cc 2007                               9.302e-09  4.363e+05       0        1
+Product_titleHero CD Deluxe 100cc 2010                               1.790e-08  4.366e+05       0        1
+Product_titleHero CD Deluxe 100cc 2011                               2.187e-08  5.042e+05       0        1
+Product_titleHero Duet 110cc 2016                                   -1.257e-09  4.363e+05       0        1
+Product_titleHero Glamour 125 cc 2015                                2.078e-08  5.041e+05       0        1
+Product_titleHero Glamour 125cc 2013                                -9.270e-10  5.037e+05       0        1
+Product_titleHero Glamour Fi 125cc 2015                              2.038e-08  5.042e+05       0        1
+Product_titleHero HF Deluxe 100 cc 2013                             -1.591e-09  5.037e+05       0        1
+Product_titleHero HF Deluxe 100 cc 2015                              2.078e-08  5.041e+05       0        1
+Product_titleHero Hunk 150cc 2008                                    5.712e-10  5.037e+05       0        1
+Product_titleHero Ignitor 125cc 2013                                 2.225e-08  5.068e+05       0        1
+Product_titleHero Impulse 150 cc 2012                                7.653e-10  5.063e+05       0        1
+Product_titleHero Karizma 223 cc 2013                               -3.195e-10  4.364e+05       0        1
+Product_titleHero Maestro 110cc 2012                                 1.776e-08  5.040e+05       0        1
+Product_titleHero Maestro 110cc 2013                                 2.174e-08  5.042e+05       0        1
+Product_titleHero Maestro 110cc 2014                                -1.630e-09  5.037e+05       0        1
+Product_titleHero Maestro 110cc 2015                                -1.188e-10  4.113e+05       0        1
+Product_titleHero Maestro 125cc 2012                                 1.687e-08  5.040e+05       0        1
+Product_titleHero Maestro 125cc 2013                                -1.384e-09  5.037e+05       0        1
+Product_titleHero Maestro Edge Lx 110cc 2016                         1.558e-08  5.040e+05       0        1
+Product_titleHero Marvel 14 2015                                     1.688e-08  5.039e+05       0        1
+Product_titleHero Miss India 26 2015                                 2.714e-10  5.036e+05       0        1
+Product_titleHero Passion 100cc  2006                                1.660e-08  5.040e+05       0        1
+Product_titleHero Passion Plus 97.2 2005                             9.502e-09  4.363e+05       0        1
+Product_titleHero Passion Plus 97.2 2006                             1.056e-09  5.037e+05       0        1
+Product_titleHero Passion Plus 97.2 2007                             1.864e-08  4.366e+05       0        1
+Product_titleHero Passion Plus 97.2 2008                            -1.643e-09  4.362e+05       0        1
+Product_titleHero Passion Plus 97.2 2009                             9.406e-09  4.363e+05       0        1
+Product_titleHero Passion PRO  100 cc 2008                           1.698e-08  5.040e+05       0        1
+Product_titleHero Passion PRO  100 cc 2009                           1.969e-08  5.041e+05       0        1
+Product_titleHero Passion PRO  100 cc 2010                           2.055e-08  5.041e+05       0        1
+Product_titleHero Passion PRO  100 cc 2011                           1.691e-08  5.040e+05       0        1
+Product_titleHero Passion PRO  100 cc 2013                           8.006e-10  5.037e+05       0        1
+Product_titleHero Passion PRO  100 cc 2014                           1.763e-08  4.366e+05       0        1
+Product_titleHero Passion Pro 100cc 2010                             2.116e-08  4.368e+05       0        1
+Product_titleHero Passion Pro 100cc 2011                             1.862e-08  5.041e+05       0        1
+Product_titleHero Passion PRO 100cc 2012                             9.469e-09  4.363e+05       0        1
+Product_titleHero Passion Pro 100cc 2013                             2.098e-08  5.042e+05       0        1
+Product_titleHero Passion Pro 100cc 2014                             2.048e-08  5.042e+05       0        1
+Product_titleHero Passion XPRO 110cc 2013                            1.686e-08  5.040e+05       0        1
+Product_titleHero Passion XPRO 110cc 2014                            9.034e-09  4.364e+05       0        1
+Product_titleHero Pleasure 100cc 2010                                2.073e-08  5.041e+05       0        1
+Product_titleHero Pleasure 100cc 2011                                9.060e-09  4.363e+05       0        1
+Product_titleHero Pleasure 100cc 2012                                7.767e-09  4.363e+05       0        1
+Product_titleHero Pleasure 100cc 2013                                1.805e-08  5.040e+05       0        1
+Product_titleHero Pleasure 100cc 2014                                1.638e-08  5.040e+05       0        1
+Product_titleHero Pleasure 100cc 2015                               -8.005e-10  5.037e+05       0        1
+Product_titleHero Splendor 100cc 2002                               -7.891e-10  5.037e+05       0        1
+Product_titleHero Splendor 100cc 2003                                2.107e-08  5.041e+05       0        1
+Product_titleHero Splendor 100cc 2008                                9.159e-09  4.363e+05       0        1
+Product_titleHero Splendor 100cc 2010                                1.171e-08  4.114e+05       0        1
+Product_titleHero Splendor 100cc 2011                                1.184e-08  4.115e+05       0        1
+Product_titleHero Splendor 100cc 2012                                1.704e-08  4.366e+05       0        1
+Product_titleHero Splendor 100cc 2014                               -2.446e-09  5.037e+05       0        1
+Product_titleHero Splendor 100cc 2016                                1.844e-08  5.041e+05       0        1
+Product_titleHero Splendor ISmart Self Drum Alloy 2017               1.851e-08  5.042e+05       0        1
+Product_titleHero Splendor NXG 100cc 2010                            9.785e-10  5.037e+05       0        1
+Product_titleHero Splendor Plus 100 2006                            -1.545e-09  5.037e+05       0        1
+Product_titleHero Splendor Plus 100 2007                             1.102e-09  5.063e+05       0        1
+Product_titleHero Splendor Plus 100cc 2016                           1.890e-08  4.118e+05       0        1
+Product_titleHero Splendor Pro  100 cc 2010                          2.334e-08  5.069e+05       0        1
+Product_titleHero Splendor Pro  100 cc 2012                          2.081e-08  5.068e+05       0        1
+Product_titleHero Splendor Pro 100cc 2011                            1.778e-08  5.040e+05       0        1
+Product_titleHero Splendor Pro 100cc 2012                           -4.856e-10  5.037e+05       0        1
+Product_titleHero Splendor Pro 100cc 2014                            2.137e-08  5.042e+05       0        1
+Product_titleHero Splendor Pro 100cc 2015                            2.083e-08  4.122e+05       0        1
+Product_titleHero Super Splendor 125cc 2005                          2.622e-10  5.037e+05       0        1
+Product_titleHero Super Splendor 125cc 2008                          1.600e-08  5.039e+05       0        1
+Product_titleHero Xtreme 150cc 2014                                  1.895e-08  5.042e+05       0        1
+Product_titleHonda Accord 2.4 AT 2006                                1.944e-08  5.072e+05       0        1
+Product_titleHonda Accord 2.4 AT 2009                               -4.585e-09  5.175e+05       0        1
+Product_titleHonda Accord 2.4 AT 2010                                1.501e-08  5.238e+05       0        1
+Product_titleHonda Accord 2.4 AT 2011                                3.858e-09  4.617e+05       0        1
+Product_titleHonda Accord 2.4 AT 2013                               -7.238e-09  5.491e+05       0        1
+Product_titleHonda Accord 2.4 Inspire 2010                           1.369e-08  5.151e+05       0        1
+Product_titleHonda Accord 3.0 V6 AT 2006                             2.135e-08  5.118e+05       0        1
+Product_titleHonda Activa 109 2002                                   1.838e-08  5.040e+05       0        1
+Product_titleHonda Activa 109 2004                                  -1.432e-10  5.063e+05       0        1
+Product_titleHonda Activa 109 2007                                   6.108e-09  4.113e+05       0        1
+Product_titleHonda Activa 109 2008                                   2.053e-08  5.041e+05       0        1
+Product_titleHonda Activa 109 2009                                   4.912e-10  5.063e+05       0        1
+Product_titleHonda Activa 109 2010                                   1.891e-08  5.067e+05       0        1
+Product_titleHonda Activa 109 2011                                   2.011e-08  5.067e+05       0        1
+Product_titleHonda Activa 109 2012                                   2.073e-08  5.068e+05       0        1
+Product_titleHonda Activa 109 2013                                   1.947e-08  4.375e+05       0        1
+Product_titleHonda Activa 109 2014                                   8.844e-09  3.737e+05       0        1
+Product_titleHonda Activa 109 2015                                   9.735e-09  4.395e+05       0        1
+Product_titleHonda Activa 110 cc  2004                               1.062e-09  5.037e+05       0        1
+Product_titleHonda Activa 110 cc  2006                              -1.116e-09  4.113e+05       0        1
+Product_titleHonda Activa 110 cc  2008                              -1.411e-09  4.113e+05       0        1
+Product_titleHonda Activa 110 cc  2009                               9.531e-10  4.113e+05       0        1
+Product_titleHonda Activa 110 cc  2013                               4.134e-09  3.660e+05       0        1
+Product_titleHonda Activa 110 cc  2014                               8.354e-09  3.779e+05       0        1
+Product_titleHonda Activa 110 cc 2005                                2.028e-08  5.041e+05       0        1
+Product_titleHonda Activa 110 cc 2009                                2.054e-08  5.041e+05       0        1
+Product_titleHonda Activa 110 cc 2010                                6.552e-09  3.902e+05       0        1
+Product_titleHonda Activa 110 cc 2011                                6.763e-09  3.808e+05       0        1
+Product_titleHonda Activa 110 cc 2012                                9.001e-09  3.722e+05       0        1
+Product_titleHonda Activa 110 cc 2015                                7.867e-09  3.984e+05       0        1
+Product_titleHonda Activa 110 cc 2016                               -1.244e-09  4.363e+05       0        1
+Product_titleHonda Activa 110cc 2005                                 2.062e-08  5.041e+05       0        1
+Product_titleHonda Activa 110cc 2008                                 2.184e-08  5.042e+05       0        1
+Product_titleHonda Activa 110cc 2010                                 1.869e-08  4.117e+05       0        1
+Product_titleHonda Activa 110cc 2011                                 2.176e-08  5.042e+05       0        1
+Product_titleHonda Activa 110cc 2012                                 1.927e-08  4.367e+05       0        1
+Product_titleHonda Activa 110cc 2013                                 1.939e-08  4.367e+05       0        1
+Product_titleHonda Activa 110cc 2015                                 2.054e-08  3.991e+05       0        1
+Product_titleHonda Activa 110cc 2016                                 1.939e-08  4.368e+05       0        1
+Product_titleHonda Activa 125cc 2015                                -1.288e-09  4.364e+05       0        1
+Product_titleHonda Activa 3G 110cc 2015                              5.549e-09  4.114e+05       0        1
+Product_titleHonda Activa 3G 110cc 2017                              6.816e-10  5.038e+05       0        1
+Product_titleHonda Activa125 125 cc 2015                             1.938e-09  5.063e+05       0        1
+Product_titleHonda Amaze 1.2 E i-VTEC 2013                           1.467e-08  5.145e+05       0        1
+Product_titleHonda Amaze 1.2 E i-VTEC 2015                           2.108e-08  5.160e+05       0        1
+Product_titleHonda Amaze 1.2 S AT i-VTEC 2013                        1.683e-08  5.136e+05       0        1
+Product_titleHonda Amaze 1.2 S i-VTEC 2015                           1.622e-08  4.487e+05       0        1
+Product_titleHonda Amaze 1.2 S i-VTEC 2016                          -3.679e-09  5.153e+05       0        1
+Product_titleHonda Amaze 1.2 SMT I VTEC 2014                        -4.298e-09  5.137e+05       0        1
+Product_titleHonda Amaze 1.2 SX i-VTEC 2016                          1.676e-08  5.224e+05       0        1
+Product_titleHonda Amaze 1.2 VX AT i-VTEC 2013                       1.973e-08  5.169e+05       0        1
+Product_titleHonda Amaze 1.5 E i-DTEC 2013                           1.339e-08  5.145e+05       0        1
+Product_titleHonda Amaze 1.5 SMT I DTEC 2013                         1.756e-08  5.140e+05       0        1
+Product_titleHonda Amaze 1.5 VXMT I DTEC 2013                       -1.025e-09  5.190e+05       0        1
+Product_titleHonda Amaze S i-DTEC 2015                              -4.718e-09  5.220e+05       0        1
+Product_titleHonda Amaze VX i-VTEC 2014                              1.695e-08  5.156e+05       0        1
+Product_titleHonda Aviator 109 cc 2008                               1.722e-08  4.366e+05       0        1
+Product_titleHonda Aviator 109 cc 2009                              -1.181e-09  5.037e+05       0        1
+Product_titleHonda Aviator 109 cc 2011                               8.483e-10  5.037e+05       0        1
+Product_titleHonda Aviator 109 cc 2012                              -1.412e-10  5.037e+05       0        1
+Product_titleHonda Aviator 109 cc 2014                               2.047e-08  5.041e+05       0        1
+Product_titleHonda Aviator 109 cc 2015                              -1.263e-09  5.037e+05       0        1
+Product_titleHonda Aviator 109 cc 2016                              -1.262e-09  5.038e+05       0        1
+Product_titleHonda Aviator 110cc 2008                                2.006e-08  5.041e+05       0        1
+Product_titleHonda BR-V V Diesel 2016                                1.376e-08  5.618e+05       0        1
+Product_titleHonda Brio E MT 2013                                    2.119e-08  5.122e+05       0        1
+Product_titleHonda Brio Exclusive Edition 2011                      -2.621e-09  5.064e+05       0        1
+Product_titleHonda Brio Exclusive Edition 2015                       1.546e-08  5.126e+05       0        1
+Product_titleHonda Brio S AT 2013                                    1.953e-08  5.124e+05       0        1
+Product_titleHonda Brio S MT 2012                                    1.979e-08  4.164e+05       0        1
+Product_titleHonda Brio S MT 2013                                    1.238e-08  4.183e+05       0        1
+Product_titleHonda Brio V MT 2012                                    1.692e-08  4.423e+05       0        1
+Product_titleHonda Brio VX AT 2013                                   1.667e-08  4.452e+05       0        1
+Product_titleHonda CB Shine 125cc 2011                               2.173e-09  5.064e+05       0        1
+Product_titleHonda CB Shine 125cc 2012                              -3.506e-10  4.362e+05       0        1
+Product_titleHonda CB Shine 125cc 2013                               1.864e-08  4.117e+05       0        1
+Product_titleHonda CB Shine 125cc 2014                               9.032e-09  4.363e+05       0        1
+Product_titleHonda CB Shine 125cc 2015                               1.848e-08  4.118e+05       0        1
+Product_titleHonda CB Shine 125cc 2016                               1.734e-08  4.367e+05       0        1
+Product_titleHonda CB Twister 109cc 2010                            -1.997e-10  5.037e+05       0        1
+Product_titleHonda CB Twister 109cc 2015                             7.767e-10  4.370e+05       0        1
+Product_titleHonda CB Unicorn 150 150cc 2008                        -9.572e-10  5.037e+05       0        1
+Product_titleHonda CB Unicorn 150 150cc 2012                         1.908e-08  4.367e+05       0        1
+Product_titleHonda CB Unicorn 150 150cc 2016                         1.533e-08  5.042e+05       0        1
+Product_titleHonda CB Unicorn 150cc 2007                             1.718e-08  5.040e+05       0        1
+Product_titleHonda CB Unicorn 150cc 2009                            -9.673e-10  5.037e+05       0        1
+Product_titleHonda CB Unicorn 150cc 2012                            -1.704e-09  5.037e+05       0        1
+Product_titleHonda CB Unicorn 160 160cc 2013                        -2.279e-10  5.038e+05       0        1
+Product_titleHonda CB Unicorn 160 160cc 2015                         1.552e-08  4.367e+05       0        1
+Product_titleHonda CBF Stunner 125cc 2013                            1.873e-08  5.040e+05       0        1
+Product_titleHonda CBR 150R 150cc 2016                              -3.101e-09  5.043e+05       0        1
+Product_titleHonda CBR 250R 2013                                     2.106e-08  5.045e+05       0        1
+Product_titleHonda City 1.3 EXI 2005                                 1.033e-08  4.385e+05       0        1
+Product_titleHonda City 1.5 CORPORATE MT 2013                        1.364e-08  5.240e+05       0        1
+Product_titleHonda City 1.5 E MT 2008                                1.622e-08  5.091e+05       0        1
+Product_titleHonda City 1.5 E MT 2009                                1.814e-08  4.183e+05       0        1
+Product_titleHonda City 1.5 E MT 2010                                1.801e-08  5.150e+05       0        1
+Product_titleHonda City 1.5 E MT 2011                               -3.970e-09  4.226e+05       0        1
+Product_titleHonda City 1.5 E MT 2012                               -1.064e-09  5.118e+05       0        1
+Product_titleHonda City 1.5 E MT 2014                                1.699e-08  5.264e+05       0        1
+Product_titleHonda City 1.5 E MT 2016                               -6.512e-09  5.532e+05       0        1
+Product_titleHonda City 1.5 GXI 2007                                 1.758e-08  5.091e+05       0        1
+Product_titleHonda City 1.5 GXI 2008                                 5.356e-10  5.093e+05       0        1
+Product_titleHonda City 1.5 S AT 2009                                1.852e-08  5.102e+05       0        1
+Product_titleHonda City 1.5 S MT 2009                                6.539e-09  4.440e+05       0        1
+Product_titleHonda City 1.5 S MT 2010                                1.637e-08  5.123e+05       0        1
+Product_titleHonda City 1.5 S MT 2012                                1.571e-08  4.277e+05       0        1
+Product_titleHonda City 1.5 S MT 2015                                1.347e-08  5.314e+05       0        1
+Product_titleHonda City 1.5 V AT 2010                                1.593e-08  4.220e+05       0        1
+Product_titleHonda City 1.5 V AT SUN ROOF 2013                       1.548e-08  5.298e+05       0        1
+Product_titleHonda City 1.5 V MT 2009                               -3.379e-09  5.105e+05       0        1
+Product_titleHonda City 1.5 V MT 2010                                1.620e-08  4.453e+05       0        1
+Product_titleHonda City 1.5 V MT 2011                               -3.234e-09  4.484e+05       0        1
+Product_titleHonda City 1.5 V MT 2013                                1.574e-08  5.202e+05       0        1
+Product_titleHonda City 1.5 V MT 2014                                1.290e-08  5.298e+05       0        1
+Product_titleHonda City 1.5 V MT 2015                                1.369e-08  5.409e+05       0        1
+Product_titleHonda City 2014 VX(O) BL 1.5L i-VTEC 2015               1.029e-08  5.472e+05       0        1
+Product_titleHonda City EXI 2004                                     1.683e-08  5.048e+05       0        1
+Product_titleHonda City EXI 2005                                     1.978e-08  5.051e+05       0        1
+Product_titleHonda City GXi 2006                                    -1.124e-09  5.047e+05       0        1
+Product_titleHonda City GXI 2008                                     1.873e-08  5.080e+05       0        1
+Product_titleHonda City i DTec 2014                                  1.569e-08  4.638e+05       0        1
+Product_titleHonda City i DTec E 2015                                1.174e-08  5.453e+05       0        1
+Product_titleHonda City i vtec 2011                                  6.793e-09  4.484e+05       0        1
+Product_titleHonda City i VTEC CVT VX  2016                          9.175e-09  5.574e+05       0        1
+Product_titleHonda City i VTEC S 2011                                1.826e-08  5.146e+05       0        1
+Product_titleHonda City ivtec v 2009                                 1.807e-08  5.100e+05       0        1
+Product_titleHonda City ivtec v 2011                                 1.428e-08  5.124e+05       0        1
+Product_titleHonda City ivtec v 2013                                -3.903e-09  5.252e+05       0        1
+Product_titleHonda City S 2009                                       1.229e-08  3.982e+05       0        1
+Product_titleHonda City S 2012                                       1.804e-08  5.179e+05       0        1
+Product_titleHonda City S MT DIESEL 2014                             1.712e-08  5.269e+05       0        1
+Product_titleHonda City SV 2014                                      3.530e-09  4.146e+05       0        1
+Product_titleHonda City SV 2016                                     -2.742e-09  5.452e+05       0        1
+Product_titleHonda City SV MT DIESEL 2014                            1.292e-08  5.301e+05       0        1
+Product_titleHonda City SV MT PETROL 2014                           -5.562e-09  5.282e+05       0        1
+Product_titleHonda City SV MT PETROL 2015                            1.250e-08  5.317e+05       0        1
+Product_titleHonda City V 1.5L i-VTEC 2015                           1.545e-08  5.281e+05       0        1
+Product_titleHonda City V 2009                                       1.860e-08  5.123e+05       0        1
+Product_titleHonda City V 2010                                       1.742e-08  4.218e+05       0        1
+Product_titleHonda City V 2012                                      -4.353e-09  5.175e+05       0        1
+Product_titleHonda City V MT 2011                                   -3.844e-09  5.137e+05       0        1
+Product_titleHonda City VX (O) MT Diesel 2016                        1.140e-08  5.492e+05       0        1
+Product_titleHonda City VX AT 2015                                  -4.994e-09  5.521e+05       0        1
+Product_titleHonda City VX MT 2014                                   1.601e-08  5.361e+05       0        1
+Product_titleHonda City ZX 2006                                     -1.789e-09  5.054e+05       0        1
+Product_titleHonda City ZX 2007                                      1.599e-08  3.940e+05       0        1
+Product_titleHonda City ZX 2008                                      2.023e-08  5.089e+05       0        1
+Product_titleHonda City ZX EXi 2007                                 -3.401e-09  5.067e+05       0        1
+Product_titleHonda City ZX EXi 2008                                  1.844e-08  5.092e+05       0        1
+Product_titleHonda City ZX GXi 2006                                  1.092e-09  5.079e+05       0        1
+Product_titleHonda City ZX GXi 2007                                  2.140e-08  4.400e+05       0        1
+Product_titleHonda City ZX GXi 2008                                  1.056e-08  4.142e+05       0        1
+Product_titleHonda City ZXI 2007                                     1.621e-08  5.053e+05       0        1
+Product_titleHonda Civic 1.8 AT 2008                                 1.684e-08  5.068e+05       0        1
+Product_titleHonda Civic 1.8 AT 2012                                -4.350e-09  5.332e+05       0        1
+Product_titleHonda Civic 1.8 I-VTEC 2008                             1.651e-08  5.094e+05       0        1
+Product_titleHonda Civic 1.8 MT 2007                                 6.681e-09  4.399e+05       0        1
+Product_titleHonda Civic 1.8 MT 2008                                 1.849e-08  3.960e+05       0        1
+Product_titleHonda Civic 1.8 MT 2009                                 1.242e-08  4.185e+05       0        1
+Product_titleHonda Civic 1.8 MT 2010                                 1.895e-08  5.201e+05       0        1
+Product_titleHonda Civic 1.8 MT 2011                                 4.627e-09  4.481e+05       0        1
+Product_titleHonda CR-V 2.0 L2 WD AT 2004                            1.958e-08  5.096e+05       0        1
+Product_titleHonda CR-V 2.4 AT 2011                                  1.285e-08  5.473e+05       0        1
+Product_titleHonda Dio 110 2008                                      1.808e-08  5.040e+05       0        1
+Product_titleHonda Dio 110 2009                                     -1.214e-09  5.037e+05       0        1
+Product_titleHonda Dio 110 2010                                      2.016e-08  5.067e+05       0        1
+Product_titleHonda Dio 110 2011                                      1.781e-08  5.040e+05       0        1
+Product_titleHonda Dio 110 2012                                      1.649e-08  5.040e+05       0        1
+Product_titleHonda Dio 110 2012..                                   -1.282e-09  5.037e+05       0        1
+Product_titleHonda Dio 110 2014                                      1.778e-08  4.366e+05       0        1
+Product_titleHonda Dio 110cc 2013                                    1.891e-08  5.041e+05       0        1
+Product_titleHonda Dio 110cc 2016                                    1.970e-08  5.042e+05       0        1
+Product_titleHonda Dream Neo 109cc 2014                              1.957e-08  5.068e+05       0        1
+Product_titleHonda Eterno 150 2005                                  -9.094e-11  4.362e+05       0        1
+Product_titleHonda Gold Wing GL 1800 1832 cc 2015                    1.975e-09  7.530e+05       0        1
+Product_titleHonda Jazz S 2009                                      -4.046e-09  5.066e+05       0        1
+Product_titleHonda Jazz S 2010                                      -3.004e-09  5.062e+05       0        1
+Product_titleHonda Livo 110cc 2015                                   1.706e-08  5.040e+05       0        1
+Product_titleHonda Mobilio RS i-DTEC 2014                            1.365e-08  5.314e+05       0        1
+Product_titleHonda Mobilio S I - DTEC 2014                           3.662e-09  4.553e+05       0        1
+Product_titleHonda Mobilio S I - VTEC 2014                           1.586e-08  5.241e+05       0        1
+Product_titleHonda Mobilio V (O) i-DTEC 2016                         1.127e-08  5.346e+05       0        1
+Product_titleHyundai Accent CNG 2011                                1.841e-08  4.392e+05       0        1
+Product_titleHyundai Accent Executive 2009                          1.732e-08  5.052e+05       0        1
+Product_titleHyundai Accent Executive 2011                         -3.895e-09  5.061e+05       0        1
+Product_titleHyundai Accent VIVA 2005                               2.028e-08  5.048e+05       0        1
+Product_titleHyundai Creta 1.4 S Plus 2016                           9.117e-09  5.907e+05       0        1
+Product_titleHyundai Creta 1.6 S 2016                                9.682e-09  5.732e+05       0        1
+Product_titleHyundai Creta 1.6 SX (O) 2015                          -8.371e-09  4.932e+05       0        1
+Product_titleHyundai Creta 1.6 SX Plus AT 2015                       7.582e-09  5.804e+05       0        1
+Product_titleHyundai Elantra 1.6 SX AT 2013                         2.275e-09  4.888e+05       0        1
+Product_titleHyundai Elantra 1.6 SX AT 2014                         1.552e-08  5.347e+05       0        1
+Product_titleHyundai Elantra 1.6 SX MT 2013                          1.054e-08  5.662e+05       0        1
+Product_titleHyundai Elantra 1.8 SX AT 2013                          1.625e-08  5.255e+05       0        1
+Product_titleHyundai Elantra 1.8 SX AT 2015                          9.682e-09  5.640e+05       0        1
+Product_titleHyundai Elantra CRDI 2012                              1.550e-08  5.347e+05       0        1
+Product_titleHyundai Elantra SX 2013                                 1.318e-08  4.812e+05       0        1
+Product_titleHyundai Elite i20 Asta 1.2 (O) 2016                     1.567e-08  5.223e+05       0        1
+Product_titleHyundai Elite i20 Asta 1.2 2015                         5.793e-09  4.614e+05       0        1
+Product_titleHyundai Elite i20 Asta 1.4 CRDI (O) 2015                1.802e-08  5.203e+05       0        1
+Product_titleHyundai Elite i20 Asta 1.4 CRDI 2015                    1.733e-08  4.589e+05       0        1
+Product_titleHyundai Elite i20 Magna 1.2 2010                        8.177e-09  4.416e+05       0        1
+Product_titleHyundai Elite i20 Sportz 1.2 2015                      -4.815e-09  5.143e+05       0        1
+Product_titleHyundai Elite i20 Sportz 1.4 2014                      -1.084e-09  4.587e+05       0        1
+Product_titleHyundai Elite i20 Sportz 1.4 2015                       1.316e-08  5.244e+05       0        1
+Product_titleHyundai Elite i20 Sportz 1.4 CRDI 2014                  2.034e-08  5.225e+05       0        1
+Product_titleHyundai Elite i20 Sportz 1.4 CRDI 2015                  1.704e-08  5.228e+05       0        1
+Product_titleHyundai Eon 1.0 Kappa Magna + 2015                     -2.327e-09  5.084e+05       0        1
+Product_titleHyundai Eon D LITE PLUS 2014                          -3.079e-09  5.065e+05       0        1
+Product_titleHyundai Eon D LITE 2012                                1.807e-08  5.059e+05       0        1
+Product_titleHyundai Eon D LITE 2013                                1.740e-08  5.062e+05       0        1
+Product_titleHyundai Eon Era + 2014                                  1.447e-08  5.066e+05       0        1
+Product_titleHyundai Eon ERA PLUS 2012                              1.893e-08  5.073e+05       0        1
+Product_titleHyundai Eon ERA PLUS 2014                              1.633e-08  5.070e+05       0        1
+Product_titleHyundai Eon Magna + 2012                                1.949e-08  5.049e+05       0        1
+Product_titleHyundai Eon Magna + 2013                                1.890e-08  5.086e+05       0        1
+Product_titleHyundai Eon Sportz 2013                                 1.847e-08  5.068e+05       0        1
+Product_titleHyundai Eon Sportz 2014                                -3.293e-09  5.077e+05       0        1
+Product_titleHyundai Getz GLE 2004                                   1.997e-08  5.044e+05       0        1
+Product_titleHyundai Getz GLS 2006                                   1.683e-08  5.053e+05       0        1
+Product_titleHyundai Getz GLS 2008                                   5.031e-11  5.043e+05       0        1
+Product_titleHyundai Grand i10 ASTA 1.2 KAPPA VTVT 2015              1.691e-08  5.136e+05       0        1
+Product_titleHyundai Grand i10 Asta 2014                            -3.686e-09  5.115e+05       0        1
+Product_titleHyundai Grand i10 Asta 2015                             1.744e-08  5.176e+05       0        1
+Product_titleHyundai Grand i10 Asta AT 2014                          1.675e-08  4.237e+05       0        1
+Product_titleHyundai Grand i10 Magna 1.2 Kappa VTVT 2015             1.453e-08  5.115e+05       0        1
+Product_titleHyundai Grand i10 Magna 2016                            1.351e-08  5.149e+05       0        1
+Product_titleHyundai Grand i10 Sports Edition 1.2L Kappa VTVT  2014  1.561e-08  4.467e+05       0        1
+Product_titleHyundai Grand i10 Sportz 1.1 CRDi 2013                  5.693e-09  4.452e+05       0        1
+Product_titleHyundai Grand i10 Sportz 1.1 CRDi 2016                 -4.954e-09  5.143e+05       0        1
+Product_titleHyundai Grand i10 Sportz 1.2 Kappa VTVT 2014            2.077e-08  5.146e+05       0        1
+Product_titleHyundai Grand i10 Sportz 1.2 Kappa VTVT 2016            1.779e-08  5.152e+05       0        1
+Product_titleHyundai Grand i10 Sportz CRDi 2014                      1.979e-08  5.180e+05       0        1
+Product_titleHyundai i 20 Sportz 2010                               -3.280e-09  5.098e+05       0        1
+Product_titleHyundai i 20 Sportz 2012                                1.531e-08  5.086e+05       0        1
+Product_titlehyundai i10 2011 sportz                                 1.260e-08  3.943e+05       0        1
+Product_titleHyundai i10 ASTA 1.2 2009                              -3.908e-10  5.055e+05       0        1
+Product_titleHyundai i10 Asta 1.2 AT Kappa 2 2008                    2.044e-08  5.067e+05       0        1
+Product_titleHyundai i10 Asta 1.2 AT Kappa 2 2012                    2.029e-08  5.073e+05       0        1
+Product_titleHyundai i10 Asta 1.2 AT Kappa 2 2014                    1.411e-08  5.100e+05       0        1
+Product_titleHyundai i10 ASTA 1.2 AT KAPPA2 WITH SUNROOF 2012        1.486e-08  5.086e+05       0        1
+Product_titleHyundai i10 Asta 1.2 Kappa 2 2014                       2.119e-08  5.151e+05       0        1
+Product_titleHyundai i10 ERA 1.1 1RDE2 2009                          1.840e-08  4.153e+05       0        1
+Product_titleHyundai i10 ERA 1.1 1RDE2 2010                          1.704e-08  5.064e+05       0        1
+Product_titleHyundai i10 ERA 1.1 1RDE2 2012                          1.718e-08  5.072e+05       0        1
+Product_titleHyundai i10 Era 1.1 iRDE2 2009                          1.667e-08  5.054e+05       0        1
+Product_titleHyundai i10 Era 1.1 iRDE2 2011                          2.062e-08  4.405e+05       0        1
+Product_titleHyundai i10 Era 2008                                    3.868e-09  4.136e+05       0        1
+Product_titleHyundai i10 Era 2010                                    1.882e-08  5.066e+05       0        1
+Product_titleHyundai i10 Era 2013                                    1.803e-08  5.075e+05       0        1
+Product_titleHyundai i10 Magna 1.1 2008                              1.506e-08  5.065e+05       0        1
+Product_titleHyundai i10 MAGNA 1.1 2010                              9.144e-09  4.015e+05       0        1
+Product_titleHyundai i10 Magna 1.1 iRDE2 2008                        1.697e-08  5.067e+05       0        1
+Product_titleHyundai i10 Magna 1.1 iRDE2 2011                        1.887e-08  5.074e+05       0        1
+Product_titleHyundai i10 Magna 1.1 iRDE2 2015                        5.971e-09  4.432e+05       0        1
+Product_titleHyundai i10 Magna 1.2 2008                             -2.014e-09  5.056e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 2009                              2.825e-09  4.000e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 2010                              1.051e-08  3.931e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 2011                              1.264e-08  4.141e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 2012                              1.780e-08  4.159e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 2013                              1.786e-08  5.111e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 KAPPA2 2011                       1.913e-08  5.081e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 KAPPA2 2013                      -3.201e-09  5.088e+05       0        1
+Product_titleHyundai i10 MAGNA 1.2 KAPPA2 2016                       1.783e-08  5.215e+05       0        1
+Product_titleHyundai i10 Magna 2007                                  8.819e-09  4.381e+05       0        1
+Product_titleHyundai i10 MAGNA 2008                                 -3.258e-09  5.050e+05       0        1
+Product_titleHyundai i10 Sportz 1.1 iRDE2 2010                      -3.299e-09  5.071e+05       0        1
+Product_titleHyundai i10 Sportz 1.1 iRDE2 2014                       8.312e-09  4.437e+05       0        1
+Product_titleHyundai i10 SPORTZ 1.2 2010                             1.720e-08  5.062e+05       0        1
+Product_titleHyundai i10 SPORTZ 1.2 2011                            -3.639e-09  4.425e+05       0        1
+Product_titleHyundai i10 SPORTZ 1.2 2012                            -3.231e-09  5.084e+05       0        1
+Product_titleHyundai i10 SPORTZ 1.2 AT KAPPA2 2011                   1.629e-08  5.080e+05       0        1
+Product_titleHyundai i10 Sportz 2013                                 1.967e-08  5.151e+05       0        1
+Product_titleHyundai i20 1.2 Asta 2011                               1.796e-08  5.081e+05       0        1
+Product_titleHyundai i20 1.2 Asta 2012                              -3.354e-09  4.468e+05       0        1
+Product_titleHyundai i20 1.2 Asta 2014                              -4.119e-09  5.153e+05       0        1
+Product_titleHyundai i20 1.2 ERA 2013                               1.560e-08  5.117e+05       0        1
+Product_titleHyundai i20 1.2 Magna 2012                              1.327e-08  5.116e+05       0        1
+Product_titleHyundai I20 1.2 Sportz Bs-IV 2011                       1.605e-08  5.095e+05       0        1
+Product_titleHyundai i20 Asta (O) 1.6 2016                          1.246e-08  5.254e+05       0        1
+Product_titleHyundai I20 ASTA 1.2 2010                               1.389e-08  5.086e+05       0        1
+Product_titleHyundai I20 Asta 1.2 2011                               2.186e-08  5.122e+05       0        1
+Product_titleHyundai i20 Asta 1.2 2009                              1.723e-08  5.074e+05       0        1
+Product_titleHyundai i20 Asta 1.2 2012                              1.837e-08  5.117e+05       0        1
+Product_titleHyundai i20 Asta 1.2 2014                             -4.467e-09  5.199e+05       0        1
+Product_titleHyundai i20 Asta 1.4 2015                              -5.866e-09  5.204e+05       0        1
+Product_titleHyundai i20 ASTA 1.4 AT 2010                           -1.646e-09  5.087e+05       0        1
+Product_titleHyundai I20 Asta 1.4 CRDI 2011                         -1.487e-09  5.091e+05       0        1
+Product_titleHyundai i20 Magna (O) 1.4 CRDI 2011                    1.844e-08  4.429e+05       0        1
+Product_titleHyundai i20 Magna (O) 1.4 CRDI 2012                    8.976e-09  4.449e+05       0        1
+Product_titleHyundai i20 Magna (O) 1.4 CRDI 2013                    6.730e-09  4.453e+05       0        1
+Product_titleHyundai i20 Magna (O) 1.6 2016                         1.600e-08  5.214e+05       0        1
+Product_titleHyundai i20 Magna 1.2 2009                             1.799e-08  5.072e+05       0        1
+Product_titleHyundai i20 Magna 1.2 2010                             8.785e-09  4.183e+05       0        1
+Product_titleHyundai i20 Magna 1.2 2011                             7.635e-09  4.430e+05       0        1
+Product_titleHyundai i20 Magna 1.2 2013                             1.449e-08  5.119e+05       0        1
+Product_titleHyundai i20 Sportz (AT) 1.8 2013                       1.417e-08  5.110e+05       0        1
+Product_titleHyundai i20 Sportz (AT) 1.8 2014                      -5.022e-09  5.164e+05       0        1
+Product_titleHyundai I20 Sportz 1.2 2012                             1.429e-08  5.093e+05       0        1
+Product_titleHyundai i20 Sportz 1.2 2015                             1.690e-08  5.192e+05       0        1
+Product_titleHyundai i20 SPORTZ 1.2 BS IV 2011                     -3.318e-09  5.071e+05       0        1
+Product_titleHyundai i20 SPORTZ 1.2 BS IV 2013                      1.633e-08  4.454e+05       0        1
+Product_titleHyundai i20 Sportz 1.4 CRDI 2012                        1.670e-08  4.438e+05       0        1
+Product_titleHyundai i20 sportz ABS crdi 2013                        1.720e-08  5.127e+05       0        1
+Product_titleHyundai i20 SPORTZ 2013                                7.772e-09  4.453e+05       0        1
+Product_titleHyundai Santa FE 2WD 2012                               1.449e-08  5.381e+05       0        1
+Product_titleHyundai Santa FE 4 WD AT 2014                           9.135e-09  6.420e+05       0        1
+Product_titleHyundai Santro GL Plus 2007                           -1.200e-09  5.044e+05       0        1
+Product_titleHyundai Santro GL 2007                                 2.151e-08  5.044e+05       0        1
+Product_titleHyundai Santro GLS 2008                                 1.784e-08  4.132e+05       0        1
+Product_titleHyundai Santro GLS 2009                                 1.722e-08  4.380e+05       0        1
+Product_titleHyundai Santro GLS 2010                                -1.624e-09  5.056e+05       0        1
+Product_titleHyundai Santro GLS 2011                                 1.620e-08  5.062e+05       0        1
+Product_titleHyundai Santro GLS 2012                                 1.801e-08  4.027e+05       0        1
+Product_titleHyundai Santro GLS 2013                                 9.155e-10  5.099e+05       0        1
+Product_titleHyundai Santro Xing GL 2005                             2.711e-10  5.069e+05       0        1
+Product_titleHyundai Santro Xing GL 2011                             1.926e-08  4.392e+05       0        1
+Product_titleHyundai Santro Xing GL CNG 2008                        1.770e-08  5.043e+05       0        1
+Product_titleHyundai Santro Xing GL CNG 2009                        1.836e-08  5.079e+05       0        1
+Product_titleHyundai Santro Xing GL PLUS LPG 2012                  -1.898e-09  5.065e+05       0        1
+Product_titleHyundai Santro Xing GLS AT 2008                       -2.573e-09  4.381e+05       0        1
+Product_titleHyundai Santro Xing GLS LPG 2011                      -2.082e-09  5.059e+05       0        1
+Product_titleHyundai Santro Xing GLS 2007                          -1.576e-09  5.047e+05       0        1
+Product_titleHyundai Santro Xing GLS 2008                           2.042e-08  5.047e+05       0        1
+Product_titleHyundai Santro Xing GLS 2009                           1.578e-08  5.051e+05       0        1
+Product_titleHyundai Santro Xing GLS 2010                           1.637e-08  5.053e+05       0        1
+Product_titleHyundai Santro Xing XO 2006                            1.793e-08  5.048e+05       0        1
+Product_titleHyundai Santro Xing XO 2007                            1.769e-08  5.043e+05       0        1
+Product_titleHyundai Santro XL 2005                                  1.963e-08  4.373e+05       0        1
+Product_titleHyundai Santro XL 2006                                  1.694e-08  5.047e+05       0        1
+Product_titleHyundai Santro XL 2007                                  7.694e-09  4.371e+05       0        1
+Product_titleHyundai Santro XL AT 2006                               1.927e-08  5.047e+05       0        1
+Product_titleHyundai Sonata 2.4 GDi MT 2011                          1.721e-08  5.156e+05       0        1
+Product_titleHyundai Sonata Embera 2.0 CRDi MT 2010                  1.850e-08  5.125e+05       0        1
+Product_titleHyundai Verna 1.4 CX CRDI MT 2015                      1.606e-08  5.347e+05       0        1
+Product_titleHyundai Verna 1.4 VTVT 2013                             1.849e-09  4.149e+05       0        1
+Product_titleHyundai Verna 1.4 2011                                -3.978e-09  4.486e+05       0        1
+Product_titleHyundai Verna 1.6 CRDI SX (O) AT 2012                  -7.327e-09  5.270e+05       0        1
+Product_titleHyundai Verna 1.6 CRDI SX (O) AT 2014                   1.237e-08  4.661e+05       0        1
+Product_titleHyundai Verna 1.6 CRDI SX 2011                          1.808e-08  5.165e+05       0        1
+Product_titleHyundai Verna 1.6 CRDI SX 2012                          1.517e-08  4.271e+05       0        1
+Product_titleHyundai Verna 1.6 SX 2012                               1.378e-08  5.233e+05       0        1
+Product_titleHyundai Verna 1.6 SX 2013                              -5.872e-09  5.231e+05       0        1
+Product_titleHyundai Verna 1.6 SX 2014                               1.719e-08  5.255e+05       0        1
+Product_titleHyundai Verna 1.6 SX CRDI AT 2012                      -5.268e-09  5.267e+05       0        1
+Product_titleHyundai Verna 1.6 VTVT SX 2012                         1.395e-08  5.166e+05       0        1
+Product_titleHyundai Verna AT 2013                                   1.639e-08  5.241e+05       0        1
+Product_titleHyundai Verna CRDI 1.6 EX AT 2012                      4.547e-09  4.616e+05       0        1
+Product_titleHyundai Verna CRDI 1.6 EX AT 2014                     -4.585e-09  5.328e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.4 VTVT 2013                    1.380e-08  5.214e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.6 CRDI SX OPT AT 2011           1.198e-08  5.254e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.6 CRDI SX 2011                 1.696e-08  4.476e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.6 CRDI SX 2013                 1.477e-08  5.381e+05       0        1
+Product_titleHyundai Verna Fluidic 1.6 CRDI 2011                    1.059e-08  4.238e+05       0        1
+Product_titleHyundai Verna Fluidic 1.6 CRDI 2013                    1.550e-08  5.315e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.6 EX VTVT  2011               -3.780e-09  4.473e+05       0        1
+Product_titleHyundai Verna FLUIDIC 1.6 VTVT SX 2016                  1.024e-08  5.416e+05       0        1
+Product_titleHyundai Verna SX 2010                                   1.732e-08  4.412e+05       0        1
+Product_titleHyundai Verna SX 2012                                   1.336e-08  4.514e+05       0        1
+Product_titleHyundai Verna SX 2013                                  -4.425e-09  5.281e+05       0        1
+Product_titleHyundai Verna SX 2014                                   1.397e-08  5.227e+05       0        1
+Product_titleHyundai Verna TRANSFORM 1.5 SX  CRDI 2010              1.794e-08  5.110e+05       0        1
+Product_titleHyundai Verna VGT 2010                                  1.890e-08  5.081e+05       0        1
+Product_titleHyundai Verna VGT 2011                                  1.334e-08  5.201e+05       0        1
+Product_titleHyundai Verna VGT CRDI 2008                            1.854e-08  5.081e+05       0        1
+Product_titleHyundai Verna VTVT SX 1.6 2011                         1.687e-08  5.129e+05       0        1
+Product_titleHyundai Verna XI 2007                                 -1.021e-09  5.056e+05       0        1
+Product_titleHyundai Xcent 1.1 Base 2015                             1.522e-08  5.202e+05       0        1
+Product_titleHyundai Xcent S 1.2 2014                               -3.187e-09  5.143e+05       0        1
+Product_titleHyundai Xcent S 1.2 2015                               -4.620e-09  5.133e+05       0        1
+Product_titleJaguar XF 2.2 DIESEL 2013                              -1.755e-09  7.661e+05       0        1
+Product_titleJaguar XF 3.0 S 2014                                    6.834e-09  6.844e+05       0        1
+Product_titleJaguar XF 3.0L DIESEL 2012                              5.071e-09  7.124e+05       0        1
+Product_titleJaguar XJ 3.0 DIESEL PORTFOLIO 2011                    -6.813e-09  9.891e+05       0        1
+Product_titleKawasaki Ninja 650 650cc 2015                          -2.005e-09  5.165e+05       0        1
+Product_titleKTM Duke 200cc 2012                                    -2.460e-10  5.041e+05       0        1
+Product_titleKTM Duke 200cc 2014                                     1.701e-08  5.048e+05       0        1
+Product_titleKTM Duke 200cc 2015                                     1.279e-10  5.043e+05       0        1
+Product_titleKTM Duke 390cc 2015                                     1.462e-08  5.053e+05       0        1
+Product_titleLand Rover Freelander 2 SD4 HSE 2014                    3.562e-10  7.661e+05       0        1
+Product_titleLand Rover Range Rover Evoque HSE Dynamic 2016         -4.012e-08  1.297e+06       0        1
+Product_titleLML LML NV spl 150 2005                                 1.723e-08  5.040e+05       0        1
+Product_titleMahindra Bolero 2 WD AT 2012                            1.656e-08  5.156e+05       0        1
+Product_titleMahindra Bolero LX 2013                                 1.700e-08  5.167e+05       0        1
+Product_titleMahindra Bolero SLX 2012                                1.181e-08  4.089e+05       0        1
+Product_titleMahindra Bolero SLX 2013                               -2.973e-09  5.098e+05       0        1
+Product_titleMahindra Bolero SLX 2015                                1.705e-08  5.228e+05       0        1
+Product_titleMahindra Bolero ZLX 2012                                1.686e-09  4.188e+05       0        1
+Product_titleMahindra Duro 125 2013                                  2.030e-08  5.041e+05       0        1
+Product_titleMahindra Quanto C2 2013                                 1.449e-08  5.095e+05       0        1
+Product_titleMahindra Scorpio 2.6 2007                               1.783e-08  5.102e+05       0        1
+Product_titleMahindra Scorpio 2.6 DX 2003_849576789                 -3.355e-09  5.069e+05       0        1
+Product_titleMahindra Scorpio DX 2.6 TURBO 7 STR 2009               -5.003e-09  5.115e+05       0        1
+Product_titleMahindra Scorpio DX 2.6 TURBO 8 STR 2010                1.430e-08  5.135e+05       0        1
+Product_titleMahindra Scorpio Ex 2011                                1.297e-08  5.232e+05       0        1
+Product_titleMahindra Scorpio Ex 2013                                1.315e-08  5.277e+05       0        1
+Product_titleMahindra Scorpio LX 2010                                1.807e-08  5.118e+05       0        1
+Product_titleMahindra Scorpio LX 2011                                1.769e-08  4.481e+05       0        1
+Product_titleMahindra Scorpio S10 1.99 mHawk 2015                    1.278e-08  4.852e+05       0        1
+Product_titleMahindra Scorpio S10 2015                               1.272e-08  5.416e+05       0        1
+Product_titleMahindra Scorpio S10 4WD 2015                          -8.593e-09  5.415e+05       0        1
+Product_titleMahindra Scorpio S2 2016                                1.068e-08  5.492e+05       0        1
+Product_titleMahindra Scorpio S6 2016                               -6.825e-09  5.452e+05       0        1
+Product_titleMahindra Scorpio S6 Plus 2014                           1.201e-08  5.314e+05       0        1
+Product_titleMahindra Scorpio SLE 2.6 CRDE 2009                      2.115e-08  5.122e+05       0        1
+Product_titleMahindra Scorpio SLE 2012                               1.199e-08  4.087e+05       0        1
+Product_titleMahindra Scorpio SLE 2013                               1.674e-08  5.217e+05       0        1
+Product_titleMahindra Scorpio SLE 2014                               1.554e-08  5.284e+05       0        1
+Product_titleMahindra Scorpio SLE BS IV 2011                         1.629e-08  4.466e+05       0        1
+Product_titleMahindra Scorpio SLX 2.6 TURBO 7 STR 2009               1.664e-08  5.074e+05       0        1
+Product_titleMahindra Scorpio VLS 2.2 AT M HAWK 2008                 1.419e-08  5.124e+05       0        1
+Product_titleMahindra Scorpio VLX 2009                               1.111e-08  4.106e+05       0        1
+Product_titleMahindra Scorpio VLX 2011                               1.622e-08  4.536e+05       0        1
+Product_titleMahindra Scorpio VLX 2014                               3.496e-09  4.771e+05       0        1
+Product_titleMahindra Scorpio VLX 2WD AIRBAG BS III 2010             1.341e-08  5.254e+05       0        1
+Product_titleMahindra Scorpio VLX 2WD BS IV 2013                     1.183e-08  5.283e+05       0        1
+Product_titleMahindra Scorpio VLX 4WD 2012                           1.266e-08  5.245e+05       0        1
+Product_titleMahindra Thar 4X4 2013                                  1.673e-08  4.579e+05       0        1
+Product_titleMahindra Thar CRDe 4x4 2015                            -4.506e-09  5.312e+05       0        1
+Product_titleMahindra Thar DI 2WD 2013                               1.596e-08  5.084e+05       0        1
+Product_titleMahindra TUV300 T8 2015                                 9.311e-09  4.416e+05       0        1
+Product_titleMahindra Verito 1.5 D2 BS IV 2011                      -3.882e-09  5.061e+05       0        1
+Product_titleMahindra XUV500 SPORTZ LTD 2014                         1.690e-08  5.241e+05       0        1
+Product_titleMahindra XUV500 W10 2015                                3.734e-09  5.081e+05       0        1
+Product_titleMahindra XUV500 W10 2016                               -8.185e-09  5.662e+05       0        1
+Product_titleMahindra XUV500 W4 2012                                -7.302e-09  5.345e+05       0        1
+Product_titleMahindra XUV500 W4 2016                                 1.545e-08  5.614e+05       0        1
+Product_titleMahindra XUV500 W6 2012                                -6.302e-09  5.190e+05       0        1
+Product_titleMahindra XUV500 W6 2014                                 1.545e-08  5.399e+05       0        1
+Product_titleMahindra XUV500 W6 2015                                 1.279e-08  4.808e+05       0        1
+Product_titleMahindra XUV500 W6 4X2 2014                            -7.748e-09  5.532e+05       0        1
+Product_titleMahindra XUV500 W8 2011                                -2.791e-09  4.608e+05       0        1
+Product_titleMahindra XUV500 W8 2012                                 8.322e-09  4.104e+05       0        1
+Product_titleMahindra XUV500 W8 2013                                 1.359e-08  4.622e+05       0        1
+Product_titleMahindra XUV500 W8 2014                                 3.054e-09  4.934e+05       0        1
+Product_titleMahindra XUV500 W8 4X4 2012                             1.132e-08  5.416e+05       0        1
+Product_titleMahindra XUV500 W8 4X4 2014                             1.372e-08  5.493e+05       0        1
+Product_titleMahindra Xylo Base 2009                                -2.554e-09  5.092e+05       0        1
+Product_titleMahindra Xylo D2 BS IV 2011                             1.835e-08  5.087e+05       0        1
+Product_titleMahindra Xylo D2 BS IV 2014                             1.562e-08  5.123e+05       0        1
+Product_titleMahindra Xylo E4 2010                                  -3.484e-09  5.108e+05       0        1
+Product_titleMahindra Xylo E4 2011                                   1.993e-08  5.140e+05       0        1
+Product_titleMahindra Xylo E8 2010                                   2.055e-08  5.134e+05       0        1
+Product_titleMahindra Xylo E8 2011                                  -5.319e-09  5.124e+05       0        1
+Product_titleMaruti Suzuki  Ertiga ZDi 2012                          1.799e-08  4.523e+05       0        1
+Product_titleMaruti Suzuki  Ertiga ZDi 2013                          1.540e-08  5.314e+05       0        1
+Product_titleMaruti Suzuki 800 AC 2003                               9.547e-09  4.365e+05       0        1
+Product_titleMaruti Suzuki 800 AC BS III 2011                        6.468e-10  5.075e+05       0        1
+Product_titleMaruti Suzuki A-star Lxi 2010                           1.533e-08  5.054e+05       0        1
+Product_titleMaruti Suzuki A-star Vxi 2009                           1.578e-08  4.378e+05       0        1
+Product_titleMaruti Suzuki A-star Vxi 2010                           1.911e-08  5.064e+05       0        1
+Product_titleMaruti Suzuki A-star Vxi 2011                           9.689e-09  4.402e+05       0        1
+Product_titleMaruti Suzuki A-star VXI ABS AT 2010                   -7.254e-10  5.054e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LX 2013                          1.996e-08  5.053e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXi 2012                         9.755e-09  4.394e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXI 2012                        -2.300e-09  5.055e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXi 2013                         2.036e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXI 2013                         7.899e-09  4.392e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXi 2014                         1.783e-08  4.146e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXI 2014                         6.236e-09  4.397e+05       0        1
+Product_titleMaruti Suzuki ALTO 800 LXI 2015                         1.969e-08  5.064e+05       0        1
+Product_titleMaruti Suzuki Alto 800 LXi CNG 2013                     2.045e-08  5.061e+05       0        1
+Product_titleMaruti Suzuki Alto 800 LXi CNG 2014                     1.790e-08  5.052e+05       0        1
+Product_titleMaruti Suzuki Alto 800 VXi 2014                         1.520e-08  5.067e+05       0        1
+Product_titleMaruti Suzuki Alto K10 K10 LXI 2012                    -3.402e-09  5.052e+05       0        1
+Product_titleMaruti Suzuki Alto K10 LXi 2011                        -2.214e-09  5.052e+05       0        1
+Product_titleMaruti Suzuki Alto K10 LXI 2011                         2.070e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki Alto K10 LXi 2013                         1.535e-08  5.058e+05       0        1
+Product_titleMaruti Suzuki Alto K10 LXi 2014                         2.019e-08  5.072e+05       0        1
+Product_titleMaruti Suzuki Alto K10 VXI (O) 2014                     1.546e-08  5.070e+05       0        1
+Product_titleMaruti Suzuki Alto K10 VXI 2010                        -2.041e-09  5.045e+05       0        1
+Product_titleMaruti Suzuki Alto K10 VXi 2011                         9.599e-09  4.379e+05       0        1
+Product_titleMaruti Suzuki Alto K10 VXi 2012                         6.638e-09  4.388e+05       0        1
+Product_titleMaruti Suzuki Alto K10 VXi 2017                         1.820e-08  5.102e+05       0        1
+Product_titleMaruti Suzuki Alto Lx 2004                             -5.981e-10  5.038e+05       0        1
+Product_titleMaruti Suzuki Alto LX 2008                              2.089e-08  5.071e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2004                             1.987e-08  5.044e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2005                             2.153e-08  5.045e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2006                             9.991e-09  4.368e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2007                             1.789e-08  5.069e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2008                            -1.554e-09  5.049e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2009                             1.968e-08  4.001e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2010                             7.468e-09  3.924e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2011                             1.780e-08  4.386e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2012                             2.086e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2014                            -1.845e-09  5.056e+05       0        1
+Product_titleMaruti Suzuki Alto LXi 2015                             1.758e-08  5.071e+05       0        1
+Product_titleMaruti Suzuki Alto LXi BS-III 2007                      1.791e-08  5.044e+05       0        1
+Product_titleMaruti Suzuki Alto VXi 2011                             2.043e-08  5.053e+05       0        1
+Product_titleMaruti Suzuki Baleno Delta 1.2 2016                     1.826e-08  5.179e+05       0        1
+Product_titleMaruti Suzuki Baleno Delta AT 1.2 2016                  1.229e-08  5.218e+05       0        1
+Product_titleMaruti Suzuki Baleno Zeta 1.3 2016                      1.745e-08  5.228e+05       0        1
+Product_titleMaruti Suzuki Celerio Vxi 2014                          9.228e-09  4.437e+05       0        1
+Product_titleMaruti Suzuki Celerio Vxi AMT 2014                      3.408e-09  4.212e+05       0        1
+Product_titleMaruti Suzuki Celerio VXi AT 2014                       1.055e-08  4.185e+05       0        1
+Product_titleMaruti Suzuki Celerio Vxi MT 2015                       1.877e-08  5.098e+05       0        1
+Product_titleMaruti Suzuki Celerio Zxi 2015                          1.656e-08  5.207e+05       0        1
+Product_titleMaruti Suzuki Ciaz Zdi 2015                            -3.847e-09  5.225e+05       0        1
+Product_titleMaruti Suzuki Ciaz ZDI O 2016                           1.418e-08  5.381e+05       0        1
+Product_titleMaruti Suzuki Ciaz ZDI+ (O) 2015                        1.535e-08  5.350e+05       0        1
+Product_titleMaruti Suzuki Ciaz Zxi 2015                            -5.045e-09  5.309e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 Seater AC 2012                    -2.530e-09  5.065e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR 2010                           2.044e-08  5.054e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR 2011                           1.649e-08  5.061e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR 2012                           1.787e-08  4.386e+05       0        1
+Product_titleMaruti Suzuki EECO 5 STR 2013                           1.906e-08  5.081e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR AC 2010                       -2.380e-09  5.064e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR AC 2011                        6.910e-09  4.388e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR AC 2012                        1.510e-08  5.066e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR AC 2013                        1.923e-09  5.092e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR AC 2015                        1.625e-08  5.074e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR CNG WITH AC PLUSHTR 2013      -2.268e-09  5.065e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR CNG WITH HTR 2012             -8.513e-10  5.058e+05       0        1
+Product_titleMaruti Suzuki Eeco 5 STR With A/C+HTR 2015              1.792e-08  5.110e+05       0        1
+Product_titleMaruti Suzuki Eeco 7 STR 2010                           1.697e-08  5.066e+05       0        1
+Product_titleMaruti Suzuki EECO 7 STR 2013                          -3.566e-09  5.084e+05       0        1
+Product_titleMaruti Suzuki Eeco 7 STR 2014                           1.883e-08  5.075e+05       0        1
+Product_titleMaruti Suzuki EECO 7 STR 2015                           1.607e-08  5.120e+05       0        1
+Product_titleMaruti Suzuki Ertiga VDi 2012                           1.701e-08  4.276e+05       0        1
+Product_titleMaruti Suzuki Ertiga VDi 2013                           1.240e-08  5.166e+05       0        1
+Product_titleMaruti Suzuki Ertiga VDi 2014                           1.763e-08  5.225e+05       0        1
+Product_titleMaruti Suzuki ERTIGA VDI 2014                           5.945e-09  4.594e+05       0        1
+Product_titleMaruti Suzuki Ertiga VDi 2016                           1.564e-08  5.290e+05       0        1
+Product_titleMaruti Suzuki ERTIGA VDI BS-IV 2013                    -1.688e-09  5.209e+05       0        1
+Product_titleMaruti Suzuki ERTIGA VXI 2014                           1.732e-08  5.178e+05       0        1
+Product_titleMaruti Suzuki Ertiga VXi 2015                           1.496e-08  5.289e+05       0        1
+Product_titleMaruti Suzuki ERTIGA ZDI 2012                           1.499e-08  5.230e+05       0        1
+Product_titleMaruti Suzuki ERTIGA ZDI 2013                           1.451e-08  4.601e+05       0        1
+Product_titleMaruti Suzuki ERTIGA ZDI 2014                          -3.349e-09  5.153e+05       0        1
+Product_titleMaruti Suzuki Ertiga ZDi 2015                           1.639e-08  5.261e+05       0        1
+Product_titleMaruti Suzuki Ertiga ZXi 2013                           1.950e-08  5.190e+05       0        1
+Product_titleMaruti Suzuki ERTIGA ZXI 2015                          -5.947e-09  5.270e+05       0        1
+Product_titleMaruti Suzuki ERTIGA ZXI+ 2016                          1.433e-08  5.347e+05       0        1
+Product_titleMaruti Suzuki Omni 5 SEATER BS II 2005                 -2.335e-09  5.041e+05       0        1
+Product_titleMaruti Suzuki Omni 5 SEATER BS IV 2011                  1.699e-08  5.052e+05       0        1
+Product_titleMaruti Suzuki Omni 8 SEATER BS IV 2014                 -2.266e-09  5.048e+05       0        1
+Product_titleMaruti Suzuki Ritz GENUS VXI 2010                       1.640e-08  4.388e+05       0        1
+Product_titleMaruti Suzuki Ritz LDi 2011                             1.585e-08  5.076e+05       0        1
+Product_titleMaruti Suzuki Ritz LXi 2010                             1.928e-08  5.088e+05       0        1
+Product_titleMaruti Suzuki Ritz LXi 2011                             1.297e-08  4.147e+05       0        1
+Product_titleMaruti Suzuki Ritz LXi 2013                             1.523e-08  5.074e+05       0        1
+Product_titleMaruti Suzuki Ritz VDi 2009                             1.604e-08  4.020e+05       0        1
+Product_titleMaruti Suzuki Ritz VDi 2011                             1.606e-08  5.080e+05       0        1
+Product_titleMaruti Suzuki Ritz VDi 2012                            -2.950e-09  4.430e+05       0        1
+Product_titleMaruti Suzuki Ritz VDi 2013                             1.809e-08  5.110e+05       0        1
+Product_titleMaruti Suzuki Ritz VDi 2014                             7.582e-09  4.459e+05       0        1
+Product_titleMaruti Suzuki Ritz Vdi ABS BS-IV 2013                  -2.618e-09  5.097e+05       0        1
+Product_titleMaruti Suzuki Ritz Vdi BS-IV 2012                       1.552e-08  5.109e+05       0        1
+Product_titleMaruti Suzuki Ritz Vxi (ABS) BS-IV 2010                -3.821e-09  5.064e+05       0        1
+Product_titleMaruti Suzuki Ritz VXI AT ABS 2013                      1.391e-08  5.108e+05       0        1
+Product_titleMaruti Suzuki Ritz ZDI BS IV 2013                       1.532e-08  5.126e+05       0        1
+Product_titleMaruti Suzuki Ritz Zxi BS-IV 2014                       1.509e-08  5.147e+05       0        1
+Product_titleMaruti Suzuki S-Cross Alpha 1.3 2015                    1.332e-08  5.575e+05       0        1
+Product_titleMaruti Suzuki S-Cross Delta 1.6 2015                    1.687e-08  5.178e+05       0        1
+Product_titleMaruti Suzuki S-Cross Delta 1.6 2016                    1.128e-08  5.574e+05       0        1
+Product_titleMaruti Suzuki S-Cross Zeta 1.6 2016                     1.230e-08  5.518e+05       0        1
+Product_titleMaruti Suzuki Stingray VXi 2014                         1.975e-08  5.088e+05       0        1
+Product_titleMaruti Suzuki Swift 1.2 Vxi BS-IV 2008                  6.068e-09  4.153e+05       0        1
+Product_titleMaruti Suzuki Swift 1.2 Vxi BS+AC0-IV 2008              1.627e-08  5.068e+05       0        1
+Product_titleMaruti Suzuki SWIFT Deca Limited Edition Vxi 2015       1.860e-08  5.133e+05       0        1
+Product_titleMaruti Suzuki Swift DZire AUTOMATIC 2012                1.422e-08  5.131e+05       0        1
+Product_titleMaruti Suzuki Swift DZire AUTOMATIC 2013                1.884e-08  5.133e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LDi 2008                      1.997e-08  5.068e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LDI 2010                      1.684e-08  5.101e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LDi 2010                      2.001e-08  5.084e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LDI 2012                      1.680e-08  4.462e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LDi 2012                      1.929e-08  5.102e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LDI 2013                      1.809e-08  4.480e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LDI 2015                      1.758e-08  5.167e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LDi 2015                     -3.312e-09  5.175e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LDi 2016                      1.723e-08  5.236e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LDi BS-IV 2012                1.771e-08  5.128e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LXi 1.2 BS-IV 2011            1.959e-08  5.088e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LXi 2008                      1.452e-08  5.061e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LXi 2009                      1.862e-08  5.088e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire LXI 2010                     -1.319e-09  5.077e+05       0        1
+Product_titleMaruti Suzuki Swift DZire LXi 2010                     -2.086e-09  5.071e+05       0        1
+Product_titleMaruti Suzuki Swift DZire TOUR 2013                     1.843e-08  5.112e+05       0        1
+Product_titleMaruti Suzuki Swift DZire TOUR 2014                     1.675e-08  5.202e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi 2009                      1.578e-08  5.094e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2009                      1.204e-09  5.101e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2010                      1.729e-08  4.453e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi 2011                     -3.625e-09  5.115e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2011                      1.656e-08  4.455e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDI 2012                      1.941e-08  5.102e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2012                      1.396e-08  4.482e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDI 2013                     -3.798e-09  5.133e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2013                      5.288e-09  4.510e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi 2014                      2.365e-09  4.258e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDI 2014                      1.732e-08  5.178e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2014                      1.415e-08  3.898e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi 2015                     -4.743e-09  5.187e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VDi 2015                      1.622e-08  4.288e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi BS-IV 2012                1.831e-08  5.120e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDi BS-IV 2013               -2.343e-09  5.153e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VDI BS IV 2010               -2.111e-09  5.126e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI 1.2 BS IV 2010           -1.092e-09  5.069e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI 1.2 BS IV 2012            1.591e-08  4.188e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI 1.2 BS IV 2013            1.518e-08  4.476e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VXi 2009                      1.666e-08  5.065e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VXi 2010                      1.702e-08  4.169e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI 2011                      1.555e-08  5.086e+05       0        1
+Product_titleMaruti Suzuki Swift DZire VXi 2011                      1.684e-08  5.082e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI 2014                      2.043e-08  5.164e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire VXI AT 2014                  -4.081e-09  5.143e+05       0        1
+Product_titleMaruti Suzuki Swift DZire ZDi 2008                      1.812e-08  5.097e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire ZDi 2012                     -4.454e-09  5.162e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire ZDi 2013                     -4.531e-09  4.507e+05       0        1
+Product_titleMaruti Suzuki Swift DZire ZDi 2014                      1.738e-08  4.547e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire ZDI BS IV 2011               -2.231e-09  5.122e+05       0        1
+Product_titleMaruti Suzuki Swift Dzire Zxi 2014                     -5.409e-09  5.133e+05       0        1
+Product_titleMaruti Suzuki Swift LDi 2008                            1.057e-08  4.156e+05       0        1
+Product_titleMaruti Suzuki Swift LDi 2011                            1.601e-08  5.087e+05       0        1
+Product_titleMaruti Suzuki Swift Lxi (O) 2015                        1.921e-08  5.124e+05       0        1
+Product_titleMaruti Suzuki Swift LXI 1.2 BS IV 2010                  1.939e-08  4.390e+05       0        1
+Product_titleMaruti Suzuki Swift LXI 1.3 2006                       -6.760e-10  5.052e+05       0        1
+Product_titleMaruti Suzuki Swift LXI 1.3 2008                        2.027e-08  5.065e+05       0        1
+Product_titleMaruti Suzuki SWIFT LXi 2009                           -3.130e-09  5.059e+05       0        1
+Product_titleMaruti Suzuki Swift LXi 2012                            1.748e-08  4.437e+05       0        1
+Product_titleMaruti Suzuki Swift VDi (O) 2016                        1.746e-08  5.244e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2008                           -2.701e-09  5.071e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2008                           -2.964e-09  5.084e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2009                            1.800e-08  4.172e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2009                            1.504e-08  5.066e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2010                            1.270e-08  4.042e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2010                            1.970e-08  5.088e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2011                            1.481e-08  3.942e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2011                            1.466e-08  4.453e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2012                            1.273e-08  3.937e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2012                            1.752e-08  5.102e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2013                            9.799e-09  3.956e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vdi 2013                           -1.942e-09  4.215e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2014                            1.634e-08  3.987e+05       0        1
+Product_titleMaruti Suzuki Swift VDi 2015                            1.654e-08  4.265e+05       0        1
+Product_titleMaruti Suzuki SWIFT VDi ABS 2015                        1.445e-08  5.155e+05       0        1
+Product_titleMaruti Suzuki Swift VXI 1.2 ABS BS IV 2010              1.560e-08  4.410e+05       0        1
+Product_titleMaruti Suzuki Swift VXI 1.2 ABS BS IV 2013              1.517e-08  4.430e+05       0        1
+Product_titleMaruti Suzuki Swift VXI 1.3 2006                        5.686e-09  4.132e+05       0        1
+Product_titleMaruti Suzuki Swift VXI 1.3 2009                        6.842e-09  4.396e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2005                            2.038e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2009                            9.584e-09  4.393e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2012                            1.758e-08  3.995e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2013                            1.585e-08  5.109e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2014                            1.553e-08  4.207e+05       0        1
+Product_titleMaruti Suzuki Swift VXi 2016                            1.298e-08  5.161e+05       0        1
+Product_titleMaruti Suzuki SWIFT Vxi 2016                            1.624e-08  5.178e+05       0        1
+Product_titleMaruti Suzuki Swift ZDi 2013                            1.786e-08  5.157e+05       0        1
+Product_titleMaruti Suzuki Swift ZDi 2014                            1.876e-08  5.135e+05       0        1
+Product_titleMaruti Suzuki SWIFT Zdi 2015                            1.729e-08  5.202e+05       0        1
+Product_titleMaruti Suzuki Swift ZXI 1.2 BS IV 2010                  2.110e-08  5.097e+05       0        1
+Product_titleMaruti Suzuki Swift ZXI 1.3 2005                        1.027e-09  5.079e+05       0        1
+Product_titleMaruti Suzuki Swift ZXI 1.3 2006                        1.656e-08  5.052e+05       0        1
+Product_titleMaruti Suzuki SWIFT Zxi 2006                            1.462e-08  4.400e+05       0        1
+Product_titleMaruti Suzuki Swift ZXi 2013                            1.817e-08  5.118e+05       0        1
+Product_titleMaruti Suzuki SX4 VXi 2007                              1.901e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki SX4 VXi 2008                              5.065e-09  4.131e+05       0        1
+Product_titleMaruti Suzuki SX4 VXi 2011                              1.885e-08  4.396e+05       0        1
+Product_titleMaruti Suzuki SX4 ZXi 2009                              2.089e-08  5.096e+05       0        1
+Product_titleMaruti Suzuki SX4 ZXI MT BS IV 2011                     1.448e-08  5.095e+05       0        1
+Product_titleMaruti Suzuki Vitara Brezza ZDi 2016                    1.530e-08  5.381e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LX[2010-2012] 2010            1.647e-08  4.390e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LX[2010-2012] 2011            9.541e-09  4.389e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2007                      1.988e-08  5.049e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2008                      1.975e-08  5.049e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI 2008                      6.861e-09  4.377e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2009                      1.837e-08  4.391e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI 2009                      7.930e-09  4.382e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI 2010                     -1.684e-09  4.383e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2011                      2.055e-08  5.060e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI 2011                      1.954e-08  4.395e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI 2012                     -3.035e-09  5.063e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2013                      1.746e-08  4.167e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2014                      1.763e-08  4.056e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 LXi 2015                      1.975e-08  5.092e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI CNG 2005                 -2.748e-10  5.043e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI CNG 2007                  1.530e-08  5.046e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI CNG 2012                  1.915e-08  5.071e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI LPG 2013                  1.404e-08  5.100e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 LXI[2010-2012] 2007          -1.848e-09  5.045e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 VXi 2007                     -1.106e-09  5.044e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 VXi 2009                      6.545e-09  4.386e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 VXi 2012                      2.033e-08  5.072e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 VXi 2013                      8.415e-09  4.403e+05       0        1
+Product_titleMaruti Suzuki WAGON R 1.0 VXi 2015                      1.616e-08  5.094e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 VXi ABS 2016                  1.930e-08  5.119e+05       0        1
+Product_titleMaruti Suzuki Wagon R 1.0 VXi AMT 2017                  1.740e-08  5.131e+05       0        1
+Product_titleMaruti Suzuki Wagon R AX MINOR 2009                     1.659e-08  5.063e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2003                          2.127e-08  5.045e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2006                          1.921e-08  5.086e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2007                          1.638e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2008                          1.449e-08  5.057e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2010                          2.005e-08  5.063e+05       0        1
+Product_titleMaruti Suzuki Wagon R LXi 2012                          1.602e-08  5.064e+05       0        1
+Product_titleMaruti Suzuki Wagon R Lxi 2013                          1.374e-08  5.093e+05       0        1
+Product_titleMaruti Suzuki Wagon R LXi 2013                          1.614e-08  5.072e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2007                          1.980e-08  5.077e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2008                          2.074e-08  5.053e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2009                          6.343e-09  4.379e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2010                          1.688e-08  5.053e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2010                         -1.783e-09  5.061e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2011                         -3.427e-09  5.052e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2012                          1.860e-08  4.161e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2012                          6.229e-09  4.391e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2013                          1.787e-08  5.100e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2014                          2.173e-08  5.118e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2014                          6.206e-09  4.422e+05       0        1
+Product_titleMaruti Suzuki Wagon R VXi 2015                          1.538e-08  5.096e+05       0        1
+Product_titleMaruti Suzuki WAGON R VXI 2015                          1.419e-08  5.101e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LX 2008                        1.665e-08  5.054e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LXi 2009                      -6.052e-10  5.049e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LXi 2010                       1.470e-08  5.058e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LXi 2011                      -1.919e-09  5.056e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LXi 2012                      -1.421e-09  5.061e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo LXI BS IV 2011                 8.499e-09  4.386e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo VXi 2007                       1.544e-08  5.044e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo VXi 2010                      -1.528e-09  5.054e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo VXi 2012                       1.649e-08  5.056e+05       0        1
+Product_titleMaruti Suzuki Zen Estilo VXi 2013                       1.935e-08  5.061e+05       0        1
+Product_titleMaruti Suzuki Zen LXi 2007                             -1.098e-09  5.041e+05       0        1
+Product_titleMercedes-Benz C-Class 200 CGI 2008                     -5.591e-10  4.627e+05       0        1
+Product_titleMercedes-Benz C-Class 200 CGI 2011                      1.084e-08  5.855e+05       0        1
+Product_titleMercedes-Benz C-Class 200 CGI 2012                      7.196e-09  6.067e+05       0        1
+Product_titleMercedes-Benz C-Class 200 CGI 2014                      5.436e-09  6.298e+05       0        1
+Product_titleMercedes-Benz C-Class 200 CGI 2015                     -5.201e-09  8.678e+05       0        1
+Product_titleMercedes-Benz C-Class 220 BlueEfficiency 2008           1.140e-08  5.416e+05       0        1
+Product_titleMercedes-Benz C-Class 220 CDI 2013                     -1.008e-08  6.311e+05       0        1
+Product_titleMercedes-Benz C-Class 220 CDI 2014                      3.928e-09  6.941e+05       0        1
+Product_titleMercedes-Benz C-Class 230 AVANTGARDE 2009               1.060e-08  5.553e+05       0        1
+Product_titleMercedes-Benz C-Class 250 CDi 2010                      1.123e-08  5.855e+05       0        1
+Product_titleMercedes-Benz C-Class 250 CDi 2014                      1.735e-08  5.060e+05       0        1
+Product_titleMercedes-Benz C-Class 250 CDI AVANTAGARDE 2013          4.689e-09  7.221e+05       0        1
+Product_titleMercedes-Benz C-Class 250 CDI Avantgarde 2011           4.496e-09  6.544e+05       0        1
+Product_titleMercedes-Benz C-Class C 220 CDI Avantgarde 2012         3.804e-09  6.544e+05       0        1
+Product_titleMercedes-Benz C-Class C 220 d 2016                     -1.272e-08  8.390e+05       0        1
+Product_titleMercedes-Benz C-Class C200 2015                        -1.087e-09  8.277e+05       0        1
+Product_titleMercedes-Benz C-Class Edition C 2012                   -9.531e-09  5.855e+05       0        1
+Product_titleMercedes-Benz CLA 200 CDI 2015                         -1.854e-09  7.661e+05       0        1
+Product_titleMercedes-Benz CLA Class 200 Petrol Sport 2016          -1.981e-09  8.199e+05       0        1
+Product_titleMercedes-Benz E-Class 250 CDI LAUNCH EDITION 2013      -1.398e-09  8.071e+05       0        1
+Product_titleMercedes-Benz E-Class 280 CDI Elegance 2008            -9.625e-09  5.756e+05       0        1
+Product_titleMercedes-Benz E-Class CDI AVANTGRADE 2014               8.728e-10  8.641e+05       0        1
+Product_titleMercedes-Benz E-Class E-350 2009                        7.947e-09  5.854e+05       0        1
+Product_titleMercedes-Benz E-Class E 200 2006                       -4.386e-09  5.199e+05       0        1
+Product_titleMercedes-Benz E-Class E 250 CDI 2014                    2.961e-09  7.334e+05       0        1
+Product_titleMercedes-Benz E-Class E 250 CDI Avantgrade 2015        -2.592e-08  9.809e+05       0        1
+Product_titleMercedes-Benz E-Class E 350 CDI Avantgarde 2015        -4.838e-09  9.467e+05       0        1
+Product_titleMercedes-Benz E-Class E250 CDI Avantgarde 2014          2.794e-09  7.556e+05       0        1
+Product_titleMercedes-Benz GL 350 CDI 2013                          -1.127e-08  1.037e+06       0        1
+Product_titleMercedes-Benz GL 350 CDI 2014                          -2.453e-08  1.389e+06       0        1
+Product_titleMercedes-Benz GL 350 CDI BLUE EFFICIENCY 2014          -1.192e-08  1.120e+06       0        1
+Product_titleMercedes-Benz GLA Class 200 CDI SPORTS 2014             1.110e-09  7.512e+05       0        1
+Product_titleMercedes-Benz M-Class ML 350 CDI 2007                   1.707e-08  5.320e+05       0        1
+Product_titleMercedes-Benz M-Class ML 350 CDI 4Matic 2010           -1.030e-08  5.959e+05       0        1
+Product_titleMercedes-Benz M-Class ML 350 CDI BlueEfficiency 2008   -1.189e-08  6.181e+05       0        1
+Product_titleMercedes-Benz S-Class 320 CDI 2008                     -1.279e-08  5.806e+05       0        1
+Product_titleMitsubishi Pajero GLX 2.8 CRZ 2006                      1.506e-08  5.101e+05       0        1
+Product_titleMitsubishi Pajero GLX 2.8 CRZ 2010                      1.380e-08  5.340e+05       0        1
+Product_titleMitsubishi Pajero GLX 2.8 CRZ 2012                      7.190e-09  5.854e+05       0        1
+Product_titleMitsubishi Pajero SFX 2.8 2010                          1.382e-08  5.493e+05       0        1
+Product_titleMitsubishi Pajero SFX 2.8 2011                          8.522e-09  5.662e+05       0        1
+Product_titleMitsubishi Pajero Sport 2.5 MT 2012                     8.040e-09  5.756e+05       0        1
+Product_titleMitsubishi Pajero Sport 2.5 MT 2013                    -2.066e-09  5.116e+05       0        1
+Product_titleMitsubishi Pajero Sport 2.5 MT 2015                     5.477e-09  6.609e+05       0        1
+Product_titleMitsubishi Pajero Sport 4x4 MT 2012                    -1.004e-08  5.805e+05       0        1
+Product_titleMitsubishi Pajero Sport Pajero Sport 2.5 MT 2013        1.069e-08  5.796e+05       0        1
+Product_titleNew Droom Branded Helmet - Ascone                       5.313e+01  3.563e+05       0        1
+Product_titleNissan Micra  XL CVT 2010                               1.846e-08  5.064e+05       0        1
+Product_titleNissan Micra  XV CVT 2015                               1.497e-08  5.178e+05       0        1
+Product_titleNissan Micra Active  XV 2013                            1.614e-08  5.071e+05       0        1
+Product_titleNissan Micra XV PREMIUM DIESEL 2011                     1.410e-08  5.078e+05       0        1
+Product_titleNissan Micra XV PREMIUM DIESEL 2013                     1.705e-08  5.132e+05       0        1
+Product_titleNissan Sunny XV 2012                                    1.539e-08  5.101e+05       0        1
+Product_titleNissan Sunny XV PETROL 2011                             1.502e-08  5.109e+05       0        1
+Product_titleNissan Terrano XE (D) 2014                              1.162e-08  5.224e+05       0        1
+Product_titleNissan Terrano XV 110 DIESEL 2014                       3.103e-09  4.767e+05       0        1
+Product_titlePiaggio Vespa 125cc 2013                                9.704e-09  4.363e+05       0        1
+Product_titleRenault Duster 110 PS RXL 2013                         -4.923e-09  5.230e+05       0        1
+Product_titleRenault Duster 110 PS RXL 2014                          1.144e-08  5.313e+05       0        1
+Product_titleRenault Duster 110 PS RXZ 2012                          1.561e-08  4.570e+05       0        1
+Product_titleRenault Duster 110 PS RXZ 2013                          2.492e-09  4.352e+05       0        1
+Product_titleRenault Duster 85 PS RXL 2012                          -5.863e-09  5.167e+05       0        1
+Product_titleRenault Duster 85 PS RXL 2014                          -5.055e-09  5.345e+05       0        1
+Product_titleRenault Duster 85 PS RXL 2015                          -7.115e-09  5.261e+05       0        1
+Product_titleRenault Duster RxE 2014                                 1.314e-08  5.254e+05       0        1
+Product_titleRenault Duster RxL 2012                                 1.342e-08  5.211e+05       0        1
+Product_titleRenault Duster RxL 2013                                 1.380e-08  5.240e+05       0        1
+Product_titleRenault Duster RXL DIESEL 110 2014                      1.058e-08  5.416e+05       0        1
+Product_titleRenault Duster RXZ DIESEL 110 2012                      3.569e-09  4.616e+05       0        1
+Product_titleRenault Fluence 1.5 E2 2013                             1.560e-08  5.381e+05       0        1
+Product_titleRenault KOLEOS 4X4 2011                                 1.137e-08  5.574e+05       0        1
+Product_titleRenault Scala RXZ 2013                                 -3.623e-09  5.175e+05       0        1
+Product_titleReport                                                  7.711e-09  4.362e+05       0        1
+Product_titleRoad Side Assistance - Basic                            1.980e-08  3.907e+05       0        1
+Product_titleRoad Side Assistance - Basic - Two Wheeler              9.699e-09  4.363e+05       0        1
+Product_titleRoad Side Assistance - Premium                          1.988e-08  3.660e+05       0        1
+Product_titleRoad Side Assistance - Premium - Two Wheeler            1.983e-08  3.576e+05       0        1
+Product_titleRoad Side Assistance - Super Premium                    1.973e-08  3.606e+05       0        1
+Product_titleRoyal Enfield Bullet 500cc 2008                        -4.521e-10  5.037e+05       0        1
+Product_titleRoyal Enfield Bullet 500cc 2014                         1.819e-08  4.373e+05       0        1
+Product_titleRoyal Enfield Classic 350cc 2011                       -2.729e-10  5.041e+05       0        1
+Product_titleRoyal Enfield Classic 350cc 2014                        2.006e-08  5.048e+05       0        1
+Product_titleRoyal Enfield Classic 350cc 2015                        1.932e-08  4.377e+05       0        1
+Product_titleRoyal Enfield Classic 350cc 2016                       -1.325e-09  4.375e+05       0        1
+Product_titleRoyal Enfield Electra 350cc 2007                        2.113e-08  5.044e+05       0        1
+Product_titleRoyal Enfield Electra 350cc 2014                       -6.452e-10  5.042e+05       0        1
+Product_titleRoyal Enfield Thunderbird 350cc 2014                    1.644e-08  5.050e+05       0        1
+Product_titleSchnell CYCLONE 26 2016                                -1.340e-09  5.036e+05       0        1
+Product_titleSkoda Fabia ACTIVE 1.2 MPI 2011                         1.878e-08  5.077e+05       0        1
+Product_titleSkoda Fabia ACTIVE 1.4 PD TDI 2008                     -1.611e-09  5.059e+05       0        1
+Product_titleSkoda Fabia CLASSIC 1.2 MPI 2010                        1.424e-08  5.064e+05       0        1
+Product_titleSkoda Fabia ELEGANCE 1.2 TDI 2011                       1.925e-08  5.102e+05       0        1
+Product_titleSkoda Laura 2.0 TDI CR MT 2011                          1.759e-08  5.190e+05       0        1
+Product_titleSkoda Laura Active 1.8 TSI 2010                         1.616e-08  5.080e+05       0        1
+Product_titleSkoda Laura AMBIENTE 1.8 TSI 2010                       1.508e-08  5.160e+05       0        1
+Product_titleSkoda Laura Ambiente 1.9 TDI 2007                       1.654e-08  5.101e+05       0        1
+Product_titleSkoda Laura Ambiente 1.9 TDI 2009                       1.889e-08  5.127e+05       0        1
+Product_titleSkoda Laura Ambition 1.8 TSI 2010                       1.509e-08  5.117e+05       0        1
+Product_titleSkoda Laura Elegance 1.9 TDI 2010                       1.444e-08  5.155e+05       0        1
+Product_titleSkoda Laura L&K 2.0 TDI AT 2007                         1.465e-08  5.117e+05       0        1
+Product_titleSkoda Octavia Active 2005                               1.769e-08  5.055e+05       0        1
+Product_titleSkoda Octavia ELEGANCE 2.0 TDI CR AT 2014               1.419e-08  5.575e+05       0        1
+Product_titleSkoda Octavia TDI 2007                                 -2.331e-09  5.068e+05       0        1
+Product_titleSkoda Rapid 1.5 Ambition 2012                          -4.322e-09  5.122e+05       0        1
+Product_titleSkoda Rapid 1.5 TDI ACTIVE MT 2016                      1.194e-08  5.416e+05       0        1
+Product_titleSkoda Rapid 1.5 TDI CR Ambition AT 2015                 1.120e-08  5.329e+05       0        1
+Product_titleSkoda Rapid AMBITION 1.6 MPI MT PLUS 2015               1.589e-08  5.284e+05       0        1
+Product_titleSkoda Rapid AMBITION 1.6 TDI CR MT 2012                 1.670e-08  5.125e+05       0        1
+Product_titleSkoda Superb 1.8 Elegance 2009                          1.360e-08  5.201e+05       0        1
+Product_titleSkoda Superb 1.8 Tsi AT 2012                            1.630e-08  5.331e+05       0        1
+Product_titleSkoda Superb 2.0 TDI PD 2010                            1.534e-08  5.314e+05       0        1
+Product_titleSkoda Superb 2.0 TDI PD 2012                            1.391e-08  5.517e+05       0        1
+Product_titleSkoda Superb 2.5 TDI 2010                              -4.354e-09  5.199e+05       0        1
+Product_titleSkoda Superb AMBITION 1.8 TSI MT 2010                  -4.428e-09  5.281e+05       0        1
+Product_titleSkoda Superb AMBITION 2.0 TDI AT 2012                   9.476e-09  5.662e+05       0        1
+Product_titleSkoda Superb ELEGANCE 1.8 TSI AT 2010                   4.084e-09  4.685e+05       0        1
+Product_titleSkoda Superb Elegance MT 2010                           1.430e-08  5.227e+05       0        1
+Product_titleSkoda Yeti ACTIVE 2.0 TDI 4X2 2012                      1.519e-08  5.150e+05       0        1
+Product_titleSkoda Yeti AMBITION 2.0 TDI 4X4 2012                    1.870e-08  5.237e+05       0        1
+Product_titleSsangyong Rexton RX7 2013                               1.160e-08  5.756e+05       0        1
+Product_titleSuzuki  Access  125 2012                                2.362e-08  5.069e+05       0        1
+Product_titleSuzuki  Access 125cc 2008                              -5.745e-10  5.037e+05       0        1
+Product_titleSuzuki  Access 125cc 2009                               1.789e-08  5.040e+05       0        1
+Product_titleSuzuki  Access 125cc 2010                               1.220e-08  4.115e+05       0        1
+Product_titleSuzuki  Access 125cc 2011                               6.254e-09  4.113e+05       0        1
+Product_titleSuzuki  Access 125cc 2012                              -1.120e-09  3.902e+05       0        1
+Product_titleSuzuki  Access 125cc 2013                               1.831e-08  5.040e+05       0        1
+Product_titleSuzuki  Access 125cc 2014                               1.067e-08  4.364e+05       0        1
+Product_titleSuzuki  Access 125cc 2015                               1.788e-08  5.041e+05       0        1
+Product_titleSuzuki Access 125 124 cc 2016                           5.695e-10  5.037e+05       0        1
+Product_titleSuzuki Access 125 2012                                 -1.212e-09  4.362e+05       0        1
+Product_titleSuzuki Access 125 2013                                 -1.763e-09  5.037e+05       0        1
+Product_titleSuzuki Access 125 cc 2013                              -2.491e-09  5.037e+05       0        1
+Product_titleSuzuki Access 125cc-Disc Spacial Edition 2017           2.084e-08  5.041e+05       0        1
+Product_titleSuzuki Access 125cc 2016                                1.823e-08  4.118e+05       0        1
+Product_titleSuzuki Fiero 150 cc 2001                                2.226e-10  5.036e+05       0        1
+Product_titleSuzuki Gixxer 150cc 2015                                1.578e-08  5.040e+05       0        1
+Product_titleSuzuki Swish 125 2012                                   1.862e-08  5.040e+05       0        1
+Product_titleSuzuki Zeus 125cc 2008                                  2.063e-08  5.067e+05       0        1
+Product_titleSuzuki Zeus 125cc 2009                                  1.003e-09  5.062e+05       0        1
+Product_titleTata Indica DLS 2011                                    1.926e-08  5.075e+05       0        1
+Product_titleTata INDICA E V2 GLS e MAX 2012                         5.674e-10  5.076e+05       0        1
+Product_titleTata Indica Vista AQUA 1.3 QUADRAJET 2010               2.230e-08  5.095e+05       0        1
+Product_titleTata Indica Vista AQUA TDI BS III 2011                  1.995e-08  5.073e+05       0        1
+Product_titleTata Indica Vista LS QUADRAJET 2011                     1.766e-08  5.044e+05       0        1
+Product_titleTata Indigo eCS LX CR4 BS IV 2013                       2.256e-08  5.106e+05       0        1
+Product_titleTata Indigo LX DICOR BS III 2007                        1.547e-08  5.051e+05       0        1
+Product_titleTata Manza AQUA QUADRAJET BS III 2011                  -4.040e-09  5.068e+05       0        1
+Product_titleTata Manza AQUA QUADRAJET BS IV 2011                    1.848e-08  5.071e+05       0        1
+Product_titleTata Manza AQUA QUADRAJET BS IV 2012                    2.091e-08  5.056e+05       0        1
+Product_titleTata Manza Aura Quadrajet 2010                         -3.133e-09  5.066e+05       0        1
+Product_titleTata Manza AURA QUADRAJET BS III 2011                   1.609e-08  5.074e+05       0        1
+Product_titleTata Manza ELAN QUADRAJET BS IV 2012                   -4.041e-09  5.066e+05       0        1
+Product_titleTata Nano eMax LX 2011                                  1.610e-08  5.043e+05       0        1
+Product_titleTata Nano LX 2012                                       1.786e-08  5.042e+05       0        1
+Product_titleTata Nano LX 2013                                      -9.013e-11  5.040e+05       0        1
+Product_titleTata Nano Twist XT 2014                                 1.928e-08  5.053e+05       0        1
+Product_titleTata Safari 4X2 EX DICOR 2.2 VTT 2011                   1.923e-08  5.102e+05       0        1
+Product_titleTata Safari Dicor GX 2010                               1.595e-08  5.094e+05       0        1
+Product_titleTata Safari Storme 2.2 LX 4x2 2012                      1.340e-08  5.201e+05       0        1
+Product_titleTata Sumo GOLD EX BS IV 2012                            1.864e-08  5.102e+05       0        1
+Product_titleTata Sumo Grande GX 2008                               -3.675e-09  5.061e+05       0        1
+Product_titleTata Sumo VICTA CX 2009                                 1.528e-08  5.058e+05       0        1
+Product_titleTata Zest XM RT 90PS 2015                               1.882e-08  5.095e+05       0        1
+Product_titleToyota Camry 2.5 AT 2014                                3.764e-09  6.839e+05       0        1
+Product_titleToyota Camry 2.5 L AT 2008                              1.529e-08  5.353e+05       0        1
+Product_titleToyota Camry W2 AT 2006                                 1.429e-08  5.135e+05       0        1
+Product_titleToyota Corolla 1.8E 2004                                1.712e-08  5.048e+05       0        1
+Product_titleToyota Corolla Altis  1.8 Sport 2015                   -9.351e-09  5.756e+05       0        1
+Product_titleToyota Corolla Altis 1.8 G 2009                         1.337e-08  4.082e+05       0        1
+Product_titleToyota Corolla Altis 1.8 G 2010                         1.776e-08  4.147e+05       0        1
+Product_titleToyota Corolla Altis 1.8 J S 2013                       1.795e-08  5.314e+05       0        1
+Product_titleToyota Corolla Altis 1.8 J S 2015                       8.605e-09  5.708e+05       0        1
+Product_titleToyota Corolla Altis 1.8 V 2010                         1.841e-08  5.118e+05       0        1
+Product_titleToyota Corolla Altis D 4D G 2010                        1.442e-08  5.135e+05       0        1
+Product_titleToyota Corolla Altis D 4D G 2011                        3.916e-09  4.593e+05       0        1
+Product_titleToyota Corolla Altis D 4D G 2015                        9.597e-09  5.805e+05       0        1
+Product_titleToyota Corolla Altis D 4D J 2012                        1.697e-08  5.241e+05       0        1
+Product_titleToyota Corolla Altis G 2010                            -5.054e-09  5.225e+05       0        1
+Product_titleToyota Corolla Altis G DIESEL 2012                     -4.736e-09  5.309e+05       0        1
+Product_titleToyota Etios 1.4 VD 2014                               -3.586e-09  5.175e+05       0        1
+Product_titleToyota Etios Cross 1.4 GD 2013                          1.413e-08  5.164e+05       0        1
+Product_titleToyota Etios G 2011                                     1.063e-08  4.159e+05       0        1
+Product_titleToyota Etios GD 2011                                    1.328e-08  5.117e+05       0        1
+Product_titleToyota Etios GD 2012                                    1.768e-08  4.215e+05       0        1
+Product_titleToyota Etios Liva D 4D GD 2012                          1.501e-08  5.102e+05       0        1
+Product_titleToyota Etios Liva D 4D GD 2013                          1.707e-08  5.136e+05       0        1
+Product_titleToyota Etios Liva D 4D GD 2014                          1.533e-08  5.109e+05       0        1
+Product_titleToyota Etios Liva D 4D VD 2015                          1.475e-08  5.160e+05       0        1
+Product_titleToyota Etios Liva G 2011                                1.711e-08  5.087e+05       0        1
+Product_titleToyota Etios Liva G 2012                                1.942e-08  4.403e+05       0        1
+Product_titleToyota Etios Liva GD 2013                              -3.810e-09  5.153e+05       0        1
+Product_titleToyota Etios V 2011                                    -2.680e-09  4.425e+05       0        1
+Product_titleToyota Etios VD 2013                                    6.578e-09  4.517e+05       0        1
+Product_titleToyota Etios VXD 2013                                  -3.325e-09  5.153e+05       0        1
+Product_titleToyota Fortuner 2.5 4x2 MT TRD Sportivo 2015            1.751e-09  6.956e+05       0        1
+Product_titleToyota Fortuner 2WD MT 2010                             1.670e-09  4.948e+05       0        1
+Product_titleToyota Fortuner 3.0 4X2 AT 2012                        -2.350e-09  5.314e+05       0        1
+Product_titleToyota Fortuner 3.0 4X2 AT 2014                        -4.198e-09  6.198e+05       0        1
+Product_titleToyota Fortuner 3.0 4X2 AT 2015                         4.051e-09  7.080e+05       0        1
+Product_titleToyota Fortuner 3.0 4x2 MT 2010                         1.290e-08  4.854e+05       0        1
+Product_titleToyota Fortuner 3.0 4x2 MT 2011                         1.020e-08  4.824e+05       0        1
+Product_titleToyota Fortuner 3.0 4x4 AT 2013                         6.380e-09  6.180e+05       0        1
+Product_titleToyota Fortuner 3.0 4x4 AT 2016                        -1.636e-08  6.943e+05       0        1
+Product_titleToyota Fortuner 3.0 4X4 MT 2010                         3.928e-09  4.549e+05       0        1
+Product_titleToyota Fortuner 3.0 AT 4X2 2012                         2.268e-10  5.414e+05       0        1
+Product_titleToyota Fortuner 3.0 AT 4X2 2013                        -1.468e-08  6.514e+05       0        1
+Product_titleToyota Fortuner 3.0 AT 4X2 2015                        -5.478e-09  6.468e+05       0        1
+Product_titleToyota Fortuner 3.0 AT 4X4 2015                         5.116e-09  6.341e+05       0        1
+Product_titleToyota Fortuner 3.0 D4D 2011                            1.016e-08  5.084e+05       0        1
+Product_titleToyota Fortuner 3.0 D4D 2012                            1.187e-08  5.821e+05       0        1
+Product_titleToyota Fortuner 3.0 D4D 2014                           -4.029e-09  6.145e+05       0        1
+Product_titleToyota Fortuner 3.0 LIMITED EDITION 2009                7.928e-09  5.708e+05       0        1
+Product_titleToyota Fortuner 3.0 LIMITED EDITION 2010                1.147e-08  5.453e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X2 2009                        -4.830e-09  5.561e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X2 2012                         6.236e-10  5.506e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X2 2015                        -1.567e-08  6.675e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X4 2011                         1.136e-10  5.313e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X4 2012                         1.015e-08  5.460e+05       0        1
+Product_titleToyota Fortuner 3.0 MT 4X4 2013                        -1.098e-08  5.932e+05       0        1
+Product_titleToyota Fortuner 4x2 AT 2015                             7.037e-10  7.293e+05       0        1
+Product_titleToyota Fortuner 4x4 MT 2009                             1.250e-08  5.416e+05       0        1
+Product_titleToyota Fortuner 4x4 MT 2010                             1.171e-08  5.805e+05       0        1
+Product_titleToyota Fortuner 4x4 MT 2011                             8.242e-09  5.424e+05       0        1
+Product_titleToyota Fortuner 4x4 MT Limited Edition 2010            -7.538e-09  5.653e+05       0        1
+Product_titleToyota Fortuner 4x4 MT Limited Edition 2011            -1.048e-08  5.741e+05       0        1
+Product_titleToyota Innova 2.0 G 2008                                1.391e-08  5.177e+05       0        1
+Product_titleToyota Innova 2.0 G 2010                                1.229e-08  5.226e+05       0        1
+Product_titleToyota Innova 2.0 G 2011                                1.296e-08  4.716e+05       0        1
+Product_titleToyota Innova 2.0 G 2014                               -5.814e-09  5.591e+05       0        1
+Product_titleToyota Innova 2.0 G 8 STR BS IV 2013                    1.510e-08  5.417e+05       0        1
+Product_titleToyota Innova 2.0 G 8 STR BS IV 2014                   -5.812e-09  5.529e+05       0        1
+Product_titleToyota Innova 2.0 V 2012                                1.366e-08  5.533e+05       0        1
+Product_titleToyota Innova 2.5 E MS 7 STR BS IV 2012                 1.517e-08  5.347e+05       0        1
+Product_titleToyota Innova 2.5 G (Diesel) 7 Seater 2012             -5.583e-09  5.324e+05       0        1
+Product_titleToyota Innova 2.5 G 2006                                1.800e-08  5.133e+05       0        1
+Product_titleToyota Innova 2.5 G 2007                                1.645e-08  4.258e+05       0        1
+Product_titleToyota Innova 2.5 G 2008                                1.763e-08  5.179e+05       0        1
+Product_titleToyota Innova 2.5 G 2009                                3.127e-09  4.617e+05       0        1
+Product_titleToyota Innova 2.5 G 2010                                1.350e-08  5.237e+05       0        1
+Product_titleToyota Innova 2.5 G 2011                                1.720e-08  5.178e+05       0        1
+Product_titleToyota Innova 2.5 G 2012                               -6.637e-09  4.433e+05       0        1
+Product_titleToyota Innova 2.5 G 2013                                3.047e-09  4.996e+05       0        1
+Product_titleToyota Innova 2.5 G 2014                                9.838e-09  5.756e+05       0        1
+Product_titleToyota Innova 2.5 G 8 STR BS III 2014                  -1.016e-08  5.595e+05       0        1
+Product_titleToyota Innova 2.5 G4 2007                              -5.238e-10  5.139e+05       0        1
+Product_titleToyota Innova 2.5 G4 7 STR 2012                         1.701e-08  5.296e+05       0        1
+Product_titleToyota Innova 2.5 GX 2011                               1.340e-08  5.298e+05       0        1
+Product_titleToyota Innova 2.5 GX 7 STR BS IV 2015                   1.234e-08  5.663e+05       0        1
+Product_titleToyota Innova 2.5 V 2010                                1.619e-08  4.683e+05       0        1
+Product_titleToyota Innova 2.5 V 2011                                1.080e-08  4.469e+05       0        1
+Product_titleToyota Innova 2.5 V 2012                                9.440e-09  4.443e+05       0        1
+Product_titleToyota Innova 2.5 V 2013                                3.331e-09  4.577e+05       0        1
+Product_titleToyota Innova 2.5 V 2014                               -1.038e-08  5.830e+05       0        1
+Product_titleToyota Innova 2.5 V 2015                               -1.116e-08  5.855e+05       0        1
+Product_titleToyota Innova 2.5 V 2016                                1.236e-08  5.846e+05       0        1
+Product_titleToyota Innova 2.5 V 7STR 2010                           1.359e-08  5.201e+05       0        1
+Product_titleToyota Innova 2.5 V 8 STR 2005                         -4.254e-09  5.153e+05       0        1
+Product_titleToyota Innova 2.5 VX 2012                               1.676e-08  5.255e+05       0        1
+Product_titleToyota Innova 2.5 VX 2013                               1.469e-08  5.366e+05       0        1
+Product_titleToyota Innova 2.5 VX 2014                               3.774e-11  5.045e+05       0        1
+Product_titleToyota Innova 2.5 VX 7 STR BS III 2013                  1.282e-08  5.663e+05       0        1
+Product_titleToyota Innova 2.5 VX 7 STR BS IV 2012                  -6.483e-09  5.491e+05       0        1
+Product_titleToyota Innova 2.5 ZX 2012                               8.918e-09  5.574e+05       0        1
+Product_titleToyota Innova 2.5V 2011                                -8.588e-09  5.483e+05       0        1
+Product_titleToyota Innova Crysta 2.4 ZX 7 STR 2016                  2.788e-09  6.481e+05       0        1
+Product_titleToyota Innova Crysta 2.8 ZX AT 7 STR 2016               3.072e-09  6.608e+05       0        1
+Product_titleToyota Innova G4 2009                                  -3.568e-09  5.265e+05       0        1
+Product_titleToyota Innova G4 2010                                   1.099e-08  5.346e+05       0        1
+Product_titleToyota Innova G4 2011                                   1.468e-08  5.417e+05       0        1
+Product_titleToyota Innova G4 2013                                   9.159e-09  5.484e+05       0        1
+Product_titleToyota Land Cruiser LC 200 VX 2012                     -1.016e-08  1.102e+06       0        1
+Product_titleTVS Apache 150cc 2006                                   2.069e-08  4.367e+05       0        1
+Product_titleTVS Apache 150cc 2011                                   2.145e-08  5.042e+05       0        1
+Product_titleTVS Apache RTR 160cc 2010                               9.073e-09  4.363e+05       0        1
+Product_titleTVS Apache RTR 160cc 2012                              -1.767e-09  5.037e+05       0        1
+Product_titleTVS Apache RTR 160cc 2013                               2.069e-08  4.368e+05       0        1
+Product_titleTVS Apache RTR 160cc 2015                              -1.635e-09  5.038e+05       0        1
+Product_titleTVS Apache RTR 160cc 2016                               4.518e-09  4.116e+05       0        1
+Product_titleTVS Heavy Duty Super XL  Spacial Edition 2014           2.107e-08  5.041e+05       0        1
+Product_titleTVS Heavy Duty Super XL 70 2008                         1.585e-10  5.036e+05       0        1
+Product_titleTVS Heavy Duty Super XL 70 2009                        -1.158e-09  5.036e+05       0        1
+Product_titleTVS Heavy Duty Super XL 70 2014                         5.547e-10  4.362e+05       0        1
+Product_titleTVS Jupiter 110cc 2014                                  1.222e-08  4.115e+05       0        1
+Product_titleTVS Jupiter 110cc 2015                                  1.895e-08  4.118e+05       0        1
+Product_titleTVS Scooty ES 60 cc 2003                                1.075e-08  4.393e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2004                         8.755e-09  4.363e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2007                        -1.039e-09  5.036e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2008                        -1.958e-10  5.037e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2010                        -1.774e-09  5.037e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2011                         8.289e-09  4.363e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2012                         7.533e-09  4.363e+05       0        1
+Product_titleTVS Scooty Pep Plus 100 cc 2013                         2.091e-08  5.042e+05       0        1
+Product_titleTVS Scooty Streak 100 cc 2010                          -1.112e-09  5.037e+05       0        1
+Product_titleTVS Scooty Teez 60cc 2008                               1.828e-08  5.040e+05       0        1
+Product_titleTVS Scooty Zest 110cc 2014                             -9.568e-10  5.038e+05       0        1
+Product_titleTVS ScootyPepPlus 100 cc 2009                          -1.491e-09  5.037e+05       0        1
+Product_titleTVS Star City 110cc 2006                               -3.784e-11  5.036e+05       0        1
+Product_titleTVS Star City 110cc 2007                                1.790e-08  5.040e+05       0        1
+Product_titleTVS Star City 110cc 2013                                7.481e-10  5.037e+05       0        1
+Product_titleTVS Wego 110 2012                                       5.014e-09  4.113e+05       0        1
+Product_titleTVS Wego 110 cc 2012                                   -4.388e-10  5.037e+05       0        1
+Product_titleTVS Wego 110 cc 2014                                   -2.218e-10  5.037e+05       0        1
+Product_titleTVS Wego 110cc 2011                                     2.316e-08  5.068e+05       0        1
+Product_titleTVS XL Super  Standard 2016                             1.639e-08  5.040e+05       0        1
+Product_titleTVS XL Super 70cc 2016                                  1.651e-08  5.040e+05       0        1
+Product_titleVolkswagen Beetle 2.0 AT 2010                          -7.009e-09  5.415e+05       0        1
+Product_titleVolkswagen Jetta 2.0 TDI HIGHLINE MT 2012               1.468e-08  5.347e+05       0        1
+Product_titleVolkswagen Jetta 2.0 TDI HIGHLINE MT 2014              -8.448e-09  5.681e+05       0        1
+Product_titleVolkswagen Jetta Comfortline 1.9 TDI 2010               1.732e-08  5.252e+05       0        1
+Product_titleVolkswagen Jetta HIGHLINE TDI 2010                     -3.546e-09  5.133e+05       0        1
+Product_titleVolkswagen Jetta HIGHLINE TDI 2013                      1.128e-08  5.492e+05       0        1
+Product_titleVolkswagen Jetta Highline TDI AT 2014                  -9.713e-09  5.932e+05       0        1
+Product_titleVolkswagen Passat comfortline 2.0 TDI 2012              9.504e-09  4.755e+05       0        1
+Product_titleVolkswagen Passat Highline 2012                         1.576e-08  5.447e+05       0        1
+Product_titleVolkswagen Passat Highline 2013                         1.141e-08  5.855e+05       0        1
+Product_titleVolkswagen Passat Highline DSG 2007                     2.182e-08  5.119e+05       0        1
+Product_titleVolkswagen Passat Highline DSG 2008                     1.530e-08  5.178e+05       0        1
+Product_titleVolkswagen Passat Trendline AT 2011                     9.785e-09  5.408e+05       0        1
+Product_titleVolkswagen Polo 1.2 CR HIGHLINE 2012                    1.853e-08  4.170e+05       0        1
+Product_titleVolkswagen Polo 1.2 TDI Highline 2011                   1.706e-08  5.101e+05       0        1
+Product_titleVolkswagen Polo 1.2 TDI Highline 2012                   1.932e-08  5.114e+05       0        1
+Product_titleVolkswagen Polo 1.5 TDI Highline 2014                   1.661e-08  5.197e+05       0        1
+Product_titleVolkswagen Polo Comfortline 1.2L (D) 2013              -1.896e-09  5.098e+05       0        1
+Product_titleVolkswagen Polo Comfortline 1.2L (P) 2010               1.170e-09  5.110e+05       0        1
+Product_titleVolkswagen Polo Comfortline 1.2L (P) 2011               9.471e-09  4.416e+05       0        1
+Product_titleVolkswagen Polo Comfortline 1.2L (P) 2012              -3.038e-09  5.087e+05       0        1
+Product_titleVolkswagen Polo Comfortline 1.2L (P) 2014               1.582e-08  5.109e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L DIESEL 2010            7.213e-09  4.412e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L DIESEL 2011            1.857e-08  5.107e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L DIESEL 2013           -3.228e-09  5.137e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L PETROL 2011            1.516e-08  5.074e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L PETROL 2013           -3.369e-09  5.133e+05       0        1
+Product_titleVolkswagen Polo COMFORTLINE 1.2L PETROL 2016            1.455e-08  5.140e+05       0        1
+Product_titleVolkswagen Polo GT TSI 1.2 PETROL 2015                  1.661e-08  5.202e+05       0        1
+Product_titleVolkswagen Polo Highline 1.2L (P) 2011                  1.638e-08  5.072e+05       0        1
+Product_titleVolkswagen Polo Highline 1.2L (P) 2012                  1.493e-08  5.114e+05       0        1
+Product_titleVolkswagen Polo Highline 1.2L (P) 2014                  1.750e-08  4.424e+05       0        1
+Product_titleVolkswagen Polo HIGHLINE1.2L DIESEL 2011                1.539e-08  5.098e+05       0        1
+Product_titleVolkswagen Polo TDI 2013                                1.375e-08  5.117e+05       0        1
+Product_titleVolkswagen Polo Trendline 1.2L (P) 2012                 1.703e-08  4.425e+05       0        1
+Product_titleVolkswagen Polo TRENDLINE 1.2L DIESEL 2010              1.819e-08  5.118e+05       0        1
+Product_titleVolkswagen Polo TRENDLINE 1.2L DIESEL 2011              1.869e-08  5.081e+05       0        1
+Product_titleVolkswagen Polo TRENDLINE 1.2L DIESEL 2012              6.952e-09  4.411e+05       0        1
+Product_titleVolkswagen Touareg 3.0 V6 TDI 2008                     -8.439e-09  5.574e+05       0        1
+Product_titleVolkswagen Vento 1.5 TDI Comfortline 2012               2.024e-08  5.170e+05       0        1
+Product_titleVolkswagen Vento 1.5 TDI Comfortline 2013               3.893e-09  4.549e+05       0        1
+Product_titleVolkswagen Vento 1.5 TDI Highline 2011                  1.751e-08  5.239e+05       0        1
+Product_titleVolkswagen Vento 1.6L Highline 2012                     1.583e-08  4.477e+05       0        1
+Product_titleVolkswagen Vento Comfortline 2010                      -3.985e-09  5.099e+05       0        1
+Product_titleVolkswagen Vento Comfortline Diesel 2011                1.418e-08  5.108e+05       0        1
+Product_titleVolkswagen Vento COMFORTLINE DIESEL 2012                1.669e-08  4.458e+05       0        1
+Product_titleVolkswagen Vento Comfortline Petrol 2011                1.751e-08  5.136e+05       0        1
+Product_titleVolkswagen Vento Highline 2012                          8.253e-09  4.467e+05       0        1
+Product_titleVolkswagen Vento HIGHLINE DIESEL 2011                  -5.256e-09  5.119e+05       0        1
+Product_titleVolkswagen Vento Highline Diesel 2012                   1.803e-08  5.167e+05       0        1
+Product_titleVolkswagen Vento Highline Diesel 2016                   1.302e-08  5.380e+05       0        1
+Product_titleVolkswagen Vento HIGHLINE PETROL 2014                  -3.022e-09  5.199e+05       0        1
+Product_titleVolkswagen Vento HIGHLINE PETROL AT 2011               -2.368e-09  5.117e+05       0        1
+Product_titleVolkswagen Vento TRENDLINE DIESEL 2012                 -3.688e-09  5.122e+05       0        1
+Product_titleVolkswagen Vento TRENDLINE PETROL 2010                  1.503e-08  5.117e+05       0        1
+Product_titleVolkswagen Vento TRENDLINE PETROL 2011                  1.797e-08  5.121e+05       0        1
+Product_titleVolkswagen Vento TRENDLINE PETROL 2016                  1.537e-08  5.200e+05       0        1
+Product_titleVolvo S60 Summum D5 2012                                7.903e-09  6.470e+05       0        1
+Product_titleYamaha Fascino 113 2015                                -1.010e-09  5.037e+05       0        1
+Product_titleYamaha Fazer 150 2008                                   1.583e-08  5.040e+05       0        1
+Product_titleYamaha FZ 150cc 2009                                    9.686e-09  3.983e+05       0        1
+Product_titleYamaha FZ 150cc 2010                                    1.813e-08  4.367e+05       0        1
+Product_titleYamaha FZ 150cc 2011                                    1.786e-08  5.041e+05       0        1
+Product_titleYamaha FZ 150cc 2012                                    1.270e-08  4.115e+05       0        1
+Product_titleYamaha FZ 150cc 2014                                    1.975e-08  5.042e+05       0        1
+Product_titleYamaha FZ 150cc 2015                                    1.901e-08  4.368e+05       0        1
+Product_titleYamaha FZ16 150cc 2008                                  8.879e-10  5.037e+05       0        1
+Product_titleYamaha FZ16 150cc 2010                                 -7.593e-10  5.037e+05       0        1
+Product_titleYamaha FZ16 150cc 2013                                  5.572e-10  5.038e+05       0        1
+Product_titleYamaha FZs 150cc 2009                                   2.058e-10  5.037e+05       0        1
+Product_titleYamaha FZs 150cc 2011                                  -4.479e-10  5.037e+05       0        1
+Product_titleYamaha FZs 150cc 2012                                  -2.686e-10  5.063e+05       0        1
+Product_titleYamaha FZs 150cc 2014                                   1.134e-08  4.373e+05       0        1
+Product_titleYamaha FZs 150cc 2015                                   1.628e-08  5.041e+05       0        1
+Product_titleYamaha FZS FI 150 2015                                  1.626e-08  5.041e+05       0        1
+Product_titleYamaha RX135 135cc 1998                                -1.725e-09  5.037e+05       0        1
+Product_titleYamaha YZF-R15 150 cc 2008                              1.656e-08  4.117e+05       0        1
+Product_titleYamaha YZF-R15 150 cc 2012                              1.626e-08  5.041e+05       0        1
+Product_titleYamaha YZF-R15 150 cc 2015                             -6.284e-10  5.042e+05       0        1
+Product_titleYamaha YZF-R15 150cc 2013                               2.091e-08  5.045e+05       0        1
+Product_titleYamaha YZF-R15 150cc 2014                               1.959e-08  5.043e+05       0        1
+order_typeFixed Price                                                2.308e-09  5.106e+04       0        1
+order_typenone                                                              NA         NA      NA       NA
+actual_order_typeGC                                                         NA         NA      NA       NA
+actual_order_typeR                                                   1.184e-08  2.723e+05       0        1
+actual_order_typeS                                                          NA         NA      NA       NA
+commitment_fee                                                       3.219e-13  9.964e+00       0        1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8.7619e+03  on 6779  degrees of freedom
+Residual deviance: 3.9335e-08  on 5382  degrees of freedom
+AIC: 2796
+
+Number of Fisher Scoring iterations: 25
+

@@ -1,0 +1,1362 @@
+
+Call:
+glm(formula = type ~ commitment_fee + factor(platform) + factor(MakeModelTrimYear), 
+    family = "binomial", data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.3246   0.0000   0.3726   0.3726   5.4307  
+
+Coefficients:
+                                                                                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                                                     2.808e+00  7.693e-02  36.501   <2e-16 ***
+commitment_fee                                                                 -1.951e-02  2.306e-03  -8.460   <2e-16 ***
+factor(platform)Mobile Web                                                     -2.784e-01  1.121e-01  -2.484    0.013 *  
+factor(MakeModelTrimYear)0                                                     -2.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Atlas boss 26 2013                                    -2.232e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Atlas scud shox 18g 26" 2016                          -2.162e+01  1.024e+04  -0.002    0.998    
+factor(MakeModelTrimYear)Audi a3 35 tdi technology 2014                         9.519e+02  1.773e+04   0.054    0.957    
+factor(MakeModelTrimYear)Audi A4 1.8 T MULTITRONIC 2008                         3.710e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Audi a4 1.8 tfsi 2009                                  5.423e+02  1.773e+04   0.031    0.976    
+factor(MakeModelTrimYear)Audi a4 1.8 tfsi 2011                                  5.520e+02  1.773e+04   0.031    0.975    
+factor(MakeModelTrimYear)Audi a4 1.8 tfsi 2014                                  7.568e+02  1.773e+04   0.043    0.966    
+factor(MakeModelTrimYear)Audi a4 2.0 tdi 174bhp premium 2014                    7.178e+02  1.773e+04   0.040    0.968    
+factor(MakeModelTrimYear)Audi a4 2.0 tdi 2010                                   4.642e+02  1.773e+04   0.026    0.979    
+factor(MakeModelTrimYear)Audi a4 2.0 tdi 2012                                   5.579e+02  1.773e+04   0.031    0.975    
+factor(MakeModelTrimYear)Audi a4 2.0 tdi multitronic 2012                       6.690e+02  1.773e+04   0.038    0.970    
+factor(MakeModelTrimYear)Audi a4 3.0 tdi 2015                                   9.082e+02  1.254e+04   0.072    0.942    
+factor(MakeModelTrimYear)Audi a6 2.0 tdi 2011                                   6.690e+02  1.773e+04   0.038    0.970    
+factor(MakeModelTrimYear)Audi a6 2.0 tdi 2012                                   8.361e+02  9.230e+03   0.091    0.928    
+factor(MakeModelTrimYear)Audi a6 2.0 tdi 2013                                   8.754e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Audi a6 2.0 tdi premium 2013                           6.398e+02  1.773e+04   0.036    0.971    
+factor(MakeModelTrimYear)Audi a6 2.7 tdi 2011                                   5.536e+02  9.049e+03   0.061    0.951    
+factor(MakeModelTrimYear)Audi a6 2.8 fsi 2011                                   7.958e+02  1.773e+04   0.045    0.964    
+factor(MakeModelTrimYear)Audi a6 3.0 tdi quattro 2006                           6.593e+02  1.773e+04   0.037    0.970    
+factor(MakeModelTrimYear)Audi a6 35 tdi 2015                                    1.381e+03  1.773e+04   0.078    0.938    
+factor(MakeModelTrimYear)Audi q3 2.0 tdi high 2013                              1.010e+03  1.773e+04   0.057    0.955    
+factor(MakeModelTrimYear)Audi q3 2.0 tdi premium plus 2014                      8.348e+02  1.773e+04   0.047    0.962    
+factor(MakeModelTrimYear)Audi q3 2.0 tdi premium plus 2015                      1.040e+03  1.773e+04   0.059    0.953    
+factor(MakeModelTrimYear)Audi q3 2.0 tdi quattro 2014                           9.129e+02  1.773e+04   0.051    0.959    
+factor(MakeModelTrimYear)Audi q5 2.0 tdi quattro 2011                           8.153e+02  1.773e+04   0.046    0.963    
+factor(MakeModelTrimYear)Audi q5 2.0 tdi quattro 2012                           9.519e+02  1.773e+04   0.054    0.957    
+factor(MakeModelTrimYear)Audi q5 3.0 tdi technology pk s line 2014              1.480e+03  9.231e+03   0.160    0.873    
+factor(MakeModelTrimYear)Audi q7 3.0 tdi 2013                                   1.693e+03  1.773e+04   0.095    0.924    
+factor(MakeModelTrimYear)Audi q7 3.0 tdi quattro 2009                           8.738e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Audi q7 3.0 tdi quattro 2010                           8.738e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Bajaj avenger 180cc 2006                              -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj avenger 200cc 2008                              -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj avenger 200cc 2010                              -7.492e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj avenger 200cc 2014                               2.957e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj avenger 220cc 2012                              -2.233e+00  1.123e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj avenger 220cc 2015                               1.076e+01  1.773e+04   0.001    1.000    
+factor(MakeModelTrimYear)Bajaj chetak 150 2004                                 -1.947e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj ct 100 100cc 2004                               -1.476e+01  8.939e+03  -0.002    0.999    
+factor(MakeModelTrimYear)Bajaj ct 100 100cc 2005                               -1.769e+01  1.052e+04  -0.002    0.999    
+factor(MakeModelTrimYear)Bajaj ct 100 100cc 2015                               -9.467e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2006                             -1.167e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2009                             -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2010                             -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2011                             -1.204e+01  1.002e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2012                             -1.120e+01  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100cc 2013                             -9.664e+00  1.217e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj discover 100m 100cc 2015                        -1.431e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj discover 125 st 125cc 2013                      -9.467e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Bajaj discover 125cc 2013                             -7.283e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj discover t 100cc 2013                           -7.283e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj discover150f 150cc 2015                         -3.468e+00  1.236e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj platina 100 100cc 2015                          -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj platina 100cc 2006                              -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj platina 100cc 2008                              -1.191e+01  1.254e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj platina 100cc 2010                              -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj platina 100cc 2011                              -1.155e+01  1.252e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj platina 100cc 2012                              -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj platina 125cc 2012                              -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 150 dtsi 150cc 2011                      -1.001e+01  9.038e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150 dtsi 150cc 2015                       3.933e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2003                               -1.873e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2004                               -1.460e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2007                               -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2008                               -1.021e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2009                               -9.842e+00  1.207e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2010                               -1.131e+01  1.253e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2012                               -8.595e+00  1.135e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2013                                2.851e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 150cc 2014                               -1.050e+01  9.873e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 180cc 2008                               -1.676e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bajaj pulsar 180cc 2010                               -6.795e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 180cc 2011                               -7.283e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 180cc 2013                                3.933e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 180cc 2014                                1.982e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 200 ns 200cc 2012                         4.420e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj pulsar 220cc 2013                                1.982e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Bajaj wave 110cc 2005                                 -1.947e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Bentley continental gt 2015                            8.754e+03  1.776e+04   0.493    0.622    
+factor(MakeModelTrimYear)Bmw 1 series 118d 2013                                 6.788e+02  1.773e+04   0.038    0.969    
+factor(MakeModelTrimYear)Bmw 3 series 320 d 2010                                4.656e+02  9.230e+03   0.050    0.960    
+factor(MakeModelTrimYear)Bmw 3 series 320 d 2011                                5.240e+02  9.635e+03   0.054    0.957    
+factor(MakeModelTrimYear)Bmw 3 series 320 d 2012                                6.788e+02  1.773e+04   0.038    0.969    
+factor(MakeModelTrimYear)Bmw 3 series 320 d 2014                                8.348e+02  1.773e+04   0.047    0.962    
+factor(MakeModelTrimYear)Bmw 3 series 320d 2009                                 3.726e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Bmw 3 series 320d 2010                                 4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Bmw 3 series 320d 2013                                 7.394e+02  6.155e+03   0.120    0.904    
+factor(MakeModelTrimYear)Bmw 3 series 320d gt luxury line 2014                  1.313e+03  1.773e+04   0.074    0.941    
+factor(MakeModelTrimYear)Bmw 3 series 320i 2008                                 4.018e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Bmw 3 series 320i 2009                                 3.160e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Bmw 3 series gt 320d luxury line 2010                  5.169e+02  1.773e+04   0.029    0.977    
+factor(MakeModelTrimYear)Bmw 5 series 520 d 2.0 2012                            8.738e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Bmw 5 series 525 d 2008                                4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Bmw 5 series 525d 2008                                 6.788e+02  1.773e+04   0.038    0.969    
+factor(MakeModelTrimYear)Bmw 5 series 525i 2009                                 3.862e+02  1.773e+04   0.022    0.983    
+factor(MakeModelTrimYear)Bmw 5 series 530d 2008                                 5.241e+02  9.230e+03   0.057    0.955    
+factor(MakeModelTrimYear)Bmw 5 series 530d 2009                                 4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Bmw 5 series 530d 2010                                 5.033e+02  1.773e+04   0.028    0.977    
+factor(MakeModelTrimYear)Bmw 5 series 530d 2011                                 6.593e+02  1.773e+04   0.037    0.970    
+factor(MakeModelTrimYear)Bmw 5 series 530i 2009                                 4.350e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Bmw 7 series 730l d 2010                               1.147e+03  1.773e+04   0.065    0.948    
+factor(MakeModelTrimYear)Bmw 7 series 730l d 2011                               1.537e+03  1.773e+04   0.087    0.931    
+factor(MakeModelTrimYear)Bmw x1 active hybrid 2011                              4.350e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Bmw x1 highline 2011                                   5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Bmw x1 sdrive 18i 2011                                 5.033e+02  1.773e+04   0.028    0.977    
+factor(MakeModelTrimYear)Bmw x1 sdrive 20d 2012                                 5.436e+02  9.230e+03   0.059    0.953    
+factor(MakeModelTrimYear)Bmw x1 sdrive20d 2014                                  1.225e+03  1.773e+04   0.069    0.945    
+factor(MakeModelTrimYear)Bmw x3 sdrive 20d 2013                                 1.147e+03  1.773e+04   0.065    0.948    
+factor(MakeModelTrimYear)Bmw x3 xdrive 20d expedition 2014                      1.147e+03  1.773e+04   0.065    0.948    
+factor(MakeModelTrimYear)Bmw x5 xdrive 30d 2011                                 8.641e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Chevrolet aveo 1.4 2006                                6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Chevrolet aveo 1.4 2008                                3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Chevrolet aveo ls 1.4 2007                             5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Chevrolet aveo u va 1.2 2010                           2.900e+01  8.874e+03   0.003    0.997    
+factor(MakeModelTrimYear)Chevrolet beat ls 2010                                 4.600e+01  1.017e+04   0.005    0.996    
+factor(MakeModelTrimYear)Chevrolet beat ls diesel 2012                          8.351e+01  9.327e+03   0.009    0.993    
+factor(MakeModelTrimYear)Chevrolet beat ls diesel 2013                          6.635e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Chevrolet beat ls petrol 2010                          6.830e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Chevrolet beat ls petrol 2014                          7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Chevrolet beat lt 2011                                 7.583e+01  8.811e+03   0.009    0.993    
+factor(MakeModelTrimYear)Chevrolet beat lt 2012                                 1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Chevrolet beat lt 2014                                 9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Chevrolet beat lt diesel 2012                          9.393e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Chevrolet beat lt opt diesel 2013                      1.639e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Chevrolet beat lt petrol 2010                          6.140e+01  1.117e+04   0.005    0.996    
+factor(MakeModelTrimYear)Chevrolet captiva lt 2010                              2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Chevrolet cruze lt 2009                                1.915e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Chevrolet cruze lt 2010                                2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Chevrolet cruze ltz 2010                               1.923e+02  1.023e+04   0.019    0.985    
+factor(MakeModelTrimYear)Chevrolet cruze ltz 2011                               2.322e+02  6.379e+03   0.036    0.971    
+factor(MakeModelTrimYear)Chevrolet cruze ltz at 2011                            2.305e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Chevrolet cruze ltz at 2013                            3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Chevrolet cruze ltz at 2014                            4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Chevrolet enjoy 1.3 ls 8 str 2015                      1.951e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Chevrolet enjoy 1.4 lt 8 str 2014                      2.029e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Chevrolet optra 1.6 2005                               4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Chevrolet optra 1.8 2007                               2.762e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Chevrolet optra lt 2008                                7.443e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Chevrolet optra magnum lt 2.0 tcdi 2010                1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Chevrolet optra magnum lt 2.0 tcdi 2011                1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Chevrolet spark ls 1.0 2010                            3.904e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Chevrolet spark ls 1.0 2011                            5.882e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Chevrolet spark ls 2008                                2.344e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Chevrolet spark ls 2009                                2.734e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Chevrolet spark lt 1.0 2011                            6.050e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Chevrolet spark lt 2011                                4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Chevrolet tavera lt obdii 2007                         1.370e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Fiat avventura emotion multijet 1.3 2015               2.419e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Fiat grand punto emotion pack 1.3 90 hp 2013           1.483e+02  1.773e+04   0.008    0.993    
+factor(MakeModelTrimYear)Fiat linea 1.3 l multijet classic 2016                 2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Fiat linea active 1.3 2011                             1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Fiat linea dynamic 1.3 2010                            5.855e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Fiat linea emotion 1.3 2010                            1.251e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Fiat linea emotion 1.4 2009                            7.220e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Fiat punto active 1.3 2014                             1.128e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Fiat Punto Emotion Pack 1.4 2010                       5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Force force one lx 4x4 2012                            1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Ford ecosport 1.5 dv5 mt ambiente 2014                 2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Ford ecosport 1.5 dv5 mt titanium 2015                 2.711e+02  6.891e+03   0.039    0.969    
+factor(MakeModelTrimYear)Ford ecosport 1.5 dv5 mt titanium optional 2013        2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Ford ecosport ambiente 1.5 tdci 2014                   2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Ford ecosport titanium 1.5 tdci 2013                   2.127e+02  6.503e+03   0.033    0.974    
+factor(MakeModelTrimYear)Ford ecosport titanium 1.5 tdci 2014                   3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Ford ecosport titanium 1.5 ti vct 2015                 3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Ford ecosport titanium 1.5 ti vct at 2016              3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Ford ecosport trend 1.5 tdci 2015                      2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Ford ecosport trend 2013                               2.048e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Ford endeavour 2.5l 4x4 mt 2011                        3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Ford endeavour 2.5l 4x4 mt 2012                        3.862e+02  1.773e+04   0.022    0.983    
+factor(MakeModelTrimYear)Ford endeavour 2.5l 4x4 mt 2015                        4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Ford endeavour 3.0l 4x4 at 2009                        2.399e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Ford endeavour 3.0l 4x4 at 2012                        3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Ford endeavour 4x2 2012                                4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Ford endeavour 4x4 at 2011                             4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Ford endeavour titanium 2.2 4x2 at 2016                6.593e+02  1.773e+04   0.037    0.970    
+factor(MakeModelTrimYear)Ford endeavour trend 2.2 4x2 at 2016                   1.020e+03  1.773e+04   0.058    0.954    
+factor(MakeModelTrimYear)Ford fiesta 1.4 duratorq tdci 2011                     7.220e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford fiesta classic 1.4 sxi duratorq 2009              7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Ford fiesta classic 1.4 tdci titanium 2013             1.037e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Ford fiesta classic 1.6 exi 2007                       6.245e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford fiesta classic duratec clxi 2009                  7.376e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford fiesta exi 1.4 2007                               5.269e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Ford fiesta zxi 1.4 tdci 2006                          3.933e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Ford fiesta zxi 1.6 2011                               7.376e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford figo 1.2p titanium mt 2016                        1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Ford figo 1.4 tdci zxi 2011                            9.561e+01  6.653e+03   0.014    0.989    
+factor(MakeModelTrimYear)Ford figo 1.4 tdci zxi 2012                            9.475e+01  1.023e+04   0.009    0.993    
+factor(MakeModelTrimYear)Ford figo 1.4 tdci zxi 2013                            1.034e+02  1.254e+04   0.008    0.993    
+factor(MakeModelTrimYear)Ford figo 1.5 tcdi ambiente 2011                       1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Ford figo 1.5 tcdi titanium 2012                       9.170e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Ford figo 1.5 tdci titanium 2011                       8.039e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Ford figo duratec titanium 1.2 2010                    7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Ford figo duratorq exi 2012                            8.340e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Ford figo exi duratec 1.2 2011                         6.635e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford figo exi duratec 1.2 2014                         1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Ford figo exi duratorq 1.4 2014                        1.054e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Ford figo lxi duratorq 1.4 2011                       -2.318e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Ford figo trend 1.5 tdci 2016                          2.146e+02  1.773e+04   0.012    0.990    
+factor(MakeModelTrimYear)Ford figo zxi 2011                                     8.585e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Ford figo zxi duratec 1.2 2012                         6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford ikon 1.4 duratorq tdci 2009                       5.855e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Ford ikon 1.4 duratorq tdci 2010                       7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Ford ikon 1.6 zxi nxt 2005                             2.638e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Harley Davidson xg750 750cc 2014                       1.668e+02  1.773e+04   0.009    0.992    
+factor(MakeModelTrimYear)Hero cbz 150cc 2012                                   -2.894e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero cbz xtreme 150cc 2010                            -4.845e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero cbz xtreme 150cc 2011                            -8.768e+00  1.185e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cbz xtreme 150cc 2014                             1.007e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero cd 100ss 100cc 1997                              -1.947e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cd 100ss 100cc 2005                              -1.508e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cd dawn 100cc 2004                               -1.801e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cd deluxe 100cc 2006                             -1.873e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cd deluxe 100cc 2007                             -1.199e+01  1.236e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero cd deluxe 100cc 2010                             -7.770e+00  1.254e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero cd deluxe 100cc 2011                             -1.237e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero duet 110cc 2016                                  -1.798e+00  1.252e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero glamour 125 cc 2015                              -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero glamour 125cc 2013                               -8.746e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero glamour fi 125cc 2015                            -9.437e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero hf deluxe 100cc 2013                             -8.746e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero hf deluxe 100cc 2015                             -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero hunk 150cc 2008                                  -9.721e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero ignitor 125cc 2013                               -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero impulse 150cc 2012                               -8.258e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero karizma 223cc 2013                                3.445e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero maestro 110cc 2012                               -5.820e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero maestro 110cc 2013                               -1.286e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero maestro 110cc 2014                               -6.307e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero maestro 110cc 2015                               -6.043e+00  9.877e+03  -0.001    1.000    
+factor(MakeModelTrimYear)Hero maestro 125cc 2012                               -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero maestro 125cc 2013                               -4.845e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero maestro edge lx 110cc 2016                        1.007e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero marvel 14 2015                                   -2.318e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero miss india 26 2015                               -2.189e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion 100cc 2006                               -1.313e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion plus 97.2 2005                           -1.374e+01  1.207e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion plus 97.2 2006                           -1.265e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion plus 97.2 2007                           -1.744e+01  1.042e+04  -0.002    0.999    
+factor(MakeModelTrimYear)Hero passion plus 97.2 2008                           -1.096e+01  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion plus 97.2 2009                           -9.986e+00  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2008                           -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2009                           -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2010                           -1.142e+01  9.055e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2011                           -7.203e+00  1.244e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2012                           -9.400e+00  1.243e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2013                           -8.524e+00  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero passion pro 100cc 2014                           -5.281e+00  9.440e+03  -0.001    1.000    
+factor(MakeModelTrimYear)Hero passion xpro 110cc 2013                          -8.004e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero passion xpro 110cc 2014                          -5.890e+00  1.117e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2010                              -1.021e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2011                              -1.120e+01  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2012                              -1.168e+01  1.087e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2013                              -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2014                              -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero pleasure 100cc 2015                              -7.517e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor 100cc 2002                              -1.313e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2003                              -1.239e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2008                              -1.072e+01  1.185e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2010                              -9.914e+00  9.867e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2011                              -8.773e+00  9.201e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2012                              -9.898e+00  1.217e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor 100cc 2014                              -5.079e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor 100cc 2016                               2.851e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor ismart self drum alloy 2017              1.982e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor nxg 100cc 2010                          -8.746e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor plus 100 2006                           -1.288e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor plus 100 2007                           -1.432e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero splendor plus 100cc 2016                         -3.760e+00  1.014e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100 cc 2012                         -8.980e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100 cc 2014                         -4.591e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100cc 2011                          -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100cc 2012                          -4.845e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100cc 2014                          -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Hero splendor pro 100cc 2015                          -9.330e+00  8.706e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Hero supersplendor 125cc 2005                         -1.313e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Hero supersplendor 125cc 2008                         -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Hero xtreme 150cc 2014                                 3.158e-02  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda accord 2.4 at 2006                               8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda accord 2.4 at 2009                               2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Honda accord 2.4 at 2010                               2.321e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Honda accord 2.4 at 2011                               2.568e+02  9.595e+03   0.027    0.979    
+factor(MakeModelTrimYear)Honda accord 2.4 at 2013                               4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Honda accord 2.4 inspire 2010                          1.873e+02  1.773e+04   0.011    0.992    
+factor(MakeModelTrimYear)Honda Accord 3.0 V6 AT 2006                            1.112e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Honda activa 109 2002                                 -1.309e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2004                                 -1.362e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2007                                 -1.167e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2008                                 -1.021e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 109 2009                                 -8.955e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 109 2010                                 -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2011                                 -1.042e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 109 2012                                 -9.955e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 109 2013                                 -8.505e+00  1.227e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2014                                 -7.068e+00  4.752e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 109 2015                                  1.007e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 110 cc 2004                              -1.362e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2005                              -1.313e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2006                              -1.269e+01  1.004e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2007                              -1.637e+01  1.123e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2008                              -1.283e+01  9.924e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2009                              -1.039e+01  8.554e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2010                              -9.649e+00  7.081e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2011                              -9.484e+00  5.823e+03  -0.002    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2012                              -8.944e+00  4.451e+03  -0.002    0.998    
+factor(MakeModelTrimYear)Honda activa 110 cc 2013                              -8.224e+00  2.747e+03  -0.003    0.998    
+factor(MakeModelTrimYear)Honda activa 110 cc 2014                              -4.819e+00  5.901e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110 cc 2015                              -2.265e+00  7.500e+03   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 110 cc 2016                               1.896e+00  1.236e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 110cc 2005                               -1.483e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110cc 2008                               -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 110cc 2010                               -1.122e+01  9.725e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110cc 2011                               -1.260e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110cc 2012                               -6.843e+00  1.191e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda activa 110cc 2013                               -5.110e+00  1.249e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 110cc 2015                               -4.788e+00  6.479e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda activa 110cc 2016                                2.150e+00  1.196e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 125cc 2015                                3.445e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 3g 110cc 2015                            -3.820e+00  8.240e+03   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa 3g 110cc 2017                             2.957e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda activa125 125 cc 2015                           -5.775e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda amaze 1.2 e i-vtec 2013                          1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.2 e i-vtec 2015                          1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Honda amaze 1.2 s at i-vtec 2013                       1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.2 s i-vtec 2015                          1.814e+02  1.254e+04   0.014    0.988    
+factor(MakeModelTrimYear)Honda amaze 1.2 s i-vtec 2016                          1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Honda amaze 1.2 smt i vtec 2014                        1.756e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.2 sx i-vtec 2016                         2.204e+02  1.773e+04   0.012    0.990    
+factor(MakeModelTrimYear)Honda amaze 1.2 vx at i-vtec 2013                      1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.5 e i-dtec 2013                          1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.5 smt i dtec 2013                        1.756e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda amaze 1.5 vxmt i dtec 2013                       1.954e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Honda Amaze S i-DTEC 2015                              2.458e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Honda amaze vx i-vtec 2014                             1.915e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2008                             -1.350e+01  1.206e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2009                             -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2011                             -1.093e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2012                             -9.955e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2014                             -7.029e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2015                             -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda aviator 109 cc 2016                              1.494e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda aviator drum 2008                               -1.070e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda br-v v diesel 2016                               4.642e+02  1.773e+04   0.026    0.979    
+factor(MakeModelTrimYear)Honda brio e mt 2013                                   1.171e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda brio exclusive edition 2011                      8.028e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda brio exclusive edition 2015                      1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Honda brio s at 2013                                   1.210e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda brio s mt 2012                                   8.793e+01  6.272e+03   0.014    0.989    
+factor(MakeModelTrimYear)Honda brio s mt 2013                                   1.126e+02  8.184e+03   0.014    0.989    
+factor(MakeModelTrimYear)Honda brio v mt 2012                                   1.143e+02  1.023e+04   0.011    0.991    
+factor(MakeModelTrimYear)Honda brio vx at 2013                                  1.473e+02  1.063e+04   0.014    0.989    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2011                             -5.820e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2012                             -9.390e+00  1.047e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2013                             -9.260e+00  9.011e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2014                             -7.290e+00  1.227e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2015                             -2.030e+00  7.997e+03   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb shine 125cc 2016                              2.887e+00  1.117e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb twister 109cc 2010                           -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb twister 109cc 2015                           -4.845e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb unicorn 150 150cc 2008                       -1.211e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb unicorn 150 150cc 2012                       -1.001e+01  9.845e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb unicorn 150 150cc 2016                        1.466e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Honda cb unicorn 150cc 2007                           -1.529e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cb unicorn 150cc 2009                           -5.820e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb unicorn 150cc 2012                           -4.313e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb unicorn 160 160cc 2013                       -6.901e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cb unicorn 160 160cc 2015                        4.962e+00  1.164e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda cbf stunner 125cc 2013                          -1.362e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda cbr 150r 150cc 2016                              2.664e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Honda cbr 250r 250cc 2013                              1.564e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Honda city 1.3 exi 2005                                4.014e+01  1.023e+04   0.004    0.997    
+factor(MakeModelTrimYear)Honda city 1.5 corporate mt 2013                       2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2008                               1.190e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2009                               1.139e+02  8.755e+03   0.013    0.990    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2010                               1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2011                               1.347e+02  6.416e+03   0.021    0.983    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2012                               1.182e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2014                               2.750e+02  1.773e+04   0.016    0.988    
+factor(MakeModelTrimYear)Honda city 1.5 e mt 2016                               4.252e+02  1.773e+04   0.024    0.981    
+factor(MakeModelTrimYear)Honda city 1.5 gxi 2007                                7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Honda city 1.5 gxi 2008                                8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda city 1.5 s at 2009                               1.323e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Honda city 1.5 s mt 2009                               1.144e+02  9.390e+03   0.012    0.990    
+factor(MakeModelTrimYear)Honda city 1.5 s mt 2010                               1.580e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Honda city 1.5 s mt 2012                               1.910e+02  7.155e+03   0.027    0.979    
+factor(MakeModelTrimYear)Honda city 1.5 s mt 2015                               3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Honda city 1.5 v at 2010                               1.559e+02  7.247e+03   0.022    0.983    
+factor(MakeModelTrimYear)Honda city 1.5 v at sun roof 2013                      2.750e+02  1.773e+04   0.016    0.988    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2009                               1.405e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2010                               1.261e+02  9.390e+03   0.013    0.989    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2011                               1.534e+02  9.755e+03   0.016    0.987    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2013                               2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2014                               2.985e+02  1.773e+04   0.017    0.987    
+factor(MakeModelTrimYear)Honda city 1.5 v mt 2015                               3.628e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Honda city exi 2004                                    3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Honda city exi 2005                                    4.099e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Honda city gxi 2006                                    4.294e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Honda city gxi 2008                                    1.015e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Honda city i dtec 2014                                 2.627e+02  9.445e+03   0.028    0.978    
+factor(MakeModelTrimYear)Honda city i dtec e 2015                               3.862e+02  1.773e+04   0.022    0.983    
+factor(MakeModelTrimYear)Honda city i vtec 2011                                 1.612e+02  9.669e+03   0.017    0.987    
+factor(MakeModelTrimYear)Honda city i vtec cvt vx 2016                          4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Honda city i vtec s 2011                               1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda city i vtec v 2009                               1.307e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Honda city i vtec v 2011                               1.600e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Honda city i vtec v 2013                               2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Honda city s 2009                                      1.160e+02  4.361e+03   0.027    0.979    
+factor(MakeModelTrimYear)Honda city s 2012                                      1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda City S MT DIESEL 2014                            2.789e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Honda city sv 2014                                    -2.233e+01  8.182e+03  -0.003    0.998    
+factor(MakeModelTrimYear)Honda city sv 2016                                     3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Honda city sv mt diesel 2014                           3.004e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Honda city sv mt petrol 2014                           2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Honda city sv mt petrol 2015                           3.102e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Honda city v 1.5l i-vtec 2015                          2.868e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Honda city v 2009                                      1.206e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda city v 2010                                      1.458e+02  6.979e+03   0.021    0.983    
+factor(MakeModelTrimYear)Honda city v 2012                                      2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Honda city v mt 2011                                   1.756e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Honda city vx (o) mt diesel 2016                       4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Honda city vx at 2015                                  4.021e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Honda city vx mt 2014                                  3.355e+02  1.773e+04   0.019    0.985    
+factor(MakeModelTrimYear)Honda city vx(o) bl 1.5l i-vtec 2015                   3.960e+02  1.773e+04   0.022    0.982    
+factor(MakeModelTrimYear)Honda city zx 2006                                     6.050e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Honda city zx 2007                                     5.371e+01  4.033e+03   0.013    0.989    
+factor(MakeModelTrimYear)Honda city zx 2008                                     6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Honda city zx exi 2007                                 8.585e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda city zx exi 2008                                 1.190e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Honda city zx gxi 2006                                 5.074e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Honda city zx gxi 2007                                 5.983e+01  9.344e+03   0.006    0.995    
+factor(MakeModelTrimYear)Honda city zx gxi 2008                                 6.621e+01  7.175e+03   0.009    0.993    
+factor(MakeModelTrimYear)Honda city zxi 2007                                    5.074e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Honda civic 1.8 at 2008                                8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda civic 1.8 at 2012                                2.987e+02  1.773e+04   0.017    0.987    
+factor(MakeModelTrimYear)Honda civic 1.8 i-vtec 2008                            1.232e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Honda civic 1.8 mt 2007                                6.559e+01  9.749e+03   0.007    0.995    
+factor(MakeModelTrimYear)Honda civic 1.8 mt 2008                                8.863e+01  4.414e+03   0.020    0.984    
+factor(MakeModelTrimYear)Honda civic 1.8 mt 2009                                8.827e+01  6.425e+03   0.014    0.989    
+factor(MakeModelTrimYear)Honda civic 1.8 mt 2010                                2.012e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Honda civic 1.8 mt 2011                                1.671e+02  9.287e+03   0.018    0.986    
+factor(MakeModelTrimYear)Honda cr-v 2.0 l2 wd at 2004                           1.249e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Honda cr-v 2.4 at 2011                                 3.960e+02  1.773e+04   0.022    0.982    
+factor(MakeModelTrimYear)Honda dio 110 2008                                    -1.021e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda dio 110 2009                                    -9.721e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda dio 110 2010                                    -9.467e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Honda dio 110 2011                                    -8.258e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda dio 110 2012                                    -5.820e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda dio 110 2014                                    -5.499e+00  1.153e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda dio 110cc 2013                                  -8.258e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda dio 110cc 2016                                  -9.437e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda dream neo 109cc 2014                            -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda eterno 150 2005                                 -1.584e+01  1.249e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Honda gold wing gl 1800 1832 cc 2015                   1.074e+03  1.773e+04   0.061    0.952    
+factor(MakeModelTrimYear)Honda jazz s 2009                                      8.390e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Honda jazz s 2010                                      7.610e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Honda livo 110cc 2015                                 -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Honda mobilio rs i-dtec 2014                           3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Honda mobilio s i - dtec 2014                          2.312e+02  1.063e+04   0.022    0.983    
+factor(MakeModelTrimYear)Honda mobilio s i - vtec 2014                          2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Honda mobilio v (o) i- dtec 2016                       3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai accent cng 2011                                6.963e+01  1.043e+04   0.007    0.995    
+factor(MakeModelTrimYear)Hyundai accent executive 2009                          4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai accent executive 2011                          7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai accent viva 2005                               2.929e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai creta 1.4 s plus 2016                          5.817e+02  1.773e+04   0.033    0.974    
+factor(MakeModelTrimYear)Hyundai creta 1.6 s 2016                               5.130e+02  1.773e+04   0.029    0.977    
+factor(MakeModelTrimYear)Hyundai creta 1.6 sx (o) 2015                          4.389e+02  6.594e+03   0.067    0.947    
+factor(MakeModelTrimYear)Hyundai creta 1.6 sx plus at 2015                      5.423e+02  1.773e+04   0.031    0.976    
+factor(MakeModelTrimYear)Hyundai elantra 1.6 sx at 2013                         4.050e+02  9.663e+03   0.042    0.967    
+factor(MakeModelTrimYear)Hyundai elantra 1.6 sx at 2014                         3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai elantra 1.6 sx mt 2013                         4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Hyundai elantra 1.8 sx at 2013                         2.695e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai elantra 1.8 sx at 2015                         4.740e+02  1.773e+04   0.027    0.979    
+factor(MakeModelTrimYear)Hyundai elantra crdi 2012                              3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai elantra sx 2013                                3.465e+02  9.755e+03   0.036    0.972    
+factor(MakeModelTrimYear)Hyundai elite i20 asta 1.2 (o) 2016                    2.204e+02  1.773e+04   0.012    0.990    
+factor(MakeModelTrimYear)Hyundai elite i20 asta 1.2 2015                        2.411e+02  9.749e+03   0.025    0.980    
+factor(MakeModelTrimYear)Hyundai elite i20 asta 1.4 crdi (o) 2015               2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Hyundai elite i20 asta 1.4 crdi 2015                   2.314e+02  9.749e+03   0.024    0.981    
+factor(MakeModelTrimYear)Hyundai elite i20 magna 1.2 2010                       8.517e+01  9.390e+03   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai elite i20 sportz 1.2 2015                      1.817e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai elite i20 sportz 1.4 2014                      2.302e+02  1.254e+04   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai elite i20 sportz 1.4 2015                      2.628e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai elite i20 sportz 1.4 crdi 2014                 2.207e+02  1.773e+04   0.012    0.990    
+factor(MakeModelTrimYear)Hyundai elite i20 sportz 1.4 crdi 2015                 2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai eon 1.0 kappa magna + 2015                     1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai eon d lite 2012                                6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai eon d lite 2013                                7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai eon d lite plus 2014                           8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai eon era + 2014                                 8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai eon era plus 2012                              8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai eon era plus 2014                              8.585e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai eon magna + 2012                               3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Hyundai eon magna + 2013                               1.112e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai eon sportz 2013                                8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai eon sportz 2014                                1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai getz gle 2004                                  1.486e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai getz gls 2006                                  4.907e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai getz gls 2008                                  2.929e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai grand i10 asta 1.2 kappa vtvt 2015             1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai grand i10 asta 2014                            1.518e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai grand i10 asta 2015                            2.087e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Hyundai grand i10 asta at 2014                         1.711e+02  8.396e+03   0.020    0.984    
+factor(MakeModelTrimYear)Hyundai grand i10 magna 1.2 kappa vtvt 2015            1.502e+02  1.773e+04   0.008    0.993    
+factor(MakeModelTrimYear)Hyundai grand i10 magna 2016                           1.860e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai grand i10 sports edition 1.2l kappa vtvt 2014  1.592e+02  9.663e+03   0.016    0.987    
+factor(MakeModelTrimYear)Hyundai grand i10 sportz 1.1 crdi 2013                 1.436e+02  9.598e+03   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai grand i10 sportz 1.1 crdi 2016                 1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai grand i10 sportz 1.2 kappa vtvt 2014           1.463e+02  1.773e+04   0.008    0.993    
+factor(MakeModelTrimYear)Hyundai grand i10 sportz 1.2 kappa vtvt 2016           1.873e+02  1.773e+04   0.011    0.992    
+factor(MakeModelTrimYear)Hyundai grand i10 sportz crdi 2014                     1.817e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 2009                              6.273e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 at kappa 2 2008                   7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 at kappa 2 2012                   8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 at kappa 2 2014                   1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 at kappa2 with sunroof 2012       1.135e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i10 asta 1.2 kappa 2 2014                      1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i10 era 1.1 1rde2 2009                         4.872e+01  6.932e+03   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i10 era 1.1 1rde2 2010                         7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai i10 era 1.1 1rde2 2012                         8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 era 1.1 irde2 2009                         5.269e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai i10 era 1.1 irde2 2011                         6.765e+01  9.266e+03   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i10 era 2008                                   5.447e+01  7.280e+03   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i10 era 2010                                   7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Hyundai i10 era 2013                                   9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.1 2008                             7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.1 2010                             6.438e+01  6.302e+03   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.1 irde2 2008                       8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.1 irde2 2011                       9.170e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.1 irde2 2015                       1.297e+02  1.117e+04   0.012    0.991    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2008                             6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2009                             3.639e+01  6.723e+03   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2010                             5.764e+01  3.961e+03   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2011                             5.673e+01  6.241e+03   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2012                             8.588e+01  7.473e+03   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 2013                             1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 kappa2 2011                      1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 kappa2 2013                      1.190e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Hyundai i10 magna 1.2 kappa2 2016                      2.399e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai i10 magna 2007                                 3.267e+01  9.984e+03   0.003    0.997    
+factor(MakeModelTrimYear)Hyundai i10 magna 2008                                 4.879e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.1 irde2 2010                      9.393e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.1 irde2 2014                      1.300e+02  9.475e+03   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.2 2010                            7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.2 2011                            1.230e+02  1.252e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.2 2012                            1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i10 sportz 1.2 at kappa2 2011                  1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i10 sportz 2011                                5.607e+01  3.774e+03   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai i10 sportz 2013                                1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i20 1.2 era 2013                               1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i20 1.2 sportz bs iv 2011                      1.249e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i20 asta (o) 1.6 2016                          2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.2 2009                              9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.2 2010                              1.128e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.2 2011                              1.046e+02  9.801e+03   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.2 2012                              1.288e+02  6.467e+03   0.020    0.984    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.2 2014                              1.924e+02  9.635e+03   0.020    0.984    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.4 2015                              2.341e+02  1.773e+04   0.013    0.989    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.4 at 2010                           1.171e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Hyundai i20 asta 1.4 crdi 2011                         1.232e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i20 magna (o) 1.4 crdi 2011                    1.026e+02  9.931e+03   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai i20 magna (o) 1.4 crdi 2012                    1.183e+02  9.669e+03   0.012    0.990    
+factor(MakeModelTrimYear)Hyundai i20 magna (o) 1.4 crdi 2013                    1.339e+02  9.635e+03   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai i20 magna (o) 1.6 2016                         2.399e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai i20 magna 1.2 2009                             8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i20 magna 1.2 2010                             1.015e+02  6.435e+03   0.016    0.987    
+factor(MakeModelTrimYear)Hyundai i20 magna 1.2 2011                             9.878e+01  9.627e+03   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai i20 magna 1.2 2012                             1.518e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i20 magna 1.2 2013                             1.541e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai i20 sportz (at) 1.8 2013                       1.444e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Hyundai i20 sportz (at) 1.8 2014                       2.009e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai i20 sportz 1.2 2012                            1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i20 sportz 1.2 2015                            2.224e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Hyundai i20 sportz 1.2 bs iv 2011                      9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai i20 sportz 1.2 bs iv 2013                      1.509e+02  1.196e+04   0.013    0.990    
+factor(MakeModelTrimYear)Hyundai i20 sportz 1.4 crdi 2012                       1.281e+02  9.344e+03   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai i20 sportz 2010                                1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai i20 sportz 2012                                1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai i20 sportz 2013                                1.475e+02  9.959e+03   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai i20 sportz abs crdi 2013                       1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai santa fe 2wd 2012                              3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Hyundai santa fe 4wd at 2014                           7.568e+02  1.773e+04   0.043    0.966    
+factor(MakeModelTrimYear)Hyundai santro gl 2007                                 1.173e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai santro gl plus 2007                            3.124e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai santro gls 2008                                3.192e+01  7.800e+03   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai santro gls 2009                                4.032e+01  9.344e+03   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai santro gls 2010                                6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai santro gls 2011                                7.220e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai santro gls 2012                                7.651e+01  5.443e+03   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai santro gls 2013                                8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai santro xing gl 2005                            2.149e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai santro xing gl 2011                            5.171e+01  1.033e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai santro xing gl cng 2008                        1.368e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai santro xing gl cng 2009                        4.294e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Hyundai santro xing gl plus lpg 2012                   8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Hyundai santro xing gls 2007                           4.294e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Hyundai santro xing gls 2008                           2.539e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai santro xing gls 2009                           4.517e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai santro xing gls 2010                           5.074e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai santro xing gls at 2008                        5.391e+01  9.663e+03   0.006    0.996    
+factor(MakeModelTrimYear)Hyundai santro xing gls lpg 2011                       7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai santro xing xo 2006                            3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Hyundai santro xing xo 2007                            1.173e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Hyundai santro xl 2005                                 1.538e+01  9.225e+03   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai santro xl 2006                                 3.124e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai santro xl 2007                                 2.844e+01  1.023e+04   0.003    0.998    
+factor(MakeModelTrimYear)Hyundai santro xl at 2006                              2.833e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Hyundai sonata 2.4 gdi mt 2011                         1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai sonata embera 2.0 crdi mt 2010                 1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Hyundai verna 1.4 2011                                 1.710e+02  9.287e+03   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai verna 1.4 cx crdi mt 2015                      3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Hyundai verna 1.4 vtvt 2013                            1.352e+02  5.059e+03   0.027    0.979    
+factor(MakeModelTrimYear)Hyundai verna 1.6 crdi sx (o) at 2012                  2.809e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Hyundai verna 1.6 crdi sx (o) at 2014                  2.985e+02  1.254e+04   0.024    0.981    
+factor(MakeModelTrimYear)Hyundai verna 1.6 crdi sx 2011                         1.990e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai verna 1.6 crdi sx 2012                         1.638e+02  6.925e+03   0.024    0.981    
+factor(MakeModelTrimYear)Hyundai verna 1.6 sx 2012                              2.543e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai verna 1.6 sx 2013                              2.540e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai verna 1.6 sx 2014                              2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai verna 1.6 sx crdi at 2012                      2.789e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Hyundai verna 1.6 vtvt sx 2012                         2.009e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Hyundai verna at 2013                                  2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai verna crdi 1.6 ex at 2012                      2.275e+02  9.476e+03   0.024    0.981    
+factor(MakeModelTrimYear)Hyundai verna crdi 1.6 ex at 2014                      3.180e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.4 vtvt 2013                    2.399e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 crdi 2011                    1.345e+02  6.917e+03   0.019    0.984    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 crdi 2012                    3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 crdi sx 2011                 1.717e+02  1.254e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 crdi sx 2013                 3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 crdi sx opt at 2011          2.695e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 ex vtvt 2011                 1.632e+02  9.229e+03   0.018    0.986    
+factor(MakeModelTrimYear)Hyundai verna fluidic 1.6 vtvt sx 2016                 3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Hyundai verna sx 2010                                  9.488e+01  9.598e+03   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai verna sx 2012                                  1.983e+02  9.475e+03   0.021    0.983    
+factor(MakeModelTrimYear)Hyundai verna sx 2013                                  2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Hyundai verna sx 2014                                  2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Hyundai verna transform 1.5 sx crdi 2010               1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Hyundai verna vgt 2010                                 1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai verna vgt 2011                                 2.306e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Hyundai verna vgt crdi 2008                            1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Hyundai verna vtvt sx 1.6 2011                         1.639e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Hyundai verna xi 2007                                  6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Hyundai xcent 1.1 base 2015                            2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Hyundai xcent s 1.2 2014                               1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Hyundai xcent s 1.2 2015                               1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Jaguar xf 2.2 diesel 2013                              1.108e+03  1.773e+04   0.062    0.950    
+factor(MakeModelTrimYear)Jaguar xf 3.0 s 2014                                   8.723e+02  1.773e+04   0.049    0.961    
+factor(MakeModelTrimYear)Jaguar xf 3.0l diesel 2012                             9.519e+02  1.773e+04   0.054    0.957    
+factor(MakeModelTrimYear)Jaguar xj 3.0 diesel portfolio 2011                    1.635e+03  1.773e+04   0.092    0.927    
+factor(MakeModelTrimYear)Kawasaki ninja 650 650cc 2015                          1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Ktm duke 200cc 2012                                    1.954e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Ktm duke 200cc 2014                                    3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Ktm duke 200cc 2015                                    2.831e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Ktm duke 390cc 2015                                    5.346e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Land Rover freelander 2 sd4 hse 2014                   1.108e+03  1.773e+04   0.062    0.950    
+factor(MakeModelTrimYear)Land Rover range rover evoque hse dynamic 2016         2.317e+03  1.773e+04   0.131    0.896    
+factor(MakeModelTrimYear)Lml lml nv spl 150 2005                               -1.971e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Mahindra bolero 2 wd at 2012                           1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Mahindra bolero lx 2013                                2.009e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Mahindra bolero slx 2012                               1.233e+02  5.427e+03   0.023    0.982    
+factor(MakeModelTrimYear)Mahindra bolero slx 2013                               1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mahindra bolero slx 2015                               2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Mahindra bolero zlx 2012                               1.248e+02  6.780e+03   0.018    0.985    
+factor(MakeModelTrimYear)Mahindra duro 125 2013                                -1.265e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Mahindra quanto c2 2013                                1.249e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mahindra scorpio 2.6 2007                              1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mahindra scorpio 2.6 dx 2004                           8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Mahindra scorpio dx 2.6 turbo 7 str 2009               1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Mahindra scorpio dx 2.6 turbo 8 str 2010               1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Mahindra scorpio ex 2011                               2.536e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Mahindra scorpio ex 2013                               2.848e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Mahindra scorpio lx 2010                               1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Mahindra scorpio lx 2011                               1.632e+02  9.336e+03   0.017    0.986    
+factor(MakeModelTrimYear)Mahindra scorpio s10 1.99 mhawk 2015                   3.679e+02  9.635e+03   0.038    0.970    
+factor(MakeModelTrimYear)Mahindra scorpio s10 2015                              3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Mahindra scorpio s10 4wd 2015                          3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Mahindra scorpio s2 2016                               4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Mahindra scorpio s6 2016                               3.862e+02  1.773e+04   0.022    0.983    
+factor(MakeModelTrimYear)Mahindra scorpio s6 plus 2014                          3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Mahindra scorpio sle 2.6 crde 2009                     1.171e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Mahindra scorpio sle 2012                              1.744e+02  4.468e+03   0.039    0.969    
+factor(MakeModelTrimYear)Mahindra scorpio sle 2013                              2.419e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Mahindra scorpio sle 2014                              2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Mahindra scorpio sle bs iv 2011                        1.339e+02  9.635e+03   0.014    0.989    
+factor(MakeModelTrimYear)Mahindra scorpio slx 2.6 turbo 7 str 2009              9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Mahindra scorpio vls 2.2 at m hawk 2008                1.600e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 2009                              1.623e+02  5.417e+03   0.030    0.976    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 2011                              1.729e+02  9.621e+03   0.018    0.986    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 2014                              3.270e+02  9.748e+03   0.034    0.973    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 2wd airbag bs iii 2010            2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 2wd bs iv 2013                    2.890e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Mahindra scorpio vlx 4wd 2012                          2.636e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Mahindra thar 4x4 2013                                 2.315e+02  9.229e+03   0.025    0.980    
+factor(MakeModelTrimYear)Mahindra thar crde 4x4 2015                            3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Mahindra thar di 2wd 2013                              1.093e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Mahindra tuv300 t8 2015                                2.809e+02  6.809e+03   0.041    0.967    
+factor(MakeModelTrimYear)Mahindra verito 1.5 d2 bs iv 2011                      7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Mahindra xuv500 sportz ltd 2014                        2.597e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Mahindra xuv500 w10 2015                               5.247e+02  6.784e+03   0.077    0.938    
+factor(MakeModelTrimYear)Mahindra xuv500 w10 2016                               4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Mahindra xuv500 w4 2012                                3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Mahindra xuv500 w4 2016                                4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Mahindra xuv500 w6 2012                                2.224e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Mahindra xuv500 w6 2014                                3.572e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Mahindra xuv500 w6 2015                                3.289e+02  9.651e+03   0.034    0.973    
+factor(MakeModelTrimYear)Mahindra xuv500 w6 4x2 2014                            4.252e+02  1.773e+04   0.024    0.981    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 2011                                2.431e+02  9.595e+03   0.025    0.980    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 2012                                2.835e+02  2.057e+03   0.138    0.890    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 2013                                3.493e+02  6.379e+03   0.055    0.956    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 2014                                3.952e+02  9.687e+03   0.041    0.967    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 4x4 2012                            3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Mahindra xuv500 w8 4x4 2014                            4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Mahindra xylo base 2009                                1.249e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mahindra xylo d2 bs iv 2011                            1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Mahindra xylo d2 bs iv 2014                            1.580e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Mahindra xylo e4 2010                                  1.444e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Mahindra xylo e4 2011                                  1.405e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Mahindra xylo e8 2010                                  1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mahindra xylo e8 2011                                  1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki 800 ac 2003                              5.883e+00  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Maruti Suzuki 800 ac bs iii 2011                       4.060e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki a-star lxi 2010                          5.269e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki a-star vxi 2009                          4.385e+01  1.117e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki a-star vxi 2010                          7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki a-star vxi 2011                          7.341e+01  9.663e+03   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki a-star vxi abs at 2010                   6.089e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lx 2013                         4.712e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi 2012                        5.273e+01  6.581e+03   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi 2013                        5.654e+01  6.876e+03   0.008    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi 2014                        7.210e+01  4.760e+03   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi 2015                        7.220e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi cng 2013                    6.635e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 lxi cng 2014                    4.585e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto 800 vxi 2014                        8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 k10 lxi 2012                    5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 lxi 2011                        5.464e+01  1.254e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 lxi 2013                        6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 lxi 2014                        8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 vxi (o) 2014                    8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 vxi 2010                        3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 vxi 2011                        5.074e+01  1.254e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 vxi 2012                        6.963e+01  1.043e+04   0.007    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki alto k10 vxi 2017                        1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki alto lx 2004                             3.100e-01  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Maruti Suzuki alto lx 2008                             9.784e+00  1.773e+04   0.001    1.000    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2004                            1.173e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2005                            1.368e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2006                            1.654e+01  1.117e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2007                            7.833e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2008                            4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2009                            2.973e+01  5.362e+03   0.006    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2010                            3.801e+01  4.216e+03   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2011                            4.813e+01  9.336e+03   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2012                            5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2014                            6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi 2015                            8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki alto lxi bs-iii 2007                     1.819e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki alto vxi 2011                            4.489e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki baleno delta 1.2 2016                    2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki baleno delta at 1.2 2016                 2.435e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki baleno zeta 1.3 2016                     2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki celerio vxi 2014                         1.236e+02  1.196e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki celerio vxi amt 2014                     1.445e+02  6.272e+03   0.023    0.982    
+factor(MakeModelTrimYear)Maruti Suzuki celerio vxi at 2014                      1.104e+02  6.723e+03   0.016    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki celerio vxi mt 2015                      1.268e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki celerio zxi 2015                         2.068e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ciaz zdi 2015                            2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki ciaz zdi o 2016                          3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki ciaz zdi+ (o) 2015                       3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Maruti Suzuki ciaz zxi 2015                            3.063e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 seater ac 2012                    8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str 2010                          4.879e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str 2011                          6.830e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str 2012                          3.049e+01  9.748e+03   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str 2013                          1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str ac 2010                       8.028e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str ac 2011                       5.626e+01  9.074e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str ac 2012                       8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str ac 2013                       7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str ac 2015                       9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str cng with ac plushtr 2013      8.195e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str cng with htr 2012             6.869e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 5 str with a/c+htr 2015             1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 7 str 2010                          7.833e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 7 str 2013                          1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 7 str 2014                          9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki eeco 7 str 2015                          1.173e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vdi 2012                          1.847e+02  8.401e+03   0.022    0.982    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vdi 2013                          2.009e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vdi 2014                          2.492e+02  8.184e+03   0.030    0.976    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vdi 2016                          2.930e+02  1.773e+04   0.017    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vdi bs iv 2013                    2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vxi 2014                          2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga vxi 2015                          2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zdi 2012                          1.932e+02  6.401e+03   0.030    0.976    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zdi 2013                          2.324e+02  6.675e+03   0.035    0.972    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zdi 2014                          1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zdi 2015                          2.731e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zxi 2013                          1.915e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zxi 2015                          2.809e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki ertiga zxi+ 2016                         3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Maruti Suzuki omni 5 seater bs ii 2005                 2.149e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki omni 5 seater bs iv 2011                 4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki omni 8 seater bs iv 2014                 4.489e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki ritz genus vxi 2010                      6.530e+01  1.117e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki ritz ldi 2011                            9.756e+01  1.773e+04   0.006    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki ritz lxi 2010                            1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki ritz lxi 2011                            7.275e+01  8.566e+03   0.008    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki ritz lxi 2013                            9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi 2009                            6.702e+01  4.784e+03   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi 2011                            1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi 2012                            1.288e+02  1.254e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi 2013                            1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi 2014                            1.435e+02  1.017e+04   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi abs bs iv 2013                  1.307e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vdi bs iv 2012                      1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vxi abs bs iv 2010                  8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki ritz vxi at abs 2013                     1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki ritz zdi bs iv 2013                      1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki ritz zxi bs iv 2014                      1.834e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki s-cross alpha 1.3 2015                   4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Maruti Suzuki s-cross delta 1.6 2015                   2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki s-cross delta 1.6 2016                   4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Maruti Suzuki s-cross zeta 1.6 2016                    3.999e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Maruti Suzuki stingray vxi 2014                        1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki swift 1.2 vxi bs-iv 2008                 6.245e+01  6.669e+03   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift 1.2 vxi bs+ac0-iv 2008             8.390e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift deca limited edition vxi 2015      1.678e+02  1.773e+04   0.009    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire automatic 2012               1.678e+02  1.773e+04   0.009    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire automatic 2013               1.682e+02  1.773e+04   0.009    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2008                     8.000e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2010                     1.086e+02  9.287e+03   0.012    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2012                     1.345e+02  6.944e+03   0.019    0.985    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2013                     1.394e+02  1.128e+04   0.012    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2015                     2.021e+02  9.913e+03   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi 2016                     2.555e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire ldi bs-iv 2012               1.271e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire lxi 1.2 bs-iv 2011           1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire lxi 2008                     7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire lxi 2009                     1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire lxi 2010                     9.482e+01  9.913e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire tour 2013                    1.444e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire tour 2014                    2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2009                     9.486e+01  9.719e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2010                     1.183e+02  9.728e+03   0.012    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2011                     1.346e+02  6.626e+03   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2012                     1.346e+02  6.678e+03   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2013                     1.735e+02  6.973e+03   0.025    0.980    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2014                     1.569e+02  1.686e+03   0.093    0.926    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi 2015                     1.780e+02  5.240e+03   0.034    0.973    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi bs-iv 2012               1.544e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi bs-iv 2013               1.915e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vdi bs iv 2010               1.639e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 1.2 bs iv 2010           8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 1.2 bs iv 2012           1.093e+02  6.467e+03   0.017    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 1.2 bs iv 2013           1.531e+02  9.226e+03   0.017    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 2009                     7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 2010                     9.569e+01  6.422e+03   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 2011                     1.065e+02  1.023e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi 2014                     1.658e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire vxi at 2014                  1.814e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zdi 2008                     1.268e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zdi 2012                     1.990e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zdi 2013                     1.905e+02  9.227e+03   0.021    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zdi 2014                     2.234e+02  1.045e+04   0.021    0.983    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zdi bs iv 2011               1.232e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift dzire zxi 2014                     1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift ldi 2008                           6.636e+01  6.634e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift ldi 2011                           1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi (o) 2015                       1.580e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi 1.2 bs iv 2010                 5.594e+01  9.287e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi 1.3 2006                       5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi 1.3 2008                       7.443e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi 2009                           7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki swift lxi 2012                           1.242e+02  9.229e+03   0.013    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi (o) 2016                       2.614e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2008                           9.496e+01  9.229e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2009                           8.122e+01  6.806e+03   0.012    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2010                           8.614e+01  5.405e+03   0.016    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2011                           1.071e+02  2.734e+03   0.039    0.969    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2012                           1.206e+02  3.497e+03   0.034    0.972    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2013                           1.271e+02  2.200e+03   0.058    0.954    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2014                           1.607e+02  4.565e+03   0.035    0.972    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi 2015                           1.889e+02  7.646e+03   0.025    0.980    
+factor(MakeModelTrimYear)Maruti Suzuki swift vdi abs 2015                       1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 1.2 abs bs iv 2010             9.530e+01  8.957e+03   0.011    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 1.2 abs bs iv 2013             1.145e+02  9.287e+03   0.012    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 1.3 2006                       4.586e+01  9.667e+03   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 1.3 2009                       7.545e+01  9.234e+03   0.008    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2005                           5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2009                           6.764e+01  9.287e+03   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2012                           1.147e+02  5.929e+03   0.019    0.985    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2013                           1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2014                           1.449e+02  8.724e+03   0.017    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki swift vxi 2016                           1.827e+02  9.344e+03   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki swift zdi 2013                           1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Maruti Suzuki swift zdi 2014                           1.697e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki swift zdi 2015                           2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki swift zxi 1.2 bs iv 2010                 7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki swift zxi 1.3 2005                       5.074e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki swift zxi 1.3 2006                       4.879e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki swift zxi 2006                           7.778e+01  8.804e+03   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki swift zxi 2013                           1.524e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki sx4 vxi 2007                             5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki sx4 vxi 2008                             5.178e+01  8.581e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki sx4 vxi 2011                             7.525e+01  1.023e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki sx4 zxi 2009                             7.805e+01  1.773e+04   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki SX4 ZXI MT BS IV 2011                    1.249e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki vitara brezza zdi 2016                   3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lx[2010-2012] 2010           4.414e+01  9.758e+03   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lx[2010-2012] 2011           6.932e+01  1.063e+04   0.007    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2007                     3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2008                     3.549e+01  8.560e+03   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2009                     3.735e+01  5.841e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2010                     5.590e+01  9.475e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2011                     6.627e+01  6.967e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2012                     8.038e+01  5.525e+03   0.015    0.988    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2014                     1.096e+02  5.525e+03   0.020    0.984    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi 2015                     1.190e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi cng 2005                 2.734e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi cng 2007                 3.124e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi cng 2012                 8.585e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi lpg 2013                 1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 lxi[2010-2012] 2007          3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi 2007                     3.124e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi 2009                     6.168e+01  9.801e+03   0.006    0.995    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi 2012                     8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi 2013                     9.272e+01  1.063e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi 2015                     1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi abs 2016                 1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r 1.0 vxi amt 2017                 1.658e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r ax minor 2009                    7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2003                         1.564e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2006                         5.855e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2007                         5.855e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2008                         6.245e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2010                         7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2012                         7.553e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r lxi 2013                         9.100e+01  9.499e+03   0.010    0.992    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2007                         3.514e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2008                         4.489e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2009                         5.269e+01  1.254e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2010                         5.009e+01  9.287e+03   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2011                         5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2012                         7.672e+01  4.858e+03   0.016    0.987    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2013                         8.585e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2014                         1.107e+02  8.184e+03   0.014    0.989    
+factor(MakeModelTrimYear)Maruti Suzuki wagon r vxi 2015                         1.281e+02  1.043e+04   0.012    0.990    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lx 2008                       5.269e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lxi 2009                      4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lxi 2010                      6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lxi 2011                      6.440e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lxi 2012                      7.454e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo lxi bs iv 2011                4.300e+01  9.580e+03   0.004    0.996    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo vxi 2007                      2.344e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo vxi 2010                      6.050e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo vxi 2012                      5.855e+01  1.773e+04   0.003    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen estilo vxi 2013                      6.635e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Maruti Suzuki zen lxi 2007                             1.954e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Mercedes-benz c-class 200 cgi 2008                     3.870e+02  8.582e+03   0.045    0.964    
+factor(MakeModelTrimYear)Mercedes-benz c-class 200 cgi 2011                     5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Mercedes-benz c-class 200 cgi 2012                     6.398e+02  1.773e+04   0.036    0.971    
+factor(MakeModelTrimYear)Mercedes-benz c-class 200 cgi 2014                     7.178e+02  1.773e+04   0.040    0.968    
+factor(MakeModelTrimYear)Mercedes-benz c-class 200 cgi 2015                     1.361e+03  1.773e+04   0.077    0.939    
+factor(MakeModelTrimYear)Mercedes-benz c-class 220 blueefficiency 2008          3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Mercedes-benz c-class 220 cdi 2014                     9.129e+02  1.773e+04   0.051    0.959    
+factor(MakeModelTrimYear)Mercedes-Benz C-Class 230 AVANTGARDE 2009              4.350e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Mercedes-benz c-class 250 cdi 2010                     5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Mercedes-benz c-class 250 cdi 2013                     7.081e+02  1.773e+04   0.040    0.968    
+factor(MakeModelTrimYear)Mercedes-benz c-class 250 cdi 2014                     6.635e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Mercedes-benz c-class 250 cdi avantagarde 2013         9.909e+02  1.773e+04   0.056    0.955    
+factor(MakeModelTrimYear)Mercedes-benz c-class 250 cdi avantgarde 2011          7.958e+02  1.773e+04   0.045    0.964    
+factor(MakeModelTrimYear)Mercedes-benz c-class c 220 cdi avantgarde 2012        7.958e+02  1.773e+04   0.045    0.964    
+factor(MakeModelTrimYear)Mercedes-benz c-class c200 2015                        1.264e+03  1.773e+04   0.071    0.943    
+factor(MakeModelTrimYear)Mercedes-benz c-class c220 d 2016                      1.381e+03  1.254e+04   0.110    0.912    
+factor(MakeModelTrimYear)Mercedes-Benz C-Class Edition C 2012                   5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Mercedes-benz cla 200 cdi 2015                         1.108e+03  1.773e+04   0.062    0.950    
+factor(MakeModelTrimYear)Mercedes-benz cla class 200 petrol sport 2016          1.244e+03  1.773e+04   0.070    0.944    
+factor(MakeModelTrimYear)Mercedes-benz e-class 250 cdi launch edition 2013      1.303e+03  1.254e+04   0.104    0.917    
+factor(MakeModelTrimYear)Mercedes-benz e-class 280 cdi elegance 2008            5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Mercedes-benz e-class cdi avantgrade 2014              1.342e+03  1.773e+04   0.076    0.940    
+factor(MakeModelTrimYear)Mercedes-benz e-class e-350 2009                       5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Mercedes-benz e-class e 200 2006                       2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Mercedes-benz e-class e 250 cdi 2014                   1.070e+03  9.275e+03   0.115    0.908    
+factor(MakeModelTrimYear)Mercedes-benz e-class e 250 cdi avantgrade 2015        1.615e+03  1.773e+04   0.091    0.927    
+factor(MakeModelTrimYear)Mercedes-benz e-class e 350 cdi avantgarde 2015        1.537e+03  1.773e+04   0.087    0.931    
+factor(MakeModelTrimYear)Mercedes-benz e-class e250 cdi avantgarde 2014         1.069e+03  1.773e+04   0.060    0.952    
+factor(MakeModelTrimYear)Mercedes-benz gl 350 cdi 2013                          1.752e+03  1.773e+04   0.099    0.921    
+factor(MakeModelTrimYear)Mercedes-benz gl 350 cdi 2014                          2.512e+03  1.773e+04   0.142    0.887    
+factor(MakeModelTrimYear)Mercedes-benz gl 350 cdi blue efficiency 2014          1.927e+03  1.773e+04   0.109    0.913    
+factor(MakeModelTrimYear)Mercedes-benz gla class 200 cdi sport 2014             1.069e+03  1.773e+04   0.060    0.952    
+factor(MakeModelTrimYear)Mercedes-benz m-class ml 350 cdi 2007                  2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Mercedes-benz m-class ml 350 cdi 4matic 2010           6.008e+02  1.773e+04   0.034    0.973    
+factor(MakeModelTrimYear)Mercedes-benz m-class ml 350 cdi blueefficiency 2008   6.788e+02  1.773e+04   0.038    0.969    
+factor(MakeModelTrimYear)Mercedes-benz s-class 320 cdi 2008                     6.217e+02  8.900e+03   0.070    0.944    
+factor(MakeModelTrimYear)Mitsubishi pajero glx 2.8 crz 2006                     1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Mitsubishi pajero glx 2.8 crz 2010                     3.238e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Mitsubishi pajero glx 2.8 crz 2012                     5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Mitsubishi pajero sfx 2.8 2010                         4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Mitsubishi pajero sfx 2.8 2011                         4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Mitsubishi pajero sport 2.5 mt 2012                    5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Mitsubishi pajero sport 2.5 mt 2013                    5.247e+02  6.639e+03   0.079    0.937    
+factor(MakeModelTrimYear)Mitsubishi pajero sport 2.5 mt 2015                    8.153e+02  1.773e+04   0.046    0.963    
+factor(MakeModelTrimYear)Mitsubishi pajero sport 4x4 mt 2012                    5.423e+02  1.773e+04   0.031    0.976    
+factor(MakeModelTrimYear)Mitsubishi pajero sport pajero sport 2.5 mt 2013       5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Nissan micra active xv 2013                            8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Nissan micra xl cvt 2010                               7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Nissan micra xv cvt 2015                               1.817e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Nissan micra xv premium diesel 2011                    1.015e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Nissan micra xv premium diesel 2013                    1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Nissan sunny xv 2012                                   1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Nissan sunny xv petrol 2011                            1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Nissan terrano xe d 2014                               2.477e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Nissan terrano xv 110 diesel 2014                      2.900e+02  9.274e+03   0.031    0.975    
+factor(MakeModelTrimYear)Piaggio vespa 125cc 2013                              -9.360e+00  1.043e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Renault duster 110 ps rxl 2013                         2.536e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Renault duster 110 ps rxl 2014                         3.082e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Renault duster 110 ps rxz 2012                         2.410e+02  1.063e+04   0.023    0.982    
+factor(MakeModelTrimYear)Renault duster 110 ps rxz 2013                         2.406e+02  8.814e+03   0.027    0.978    
+factor(MakeModelTrimYear)Renault duster 85 ps rxl 2012                          2.029e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Renault duster 85 ps rxl 2014                          3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Renault duster 85 ps rxl 2015                          2.750e+02  1.773e+04   0.016    0.988    
+factor(MakeModelTrimYear)Renault duster rxe 2014                                2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Renault duster rxl 2012                                2.380e+02  1.773e+04   0.013    0.989    
+factor(MakeModelTrimYear)Renault duster rxl 2013                                2.597e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Renault duster rxl diesel 110 2014                     3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Renault duster rxz diesel 110 2012                     2.392e+02  9.687e+03   0.025    0.980    
+factor(MakeModelTrimYear)Renault fluence 1.5 e2 2013                            3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Renault koleos 4x4 2011                                4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Renault scala rxz 2013                                 2.110e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Royal Enfield bullet 500cc 2008                       -3.591e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Royal Enfield bullet 500cc 2014                        2.539e+01  1.254e+04   0.002    0.998    
+factor(MakeModelTrimYear)Royal Enfield classic 350cc 2011                       2.149e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Royal Enfield classic 350cc 2014                       3.124e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Royal Enfield classic 350cc 2015                       3.758e+01  1.254e+04   0.003    0.998    
+factor(MakeModelTrimYear)Royal Enfield classic 350cc 2016                       4.462e+01  1.184e+04   0.004    0.997    
+factor(MakeModelTrimYear)Royal Enfield electra 350cc 2007                       1.076e+01  1.773e+04   0.001    1.000    
+factor(MakeModelTrimYear)Royal Enfield electra 350cc 2014                       2.441e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Royal Enfield thunderbird 350cc 2014                   4.273e+01  1.773e+04   0.002    0.998    
+factor(MakeModelTrimYear)Schnell cyclone 26 2016                               -1.850e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Skoda fabia active 1.2 mpi 2011                        9.756e+01  1.773e+04   0.006    0.996    
+factor(MakeModelTrimYear)Skoda fabia active 1.4 pd tdi 2008                     7.025e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Skoda fabia classic 1.2 mpi 2010                       7.766e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Skoda fabia elegance 1.2 tdi 2011                      1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Skoda laura 2.0 tdi cr mt 2011                         2.204e+02  1.773e+04   0.012    0.990    
+factor(MakeModelTrimYear)Skoda laura active 1.8 tsi 2010                        1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Skoda laura ambiente 1.8 tsi 2010                      1.951e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Skoda laura ambiente 1.9 tdi 2007                      1.329e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Skoda laura ambiente 1.9 tdi 2009                      1.619e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Skoda laura ambition 1.8 tsi 2010                      1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Skoda laura elegance 1.9 tdi 2010                      1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Skoda laura l&k 2.0 tdi at 2007                        1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Skoda octavia active 2005                              5.386e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Skoda octavia elegance 2.0 tdi cr at 2014              4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Skoda octavia tdi 2007                                 8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Skoda rapid 1.5 ambition 2012                          1.600e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Skoda rapid 1.5 tdi active mt 2016                     3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Skoda rapid 1.5 tdi cr ambition at 2015                3.180e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Skoda rapid ambition 1.6 mpi mt plus 2015              2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Skoda rapid ambition 1.6 tdi cr mt 2012                1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Skoda superb 1.8 elegance 2009                         2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Skoda superb 1.8 tsi a/t 2012                          3.180e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Skoda superb 2.0 tdi pd 2010                           3.085e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Skoda superb 2.0 tdi pd 2011                           4.174e+02  1.773e+04   0.024    0.981    
+factor(MakeModelTrimYear)Skoda superb 2.5 tdi 2010                              2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Skoda superb ambition 1.8 tsi mt 2010                  2.887e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Skoda superb ambition 2.0 tdi at 2012                  4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Skoda superb elegance 1.8 tsi at 2010                  2.218e+02  8.958e+03   0.025    0.980    
+factor(MakeModelTrimYear)Skoda superb elegance mt 2010                          2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Skoda yeti active 2.0 tdi 4x2 2012                     1.859e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Skoda yeti ambition 2.0 tdi 4x4 2012                   2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Ssangyong rexton rx7 2013                              5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Suzuki access 125 124 cc 2016                         -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125 125 cc 2013                         -8.258e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Suzuki access 125 2012                                -8.931e+00  9.323e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125 2013                                -1.044e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Suzuki access 125cc 2008                              -1.313e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2009                              -1.118e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2010                              -1.013e+01  1.008e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2011                              -1.031e+01  8.706e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2012                              -9.940e+00  6.919e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2013                              -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki access 125cc 2014                              -6.111e+00  1.197e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Suzuki access 125cc 2015                               1.285e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Suzuki access 125cc 2016                              -1.237e+00  7.736e+03   0.000    1.000    
+factor(MakeModelTrimYear)Suzuki access 125cc 2017                              -1.216e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki fiero 150 cc 2001                              -1.899e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki gixxer 150cc 2015                               1.007e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Suzuki swish 125 2012                                 -9.721e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Suzuki zeus 125cc 2008                                -1.850e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Suzuki zeus 125cc 2009                                -1.899e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tata indica dls 2011                                   3.152e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Tata indica e v2 gls e max 2012                        4.517e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Tata indica vista aqua 1.3 quadrajet 2010              7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Tata indica vista aqua tdi bs iii 2011                 8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata indica vista ls quadrajet 2011                    1.954e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Tata indigo ecs lx cr4 bs iv 2013                      9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata indigo lx dicor bs iii 2007                       4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Tata manza aqua quadrajet bs iii 2011                  8.780e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata manza aqua quadrajet bs iv 2011                   8.808e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata manza aqua quadrajet bs iv 2012                   5.464e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Tata manza aura quadrajet 2010                         8.418e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata manza aura quadrajet bs iii 2011                  9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata manza elan quadrajet bs iv 2012                   8.390e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Tata nano emax lx 2011                                 1.525e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Tata nano lx 2012                                      3.542e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tata nano lx 2013                                      1.564e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Tata nano twist xt 2014                                4.684e+01  1.773e+04   0.003    0.998    
+factor(MakeModelTrimYear)Tata safari 4x2 ex dicor 2.2 vtt 2011                  1.326e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Tata safari dicor gx 2010                              1.229e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Tata safari storme 2.2 lx 4x2 2012                     2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Tata sumo gold ex bs iv 2012                           1.323e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Tata sumo grande gx 2008                               7.415e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Tata sumo victa cx 2009                                6.468e+01  1.773e+04   0.004    0.997    
+factor(MakeModelTrimYear)Tata zest xm rt 90ps 2015                              1.232e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Toyota camry 2.5 at 2014                               8.836e+02  1.773e+04   0.050    0.960    
+factor(MakeModelTrimYear)Toyota camry 2.5 l at 2008                             3.315e+02  1.773e+04   0.019    0.985    
+factor(MakeModelTrimYear)Toyota camry w2 at 2006                                1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Toyota corolla 1.8e 2004                               3.319e+01  1.773e+04   0.002    0.999    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 g 2009                        1.309e+02  5.999e+03   0.022    0.983    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 g 2010                        1.912e+02  6.343e+03   0.030    0.976    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 j s 2013                      2.848e+02  1.773e+04   0.016    0.987    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 j s 2015                      5.033e+02  1.773e+04   0.028    0.977    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 sport 2015                    5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Toyota corolla altis 1.8 v 2010                        1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Toyota corolla altis d 4d g 2010                       1.713e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Toyota corolla altis d 4d g 2011                       2.510e+02  9.229e+03   0.027    0.978    
+factor(MakeModelTrimYear)Toyota corolla altis d 4d g 2015                       5.423e+02  1.773e+04   0.031    0.976    
+factor(MakeModelTrimYear)Toyota corolla altis d 4d j 2012                       2.594e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Toyota corolla altis g 2010                            2.500e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Toyota corolla altis g diesel 2012                     3.063e+02  1.773e+04   0.017    0.986    
+factor(MakeModelTrimYear)Toyota etios 1.4 vd 2014                               2.110e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Toyota etios cross 1.4 gd 2013                         1.990e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Toyota etios g 2011                                    7.609e+01  6.729e+03   0.011    0.991    
+factor(MakeModelTrimYear)Toyota etios gd 2011                                   1.524e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Toyota etios gd 2012                                   1.325e+02  7.090e+03   0.019    0.985    
+factor(MakeModelTrimYear)Toyota etios liva d 4d gd 2012                         1.346e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Toyota etios liva d 4d gd 2013                         1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Toyota etios liva d 4d gd 2014                         1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Toyota etios liva d 4d vd 2015                         1.951e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Toyota etios liva g 2011                               1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Toyota etios liva g 2012                               7.732e+01  9.642e+03   0.008    0.994    
+factor(MakeModelTrimYear)Toyota etios liva gd 2013                              1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Toyota etios v 2011                                    1.102e+02  1.117e+04   0.010    0.992    
+factor(MakeModelTrimYear)Toyota etios vd 2013                                   1.849e+02  9.481e+03   0.020    0.984    
+factor(MakeModelTrimYear)Toyota etios vxd 2013                                  1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Toyota fortuner 2.5 4x2 mt trd sportivo 2015           9.171e+02  1.773e+04   0.052    0.959    
+factor(MakeModelTrimYear)Toyota fortuner 2wd mt 2010                            4.265e+02  9.230e+03   0.046    0.963    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x2 at 2012                        6.410e+02  6.837e+03   0.094    0.925    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x2 at 2014                        8.165e+02  9.750e+03   0.084    0.933    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x2 at 2015                        9.519e+02  1.773e+04   0.054    0.957    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x2 mt 2010                        4.663e+02  6.454e+03   0.072    0.942    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x2 mt 2011                        4.650e+02  8.582e+03   0.054    0.957    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x4 at 2013                        6.788e+02  1.773e+04   0.038    0.969    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x4 at 2016                        9.129e+02  1.773e+04   0.051    0.959    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 4x4 mt 2010                        4.096e+02  2.616e+03   0.157    0.876    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 at 4x2 2012                        5.727e+02  9.702e+03   0.059    0.953    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 at 4x2 2013                        7.861e+02  1.773e+04   0.044    0.965    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 at 4x2 2015                        8.751e+02  9.622e+03   0.091    0.928    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 at 4x4 2015                        8.069e+02  9.090e+03   0.089    0.929    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 d4d 2011                           4.460e+02  9.531e+03   0.047    0.963    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 d4d 2012                           5.325e+02  1.773e+04   0.030    0.976    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 d4d 2014                           7.776e+02  9.441e+03   0.082    0.934    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 limited edition 2009               5.033e+02  1.773e+04   0.028    0.977    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 limited edition 2010               3.862e+02  1.773e+04   0.022    0.983    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x2 2009                        4.213e+02  1.773e+04   0.024    0.981    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x2 2012                        5.825e+02  9.441e+03   0.062    0.951    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x2 2015                        8.348e+02  1.773e+04   0.047    0.962    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x4 2011                        5.240e+02  9.441e+03   0.056    0.956    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x4 2012                        6.020e+02  9.635e+03   0.062    0.950    
+factor(MakeModelTrimYear)Toyota fortuner 3.0 mt 4x4 2013                        5.910e+02  1.773e+04   0.033    0.973    
+factor(MakeModelTrimYear)Toyota fortuner 4x2 at 2015                            1.010e+03  1.773e+04   0.057    0.955    
+factor(MakeModelTrimYear)Toyota fortuner 4x4 mt 2009                            3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Toyota fortuner 4x4 mt 2010                            5.423e+02  1.773e+04   0.031    0.976    
+factor(MakeModelTrimYear)Toyota fortuner 4x4 mt 2011                            5.630e+02  9.613e+03   0.059    0.953    
+factor(MakeModelTrimYear)Toyota fortuner 4x4 mt limited edition 2010            4.798e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Toyota fortuner 4x4 mt limited edition 2011            5.169e+02  1.773e+04   0.029    0.977    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 2008                               2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 2010                               2.497e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 2011                               3.094e+02  9.635e+03   0.032    0.974    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 2014                               4.350e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 8 str bs iv 2013                   3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Toyota innova 2.0 g 8 str bs iv 2014                   4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Toyota innova 2.0 v 2012                               4.252e+02  1.773e+04   0.024    0.981    
+factor(MakeModelTrimYear)Toyota innova 2.5 e ms 7 str bs iv 2012                3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Toyota innova 2.5 g (diesel) 7 seater 2012             3.152e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2006                               1.678e+02  1.773e+04   0.009    0.992    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2007                               1.737e+02  6.418e+03   0.027    0.978    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2008                               2.110e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2009                               2.704e+02  9.913e+03   0.027    0.978    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2010                               2.575e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2011                               2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2012                               3.189e+02  4.175e+03   0.076    0.939    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2013                               4.264e+02  9.755e+03   0.044    0.965    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 2014                               5.228e+02  1.773e+04   0.029    0.976    
+factor(MakeModelTrimYear)Toyota innova 2.5 g 8 str bs iii 2014                  4.545e+02  1.773e+04   0.026    0.980    
+factor(MakeModelTrimYear)Toyota innova 2.5 g4 2007                              1.444e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Toyota innova 2.5 g4 7 str 2012                        2.731e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Toyota innova 2.5 gx 2011                              2.985e+02  1.773e+04   0.017    0.987    
+factor(MakeModelTrimYear)Toyota innova 2.5 gx 7 str bs iv 2015                  4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2010                               2.549e+02  9.440e+03   0.027    0.978    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2011                               2.419e+02  6.714e+03   0.036    0.971    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2012                               3.500e+02  4.454e+03   0.079    0.937    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2013                               3.613e+02  5.394e+03   0.067    0.947    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2014                               5.520e+02  1.773e+04   0.031    0.975    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2015                               5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 2016                               5.583e+02  1.773e+04   0.031    0.975    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 7str 2010                          2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Toyota innova 2.5 v 8 str 2005                         1.912e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Toyota innova 2.5 vx 2012                              2.692e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Toyota innova 2.5 vx 2013                              3.180e+02  1.773e+04   0.018    0.986    
+factor(MakeModelTrimYear)Toyota innova 2.5 vx 2014                              4.740e+02  1.254e+04   0.038    0.970    
+factor(MakeModelTrimYear)Toyota innova 2.5 vx 7 str bs iii 2013                 4.837e+02  1.773e+04   0.027    0.978    
+factor(MakeModelTrimYear)Toyota innova 2.5 vx 7 str bs iv 2012                  4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Toyota innova 2.5 zx 2012                              4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Toyota innova 2.5v 2011                                4.018e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Toyota innova crysta 2.4 zx 7 str 2016                 7.763e+02  1.773e+04   0.044    0.965    
+factor(MakeModelTrimYear)Toyota innova crysta 2.8 zx at 7 str 2016              8.153e+02  1.773e+04   0.046    0.963    
+factor(MakeModelTrimYear)Toyota innova g4 2009                                  2.539e+02  1.773e+04   0.014    0.989    
+factor(MakeModelTrimYear)Toyota innova g4 2010                                  3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Toyota innova g4 2011                                  3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Toyota innova g4 2013                                  4.021e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Toyota land cruiser lc 200 vx 2012                     1.888e+03  1.773e+04   0.106    0.915    
+factor(MakeModelTrimYear)Tvs apache 150cc 2006                                 -1.508e+01  1.254e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs apache 150cc 2011                                 -5.820e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs apache rtr 160cc 2010                             -6.541e+00  1.174e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Tvs apache rtr 160cc 2012                             -9.467e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Tvs apache rtr 160cc 2013                             -2.885e-01  1.196e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs apache rtr 160cc 2015                              3.158e-02  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs apache rtr 160cc 2016                              1.013e+01  1.020e+04   0.001    0.999    
+factor(MakeModelTrimYear)Tvs heavy duty super xl 70 2008                       -1.996e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs heavy duty super xl 70 2009                       -1.996e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs heavy duty super xl 70 2014                       -1.313e+01  1.254e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs jupiter 110cc 2014                                -7.098e+00  9.110e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs jupiter 110cc 2015                                -3.663e+00  9.742e+03   0.000    1.000    
+factor(MakeModelTrimYear)Tvs scooty es 60 cc 2003                              -1.901e+01  1.185e+04  -0.002    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2004                       -1.720e+01  1.243e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2007                       -1.704e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2008                       -1.362e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2010                       -1.216e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2011                       -1.064e+01  1.217e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2012                       -1.208e+01  1.244e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty pep plus 100 cc 2013                       -5.332e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs scooty teez 60cc 2008                             -1.727e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scooty zest 110cc 2014                            -1.431e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs scootypepplus 100 cc 2009                         -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs scootystreak 100cc 2010                           -1.265e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs star city 110cc 2006                              -1.606e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs star city 110cc 2007                              -1.460e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs star city 110cc 2013                              -9.721e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Tvs wego 110 2012                                     -9.944e+00  9.877e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs wego 110 cc 2012                                  -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs wego 110 cc 2014                                  -2.894e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Tvs wego 110cc 2011                                   -1.191e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs xl super 70cc 2016                                -9.442e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Tvs xl super special edition-69cc 2014                -1.142e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Tvs xl super standard-69cc 2016                       -9.442e+00  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Volkswagen beetle 2.0 at 2010                          3.667e+02  1.773e+04   0.021    0.983    
+factor(MakeModelTrimYear)Volkswagen jetta 2.0 tdi highline mt 2012              3.277e+02  1.773e+04   0.018    0.985    
+factor(MakeModelTrimYear)Volkswagen jetta 2.0 tdi highline mt 2014              4.919e+02  1.773e+04   0.028    0.978    
+factor(MakeModelTrimYear)Volkswagen jetta comfortline 1.9 tdi 2010              2.672e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Volkswagen jetta highline tdi 2010                     1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen jetta highline tdi 2013                     4.057e+02  1.773e+04   0.023    0.982    
+factor(MakeModelTrimYear)Volkswagen jetta highline tdi at 2014                  5.910e+02  1.773e+04   0.033    0.973    
+factor(MakeModelTrimYear)Volkswagen passat comfortline 2.0 tdi 2012             4.447e+02  1.024e+04   0.043    0.965    
+factor(MakeModelTrimYear)Volkswagen passat highline 2012                        3.628e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Volkswagen passat highline 2013                        5.618e+02  1.773e+04   0.032    0.975    
+factor(MakeModelTrimYear)Volkswagen passat highline dsg 2007                    1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Volkswagen passat highline dsg 2008                    2.107e+02  1.773e+04   0.012    0.991    
+factor(MakeModelTrimYear)Volkswagen passat trendline at 2011                    3.628e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Volkswagen polo 1.2 cr highline (d) 2012               9.583e+01  6.852e+03   0.014    0.989    
+factor(MakeModelTrimYear)Volkswagen polo 1.2 tdi highline 2011                  1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Volkswagen polo 1.2 tdi highline 2012                  1.463e+02  1.773e+04   0.008    0.993    
+factor(MakeModelTrimYear)Volkswagen polo 1.5 tdi highline 2014                  2.263e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l (d) 2013              1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l (p) 2010              1.073e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l (p) 2011              8.518e+01  9.336e+03   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l (p) 2012              1.173e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l (p) 2014              1.424e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l diesel 2010           1.063e+02  1.193e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l diesel 2011           9.756e+01  1.773e+04   0.006    0.996    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l diesel 2013           1.760e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l petrol 2011           9.365e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l petrol 2013           1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen polo comfortline 1.2l petrol 2016           1.760e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen polo gt tsi 1.2 petrol 2015                 2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Volkswagen polo highline 1.2l (p) 2011                 8.975e+01  1.773e+04   0.005    0.996    
+factor(MakeModelTrimYear)Volkswagen polo highline 1.2l (p) 2012                 1.483e+02  1.773e+04   0.008    0.993    
+factor(MakeModelTrimYear)Volkswagen polo highline1.2l (p) 2014                  1.147e+02  9.627e+03   0.012    0.990    
+factor(MakeModelTrimYear)Volkswagen polo highline1.2l diesel 2011               1.288e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Volkswagen polo tdi 2011                               1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen polo trendline 1.2l (p) 2012                1.125e+02  9.344e+03   0.012    0.990    
+factor(MakeModelTrimYear)Volkswagen polo trendline 1.2l diesel 2010             1.132e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Volkswagen polo trendline 1.2l diesel 2011             1.034e+02  1.773e+04   0.006    0.995    
+factor(MakeModelTrimYear)Volkswagen polo trendline 1.2l diesel 2012             9.496e+01  9.237e+03   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen touareg 3.0 v6 tdi 2008                     4.447e+02  1.773e+04   0.025    0.980    
+factor(MakeModelTrimYear)Volkswagen vento 1.5 tdi comfortline 2012              1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen vento 1.5 tdi comfortline 2013              2.302e+02  1.254e+04   0.018    0.985    
+factor(MakeModelTrimYear)Volkswagen vento 1.5 tdi highline 2011                 2.575e+02  1.773e+04   0.015    0.988    
+factor(MakeModelTrimYear)Volkswagen vento 1.6 highline 2012                     1.145e+02  9.259e+03   0.012    0.990    
+factor(MakeModelTrimYear)Volkswagen vento comfortline 2010                      1.327e+02  1.773e+04   0.007    0.994    
+factor(MakeModelTrimYear)Volkswagen vento comfortline diesel 2011               1.427e+02  1.773e+04   0.008    0.994    
+factor(MakeModelTrimYear)Volkswagen vento comfortline diesel 2012               1.144e+02  9.708e+03   0.012    0.991    
+factor(MakeModelTrimYear)Volkswagen vento comfortline petrol 2011               1.717e+02  1.773e+04   0.010    0.992    
+factor(MakeModelTrimYear)Volkswagen vento highline diesel 2011                  1.561e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen vento highline diesel 2012                  1.539e+02  7.470e+03   0.021    0.984    
+factor(MakeModelTrimYear)Volkswagen vento highline diesel 2016                  3.472e+02  1.773e+04   0.020    0.984    
+factor(MakeModelTrimYear)Volkswagen vento highline petrol 2014                  2.302e+02  1.773e+04   0.013    0.990    
+factor(MakeModelTrimYear)Volkswagen vento highline petrol at 2011               1.541e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen vento trendline diesel 2012                 1.600e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen vento trendline petrol 2010                 1.522e+02  1.773e+04   0.009    0.993    
+factor(MakeModelTrimYear)Volkswagen vento trendline petrol 2011                 1.171e+02  1.773e+04   0.007    0.995    
+factor(MakeModelTrimYear)Volkswagen vento trendline petrol 2016                 2.009e+02  1.773e+04   0.011    0.991    
+factor(MakeModelTrimYear)Volvo s60 summum d5 2012                               7.728e+02  1.773e+04   0.044    0.965    
+factor(MakeModelTrimYear)Yamaha fascino 113 2015                               -3.869e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fazer 150 2008                                 -1.431e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2009                                  -1.140e+01  8.261e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2010                                  -6.800e+00  1.087e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2011                                   1.982e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2012                                  -7.209e+00  8.092e+03  -0.001    0.999    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2014                                  -1.178e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fz 150cc 2015                                   4.186e+00  1.174e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fz16 150cc 2008                                -7.283e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fz16 150cc 2010                                -1.021e+01  1.773e+04  -0.001    1.000    
+factor(MakeModelTrimYear)Yamaha fz16 150cc 2013                                 1.494e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs 150cc 2009                                 -7.770e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs 150cc 2011                                 -3.382e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs 150cc 2012                                 -5.820e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs 150cc 2014                                  3.158e-02  1.254e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs 150cc 2015                                  4.908e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha fzs fi 150 2015                                 5.883e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha RX135 135cc 1998                               -1.167e+01  1.773e+04  -0.001    0.999    
+factor(MakeModelTrimYear)Yamaha yzf-r15 150 cc 2008                             1.178e-01  1.023e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha yzf-r15 150 cc 2012                             5.883e+00  1.773e+04   0.000    1.000    
+factor(MakeModelTrimYear)Yamaha yzf-r15 150 cc 2015                             2.295e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Yamaha yzf-r15 150cc 2013                              1.807e+01  1.773e+04   0.001    0.999    
+factor(MakeModelTrimYear)Yamaha yzf-r15 150cc 2014                              8.321e+00  1.773e+04   0.000    1.000    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8761.9  on 6779  degrees of freedom
+Residual deviance: 2568.0  on 5441  degrees of freedom
+  (14 observations deleted due to missingness)
+AIC: 5246
+
+Number of Fisher Scoring iterations: 19
+

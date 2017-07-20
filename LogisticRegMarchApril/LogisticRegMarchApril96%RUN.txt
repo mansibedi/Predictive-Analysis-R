@@ -1,0 +1,79 @@
+> train <- read.csv("MarchAprilTest.csv", head=TRUE, sep="," )
+> library(Hmisc)
+> library(caTools)   #split dataset into two sets in ratio of vector specified
+> split <- sample.split(train$type, SplitRatio = 0.75)
+> datatrain <- subset(train, split == TRUE)
+> datatest <- subset(train, split == FALSE)
+> library(foreign)
+> type <- as.logical(train$logic)
+> modeltrain <- glm(type~factor(vehicle_condition_type)+factor(operatingSystem)+transactionsPerSession+uniquePurchases+hour+factor(dayOfWeekName)+daysSinceLastSession+factor(deviceCategory)+daysSinceLastSession+factor(userType)+factor(platform)+sessionsToTransaction+daysToTransaction,data=datatrain,family="binomial") #march test
+Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+> summary(modeltrain)
+
+Call:
+glm(formula = type ~ factor(vehicle_condition_type) + factor(operatingSystem) + 
+    transactionsPerSession + uniquePurchases + hour + factor(dayOfWeekName) + 
+    daysSinceLastSession + factor(deviceCategory) + daysSinceLastSession + 
+    factor(userType) + factor(platform) + sessionsToTransaction + 
+    daysToTransaction, family = "binomial", data = datatrain)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.7140   0.0600   0.2371   0.3356   2.8604  
+
+Coefficients:
+                                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                          -2.459e+01  1.269e+04  -0.002  0.99845    
+factor(vehicle_condition_type)none    2.745e+01  1.269e+04   0.002  0.99827    
+factor(vehicle_condition_type)used   -6.543e+00  1.270e+04  -0.001  0.99959    
+factor(operatingSystem)BlackBerry     1.934e+01  2.923e+04   0.001  0.99947    
+factor(operatingSystem)Chrome OS     -2.208e+00  1.602e+00  -1.378  0.16808    
+factor(operatingSystem)iOS           -1.137e-01  2.581e-01  -0.440  0.65965    
+factor(operatingSystem)Linux          5.520e-01  9.919e-01   0.557  0.57785    
+factor(operatingSystem)Macintosh     -9.897e-02  9.894e-01  -0.100  0.92032    
+factor(operatingSystem)Windows       -9.602e-02  9.519e-01  -0.101  0.91966    
+factor(operatingSystem)Windows Phone  1.810e+01  6.377e+03   0.003  0.99774    
+transactionsPerSession                4.498e-03  3.982e-03   1.130  0.25866    
+uniquePurchases                       4.838e-01  3.358e-01   1.441  0.14969    
+hour                                  2.181e-01  2.470e-02   8.830  < 2e-16 ***
+factor(dayOfWeekName)Monday          -7.723e+00  1.192e+00  -6.477 9.38e-11 ***
+factor(dayOfWeekName)Saturday        -9.229e+00  1.177e+00  -7.843 4.40e-15 ***
+factor(dayOfWeekName)Sunday          -7.354e+00  8.257e-01  -8.906  < 2e-16 ***
+factor(dayOfWeekName)Thursday        -6.380e+00  9.270e-01  -6.883 5.88e-12 ***
+factor(dayOfWeekName)Tuesday         -3.162e+00  3.122e-01 -10.130  < 2e-16 ***
+factor(dayOfWeekName)Wednesday        8.911e+00  3.477e+02   0.026  0.97955    
+daysSinceLastSession                 -9.399e-03  3.438e-03  -2.733  0.00627 ** 
+factor(deviceCategory)mobile          8.342e-01  1.104e+00   0.756  0.44974    
+factor(deviceCategory)tablet          1.521e-01  1.246e+00   0.122  0.90285    
+factor(userType)Returning Visitor    -4.686e-01  9.652e-02  -4.855 1.21e-06 ***
+factor(platform)Mobile Web           -1.116e+00  6.476e-01  -1.723  0.08483 .  
+sessionsToTransaction                -1.275e-02  3.998e-03  -3.188  0.00143 ** 
+daysToTransaction                    -2.360e-03  2.308e-03  -1.023  0.30645    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 17744.1  on 16748  degrees of freedom
+Residual deviance:  4661.3  on 16723  degrees of freedom
+AIC: 4713.3
+
+Number of Fisher Scoring iterations: 20
+
+> predictModel <- predict(modeltrain, datatest)
+> predictModel <- ifelse(predictModel<0.5,0,1)
+> table(ActualValue=datatest$type, PredictedValue= predictModel>0.5)
+           PredictedValue
+ActualValue FALSE TRUE
+          0  1027  214
+          1     5 4337
+> (1027+4337)/(1027+214+5+4337)
+[1] 0.9607738
+
+> actuals_preds <- data.frame(cbind(actuals=datatest$type, predictModel))  # make actual_predict dataframe.
+> correlation_accuracy <- cor(actuals_preds,use = "complete.obs") #use argument to remove null values
+> correlation_accuracy
+               actuals predictModel
+actuals      1.0000000    0.8851797
+predictModel 0.8851797    1.0000000

@@ -1,0 +1,70 @@
+> getwd()
+[1] "E:/Mansi/Droom"
+> train <- read.csv("MarchAprilTest.csv")
+> library(Hmisc)
+> library(caTools)   #split dataset into two sets in ratio of vector specified
+> split <- sample.split(train$type, SplitRatio = 0.75)
+> datatrain <- subset(train, split == TRUE)
+> datatest <- subset(train, split == FALSE)
+> library(plyr)
+> datatrain$platform<- revalue(datatrain$platform, c("Android"="0", "App"="1", "Desktop"="2", "IoS"="3", "Mobile Web"="4"))
+The following `from` values were not present in `x`: Android, App, IoS
+> datatrain$platform <- as.numeric(as.character(datatrain$platform))
+> typeof(datatrain$platform)
+[1] "double"
+> datatrain$order_type<- revalue(datatrain$order_type, c("Fixed Price"="0", "Both"="1", "none"="2"))
+> datatrain$order_type <- as.numeric(as.character(datatrain$order_type))
+> typeof(datatrain$order_type)
+[1] "double"
+> datatrain$vehicle_condition_type<- revalue(datatrain$vehicle_condition_type, c("new"="0", "used"="1", "none"="2"))
+> datatrain$vehicle_condition_type <- as.numeric(as.character(datatrain$vehicle_condition_type))
+> typeof(datatrain$vehicle_condition_type)
+[1] "double"
+> datatrain$dayOfWeekName<- revalue(datatrain$dayOfWeekName, c("Monday"="0", "Tuesday"="1", "Wednesday"="2", "Thursday"="2", "Friday"="2", "Saturday"="2", "Sunday"="2"))
+> datatrain$dayOfWeekName <- as.numeric(as.character(datatrain$dayOfWeekName))
+> typeof(datatrain$dayOfWeekName)
+[1] "double"
+> plot(train$order_status, train$platform, xlab="status", ylab="platform")
+> library(car)
+> modeltrain <-lm(type~vehicle_condition_type+dayOfWeekName+order_type+platform+hour+transactionsPerSession+daysSinceLastSession+daysToTransaction, data = datatrain)
+> summary(modeltrain)
+
+Call:
+lm(formula = type ~ vehicle_condition_type + dayOfWeekName + 
+    order_type + total_discount + platform + hour + transactionsPerSession + 
+    daysSinceLastSession + daysToTransaction, data = datatrain)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.01922  0.01746  0.04705  0.05837  0.99411 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            -1.072e+00  1.777e-02 -60.335  < 2e-16 ***
+vehicle_condition_type  9.624e-01  5.724e-03 168.136  < 2e-16 ***
+dayOfWeekName           3.633e-02  3.202e-03  11.345  < 2e-16 ***
+order_type             -7.101e-02  1.033e-02  -6.875 6.41e-12 *** 
+platform               -3.505e-03  1.684e-03  -2.081  0.03741 *  
+hour                    4.584e-03  6.718e-04   6.823 9.23e-12 ***
+transactionsPerSession  1.707e-04  7.287e-05   2.343  0.01916 *  
+daysSinceLastSession   -8.196e-04  1.696e-04  -4.831 1.37e-06 ***
+daysToTransaction      -1.733e-04  6.654e-05  -2.605  0.00919 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1922 on 16739 degrees of freedom
+Multiple R-squared:  0.7864,	Adjusted R-squared:  0.7863 
+F-statistic:  6848 on 9 and 16739 DF,  p-value: < 2.2e-16
+
+> predictModel <- predict(modeltrain, datatest)
+Error: variables ‘vehicle_condition_type’, ‘dayOfWeekName’, ‘order_type’, ‘platform’ were specified with different types from the fit
+> predictModel <- ifelse(predictModel<0.5,0,1)
+> actuals_preds <- data.frame(cbind(actuals=datatest$type, predictModel))  # make actual_predict dataframe.
+Warning message:
+In cbind(actuals = datatest$type, predictModel) :
+  number of rows of result is not a multiple of vector length (arg 2)
+> correlation_accuracy <- cor(actuals_preds)
+> correlation_accuracy
+               actuals predictModel
+actuals      1.0000000    0.3842659
+predictModel 0.3842659    1.0000000

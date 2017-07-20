@@ -1,0 +1,50 @@
+
+Call:
+glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + 
+    factor(browser) + factor(dayOfWeekName) + hour, family = "binomial", 
+    data = train)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+ -8.49    0.00    0.00    0.00    8.49  
+
+Coefficients:
+                                          Estimate Std. Error    z value Pr(>|z|)    
+(Intercept)                              7.446e+15  6.730e+07  1.106e+08   <2e-16 ***
+GA_REVENUE                              -9.642e+10  8.827e+01 -1.092e+09   <2e-16 ***
+daysSinceLastSession                     8.766e+12  1.034e+05  8.474e+07   <2e-16 ***
+factor(newOrReturning)Returning Visitor -7.077e+14  1.958e+06 -3.615e+08   <2e-16 ***
+factor(browser)Android Browser          -1.692e+15  6.985e+07 -2.422e+07   <2e-16 ***
+factor(browser)Android Webview          -4.126e+15  6.721e+07 -6.139e+07   <2e-16 ***
+factor(browser)Chrome                   -4.000e+15  6.712e+07 -5.960e+07   <2e-16 ***
+factor(browser)Edge                     -4.434e+15  6.752e+07 -6.567e+07   <2e-16 ***
+factor(browser)Firefox                  -3.678e+15  6.714e+07 -5.479e+07   <2e-16 ***
+factor(browser)Internet Explorer        -3.284e+15  6.740e+07 -4.873e+07   <2e-16 ***
+factor(browser)Iron                     -5.482e+14  9.493e+07 -5.775e+06   <2e-16 ***
+factor(browser)Maxthon                  -4.344e+15  8.219e+07 -5.285e+07   <2e-16 ***
+factor(browser)Nokia Browser             1.596e+14  9.491e+07  1.681e+06   <2e-16 ***
+factor(browser)Opera                    -3.809e+15  6.777e+07 -5.620e+07   <2e-16 ***
+factor(browser)Opera Mini               -5.639e+15  9.501e+07 -5.936e+07   <2e-16 ***
+factor(browser)Puffin                   -4.504e+15  9.491e+07 -4.745e+07   <2e-16 ***
+factor(browser)Safari                   -4.093e+15  6.733e+07 -6.080e+07   <2e-16 ***
+factor(browser)Safari (in-app)          -2.114e+15  6.918e+07 -3.056e+07   <2e-16 ***
+factor(browser)UC Browser               -1.233e+15  6.835e+07 -1.804e+07   <2e-16 ***
+factor(browser)YaBrowser                -8.226e+15  9.491e+07 -8.667e+07   <2e-16 ***
+factor(dayOfWeekName)Monday             -2.173e+15  5.901e+06 -3.682e+08   <2e-16 ***
+factor(dayOfWeekName)Saturday           -2.941e+15  4.335e+06 -6.784e+08   <2e-16 ***
+factor(dayOfWeekName)Sunday             -1.977e+15  5.903e+06 -3.349e+08   <2e-16 ***
+factor(dayOfWeekName)Thursday           -1.612e+15  3.768e+06 -4.278e+08   <2e-16 ***
+factor(dayOfWeekName)Tuesday            -3.613e+15  2.892e+06 -1.249e+09   <2e-16 ***
+factor(dayOfWeekName)Wednesday          -2.875e+15  3.715e+06 -7.740e+08   <2e-16 ***
+hour                                    -1.596e+14  3.393e+05 -4.703e+08   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8761.9  on 6779  degrees of freedom
+Residual deviance: 8218.0  on 6753  degrees of freedom
+AIC: 8272
+
+Number of Fisher Scoring iterations: 25
+

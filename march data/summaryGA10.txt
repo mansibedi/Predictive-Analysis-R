@@ -1,0 +1,45 @@
+
+Call:
+glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + 
+    factor(browser) + sessions_to_transaction + days_to_transaction, 
+    family = "binomial", data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.8101   0.0000   0.2194   0.4097   6.1956  
+
+Coefficients:
+                                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                              1.686e+01  2.400e+03   0.007    0.994    
+GA_REVENUE                              -2.360e-02  2.035e-03 -11.599  < 2e-16 ***
+daysSinceLastSession                    -2.057e-02  5.173e-03  -3.975 7.02e-05 ***
+factor(newOrReturning)Returning Visitor -7.266e-02  1.273e-01  -0.571    0.568    
+factor(browser)Android Browser          -1.420e+01  2.400e+03  -0.006    0.995    
+factor(browser)Android Webview          -1.491e+01  2.400e+03  -0.006    0.995    
+factor(browser)Chrome                   -1.413e+01  2.400e+03  -0.006    0.995    
+factor(browser)Edge                     -1.271e+01  2.400e+03  -0.005    0.996    
+factor(browser)Firefox                  -1.285e+01  2.400e+03  -0.005    0.996    
+factor(browser)Internet Explorer        -1.451e+01  2.400e+03  -0.006    0.995    
+factor(browser)Iron                     -7.557e-02  3.393e+03   0.000    1.000    
+factor(browser)Maxthon                   3.399e-08  2.939e+03   0.000    1.000    
+factor(browser)Nokia Browser             3.398e-08  3.393e+03   0.000    1.000    
+factor(browser)Opera                    -1.327e+01  2.400e+03  -0.006    0.996    
+factor(browser)Opera Mini               -6.793e+00  3.393e+03  -0.002    0.998    
+factor(browser)Puffin                   -2.907e-03  3.393e+03   0.000    1.000    
+factor(browser)Safari                   -1.429e+01  2.400e+03  -0.006    0.995    
+factor(browser)Safari (in-app)          -1.456e+01  2.400e+03  -0.006    0.995    
+factor(browser)UC Browser                4.991e-01  2.477e+03   0.000    1.000    
+factor(browser)YaBrowser                 7.998e+01  3.393e+03   0.024    0.981    
+sessions_to_transaction                 -2.907e-03  3.908e-03  -0.744    0.457    
+days_to_transaction                      8.449e-04  3.254e-03   0.260    0.795    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8761.9  on 6779  degrees of freedom
+Residual deviance: 2465.2  on 6758  degrees of freedom
+AIC: 2509.2
+
+Number of Fisher Scoring iterations: 15
+

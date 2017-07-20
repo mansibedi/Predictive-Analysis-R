@@ -1,0 +1,45 @@
+,FROM CSV FILE MARCH TEST-   (Includes Database+GA Data),,,
+,Call:,,,
+summary.commitmentfeesFactorMMT,"glm(formula = type ~ commitment_fee + factor(platform) + factor(MakeModelTrimYear), ",    Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2568.0  on 5441  degrees of freedom,AIC: 5246
+,"    family = ""binomial"", data = train)",,,
+,,,,
+,FROM CSV FILE GATEST- (Includes GA Data only),,,
+summaryGA1(best),Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.7  on 6760  degrees of freedom,AIC: 2505.7
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser), family = ""binomial"", data = train)",,,
+summaryGA2,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.0  on 6759  degrees of freedom,AIC: 2507
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + hour, family = ""binomial"", data = train)",,,
+summaryGA3,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 8218.0  on 6753  degrees of freedom,AIC: 8272
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + factor(dayOfWeekName) + hour, family = ""binomial"", ",,,
+,    data = train),,,
+summaryGA4,Call:,Null deviance:  8761.9  on 6779  degrees of freedom,Residual deviance: 17661.4  on 6754  degrees of freedom,AIC: 17713
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + factor(dayOfWeekName), family = ""binomial"", ",,,
+,    data = train),,,
+summaryGA5,Call:,Null deviance:  8761.9  on 6779  degrees of freedom,Residual deviance: 17589.3  on 6753  degrees of freedom,AIC: 17643
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + factor(dayOfWeekName) + buyToDetailRate, ",,,
+,"    family = ""binomial"", data = train)",,,
+summaryGA6,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.6  on 6759  degrees of freedom,AIC: 2507.6
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + transactionsPerSession, family = ""binomial"", ",,,
+,    data = train),,,
+summaryGA7,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.5  on 6759  degrees of freedom,AIC: 2507.5
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + uniquePurchases, family = ""binomial"", data = train)",,,
+summaryGA8,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.7  on 6760  degrees of freedom,AIC: 2505.7
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + cartToDetailRate, family = ""binomial"", ",,,
+,    data = train),,,
+summaryGA9,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.7  on 6760  degrees of freedom,AIC: 2505.7
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,    factor(browser) + cartToDetailRate + quantityAddedToCart + ,,,
+,"    quantityCheckedOut, family = ""binomial"", data = train)",,,
+summaryGA10,Call:,Null deviance: 8761.9  on 6779  degrees of freedom,Residual deviance: 2465.2  on 6758  degrees of freedom,AIC: 2509.2
+,glm(formula = type ~ GA_REVENUE + daysSinceLastSession + factor(newOrReturning) + ,,,
+,"    factor(browser) + sessions_to_transaction + days_to_transaction, ",,,
+,"    family = ""binomial"", data = train)",,,
+summaryGA11,Call:,Null deviance:  8761.9  on 6779  degrees of freedom,Residual deviance: 10813.1  on 6704  degrees of freedom,AIC: 10965
+,"glm(formula = type ~ ., family = ""binomial"", data = train)",,,
